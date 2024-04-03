@@ -1,4 +1,1056 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 似水年华</title><link>https://example.com/post/</link><description>Recent content in Posts on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Apr 2024 07:39:17 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Chinese Test</title><link>https://example.com/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://example.com/p/test-chinese/</guid><description>&lt;img src="https://example.com/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 似水年华</title><link>https://example.com/post/</link><description>Recent content in Posts on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 03 Apr 2024 13:38:34 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>用hugo+github搭建bolg</title><link>https://example.com/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</link><pubDate>Wed, 03 Apr 2024 13:38:34 +0800</pubDate><guid>https://example.com/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</guid><description>&lt;img src="https://example.com/%E5%B0%81%E9%9D%A2" alt="Featured image of post 用hugo+github搭建bolg" />&lt;h1 id="以下内容摘自网络记录在此方便查阅">
+&lt;a href="#%e4%bb%a5%e4%b8%8b%e5%86%85%e5%ae%b9%e6%91%98%e8%87%aa%e7%bd%91%e7%bb%9c%e8%ae%b0%e5%bd%95%e5%9c%a8%e6%ad%a4%e6%96%b9%e4%be%bf%e6%9f%a5%e9%98%85" class="header-anchor">#&lt;/a>
+以下内容摘自网络，记录在此方便查阅。
+&lt;/h1>&lt;blockquote>
+&lt;p>首先，这不是一个教程，只是我用 Hugo 搭建博客的记录，可以作为参考。因为本人技术很差，只是喜欢折腾。✌️&lt;/p>
+&lt;p>所以，本文应该会有一些你可能也会遇到的大佬教程中可能没有详细解释的问题，或者一些我因为我的愚蠢导致的不常见的问题😉。&lt;/p>
+&lt;/blockquote>
+&lt;p>从开始折腾 Hugo 到现在已经有大概一个月的时间了。在我开始有了搭建博客的想法后，从实现本地预览，到上传到 GitHub Pages，再部署 Vercel，又买了域名绑定自己的域名，发现了阿里云有学生优惠，领了几个月服务器适用，到域名备案，备案完成后把博客部署在了服务器，但是又觉的发布流程很复杂，又研究自动化创作发布，到现在，目前实现了这样的一套简单自动化的流程：Obsidian 创作，一键预览，一键发布。&lt;/p>
+&lt;p>大概记录一下这个流程及实现方式，希望对你有参考价值。&lt;/p>
+&lt;blockquote>
+&lt;p>首先介绍一下我目前的使用环境，使用&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a>框架，魔改后的 &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+>Stack&lt;/a>主题，阿里云购买的域名，部署在阿里云服务器，用 Obsidian 进行文章创作。&lt;/p>
+&lt;/blockquote>
+&lt;p>So，让我们开始吧💪！&lt;/p>
+&lt;h2 id="准备一下">
+&lt;a href="#%e5%87%86%e5%a4%87%e4%b8%80%e4%b8%8b" class="header-anchor">#&lt;/a>
+🎆准备一下
+&lt;/h2>&lt;h3 id="下载软件">
+&lt;a href="#%e4%b8%8b%e8%bd%bd%e8%bd%af%e4%bb%b6" class="header-anchor">#&lt;/a>
+⬇️下载软件
+&lt;/h3>&lt;blockquote>
+&lt;p>✔必须： Hugo&lt;/p>
+&lt;p>❓非必须：Git，VsCode，Obsidian&lt;/p>
+&lt;/blockquote>
+&lt;p>下载 &lt;strong>Hugo&lt;/strong> 可以去 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo 官网&lt;/a> 查看，官网提供了不同系统的安装方式，或者在&lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
+>Github页面&lt;/a>Releases 下载。&lt;/p>
+&lt;p>&lt;strong>Git&lt;/strong> 用来发布到 Github，在我的流程中，部署到自己的服务器也用 Git，如果想纯手动上传到服务器，也不是不可以。&lt;/p>
+&lt;p>&lt;strong>VsCode&lt;/strong> 用来进行网站的配置，也有可视化的 Git 界面可以使用。&lt;/p>
+&lt;p>Obsidian 是个笔记软件，可以用来创作，插件丰富，可&lt;strong>疯狂&lt;/strong>自定义。&lt;/p>
+&lt;p>&lt;strong>Git&lt;/strong>、 &lt;strong>Obsidian&lt;/strong>和 &lt;strong>VsCode&lt;/strong> 直接上官网下载安装就好，可以看 &lt;a class="link" href="https://blog.linsnow.cn/" target="_blank" rel="noopener"
+>L1nSn0w’&lt;/a>的这篇文章《&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
+>（1）带着Stack主题入坑Hugo&lt;/a>》&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>⚠Hugo 需要 Go 环境。&lt;/li>
+&lt;li>⚠如果要使用 Stack 主题的话，请一定下载 extended 版本的。或者不管什么主题直接下 extended 版本。&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;h3 id="git-基本配置">
+&lt;a href="#git-%e5%9f%ba%e6%9c%ac%e9%85%8d%e7%bd%ae" class="header-anchor">#&lt;/a>
+💻Git 基本配置
+&lt;/h3>&lt;p>安装好 Git 需要一些基本配置。&lt;/p>
+&lt;p>随便一个位置鼠标右键打开 Git Bash，配置用户名和邮箱。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>然后在 Git bash 使用：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>查看你的用户名和邮箱配置信息。&lt;/p>
+&lt;h3 id="与-github-创建连接">
+&lt;a href="#%e4%b8%8e-github-%e5%88%9b%e5%bb%ba%e8%bf%9e%e6%8e%a5" class="header-anchor">#&lt;/a>
+🔗与 Github 创建连接
+&lt;/h3>&lt;blockquote>
+&lt;p>如果网站部署在 Github 上的话需要本地与 Github 创建链接。&lt;/p>
+&lt;/blockquote>
+&lt;p>同样在 Git Bash，输入&lt;/p>
+&lt;p>创建公钥文件，然后&lt;/p>
+&lt;p>查看公钥文件。&lt;/p>
+&lt;blockquote>
+&lt;p>也可以直接到&lt;code>C:\Users\你的用户名\.ssh\&lt;/code>文件夹下查看 &lt;code>id_rsa.pub&lt;/code> 文件&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;strong>然后去 Github 添加 SSH 链接。&lt;/strong>&lt;/p>
+&lt;blockquote>
+&lt;p>登录 GitHub，点击右上角头像，进入设置，把 SSH 公钥填进去就 OK 了。&lt;/p>
+&lt;/blockquote>
+&lt;p>再打开 Git Bash，输入下面的命令查看连接🔗状态。&lt;/p>
+&lt;p>显示下面的内容证明链接成功。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320.png"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="服务器域名">
+&lt;a href="#%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%9f%9f%e5%90%8d" class="header-anchor">#&lt;/a>
+📲服务器&amp;amp;域名
+&lt;/h3>&lt;p>如果想要将博客部署在自己的服务器，建议提前购买好域名和服务器。&lt;/p>
+&lt;p>如果是大陆内服务器，可以进行域名备案，域名备案很简单，我在阿里云买的服务器和域名，通过阿里云进行备案，阿里云上提示是大约 20 天，但是我的域名备案 10 天就通过了。正好在等待域名备案的这段时间配置自己的网站，或者在服务器测试。域名备案通过了解析一下，配置一下反向代理就可以访问了。&lt;/p>
+&lt;p>如果通过 Vercel 部署，也尽量买一个域名，Vercel 大陆无法访问，将域名解析到 Vercel 分配的域名，大陆才能访问。&lt;/p>
+&lt;blockquote>
+&lt;p>⚠️ 域名请三思后再买，要不自己网站建很长时间了不喜欢这个域名再去更换的话，再更换域名的话就很麻烦。&lt;/p>
+&lt;/blockquote>
+&lt;p>我在阿里云注册的域名，&lt;code>.com&lt;/code>的域名首年 35 块，划算。&lt;/p>
+&lt;h2 id="第一阶段基本配置本地预览">
+&lt;a href="#%e7%ac%ac%e4%b8%80%e9%98%b6%e6%ae%b5%e5%9f%ba%e6%9c%ac%e9%85%8d%e7%bd%ae%e6%9c%ac%e5%9c%b0%e9%a2%84%e8%a7%88" class="header-anchor">#&lt;/a>
+🎈第一阶段——基本配置、本地预览
+&lt;/h2>&lt;p>做好上述准备就可以开始构建自己的第一个网站了。&lt;/p>
+&lt;h3 id="创建网站">
+&lt;a href="#%e5%88%9b%e5%bb%ba%e7%bd%91%e7%ab%99" class="header-anchor">#&lt;/a>
+🕸创建网站
+&lt;/h3>&lt;p>Hugo 安装成功后，可以找个你想创建网站文件夹的文件夹，按住 Shift，点击鼠标右键，点击此处打开 PowerShell。然后输入&lt;/p>
+&lt;blockquote>
+&lt;p>MyBlog 是文件夹名称，可以自己换。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="主题">
+&lt;a href="#%e4%b8%bb%e9%a2%98" class="header-anchor">#&lt;/a>
+🎀主题
+&lt;/h3>&lt;h4 id="下载安装主题">
+&lt;a href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98" class="header-anchor">#&lt;/a>
+✨下载安装主题
+&lt;/h4>&lt;p>我用的是 Stack 主题，你也可以到 &lt;a class="link" href="https://themes.gohugo.io/" target="_blank" rel="noopener"
+>Hugo主题列表&lt;/a>找自己喜欢的主题。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-1.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>进入 Stack 主题 Github 仓库，可以&lt;code>git clone&lt;/code>仓库，也可以直接把代码下载压缩包，解压到&lt;code>MyBlog/themes&lt;/code>文件夹下。&lt;/p>
+&lt;blockquote>
+&lt;p>⚠️&lt;code>themes&lt;/code>下面的主题文件夹一定要跟主题名称一样，要不 Hugo 找不到文件夹会报错。&lt;/p>
+&lt;/blockquote>
+&lt;p>把主题文件夹下的&lt;code>exampleSite&lt;/code>里的&lt;code>config.yaml&lt;/code>配置文件复制到根目录&lt;code>MyBlog&lt;/code>文件夹下。&lt;/p>
+&lt;p>同样主题文件夹，&lt;code>exampleSite\content&lt;/code> 文件夹下的 &lt;code>page&lt;/code>、&lt;code>categories&lt;/code> 文件夹和两个 md 文件复制到&lt;code>MyBlog/content&lt;/code>文件夹里。&lt;/p>
+&lt;blockquote>
+&lt;p>⚠️ &lt;code>posts&lt;/code>文件夹是存放博客文章的文件夹，不要复制！示例博客文章有的内容无法显示就会报错，一会自己看一下他的文件格式自己新建 post 就行。&lt;/p>
+&lt;/blockquote>
+&lt;p>之后可以用 vscode 操作，在&lt;code>MyBlog&lt;/code>文件夹右键用 code 打开。&lt;/p>
+&lt;p>终端运行命令&lt;code>hugo server&lt;/code>创建本地端口调试配置。&lt;/p>
+&lt;p>输出下面类似的内容就可浏览器预览了。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-2.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>浏览器打开&lt;code>localhost:1313&lt;/code>，就能看到网站的雏形了。&lt;/p>
+&lt;blockquote>
+&lt;p>❌这里有一个问题，有可能本地端口被占用。自己找了很长时间问题，然后发现是因为电脑开启了&lt;code>Hyper-V&lt;/code>，不知道为什么，把他关了就好了。&lt;/p>
+&lt;/blockquote>
+&lt;p>如果&lt;code>1313&lt;/code>端口打不开，Hugo 还给分配了另一个端口。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-3.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>最后成功浏览器本地打开网站，长这样⬇️&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-4.png"
+loading="lazy"
+>&lt;/p>
+&lt;h4 id="基本配置">
+&lt;a href="#%e5%9f%ba%e6%9c%ac%e9%85%8d%e7%bd%ae" class="header-anchor">#&lt;/a>
+🎃基本配置
+&lt;/h4>&lt;p>主题基本的配置还是要去官网看文档，但是，Stack 的主题文档写的不是特别全面，有时候还需要再结合 Hugo 的官方文档，基本上可以搭建成功。&lt;/p>
+&lt;p>基本的配置只需要修改前面复制到根目录的&lt;code>config.yaml&lt;/code>里的内容就好了。&lt;/p>
+&lt;p>一些基本的内容文档也写清楚了，不基本的内容就需要根据自己的情况修改了。&lt;/p>
+&lt;p>大概看一下主题文件夹，你会发现跟你根目录下的文件夹结构差不多，需要修改什么文件的时候，就把主题文件夹里的文件夹复制到根目录同样的文件夹里。然后再修改，这样会直接覆盖主题文件夹的同一个文件，如果发现配置错的离谱了，直接把复制过去的文件删掉就好，这样就恢复主题默认了。&lt;/p>
+&lt;blockquote>
+&lt;p>⚠️ 任何修改尽量不要在主题文件夹修改，免得以后忘了都修改过什么内容，更新主题的时候把自己配置的内容覆盖了。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="试着创建篇文章">
+&lt;a href="#%e8%af%95%e7%9d%80%e5%88%9b%e5%bb%ba%e7%af%87%e6%96%87%e7%ab%a0" class="header-anchor">#&lt;/a>
+📃试着创建篇文章
+&lt;/h3>&lt;p>Hugo 是用 Markdown 创建文章，文章都保存在&lt;code>content&lt;/code>文件夹下。可以通过&lt;code>YAML&lt;/code>语法给文章配置元数据。&lt;/p>
+&lt;p>使用命令&lt;code>hugo new post/文件夹名称/index.md&lt;/code>可以新建一篇博客。&lt;/p>
+&lt;h3 id="文件结构">
+&lt;a href="#%e6%96%87%e4%bb%b6%e7%bb%93%e6%9e%84" class="header-anchor">#&lt;/a>
+📂文件结构
+&lt;/h3>&lt;p>整个网站目录里，几个重要的文件夹：&lt;/p>
+&lt;ol>
+&lt;li>assets：存放图标、图片、js(ts)脚本文件，css(scss)样式文件；&lt;/li>
+&lt;li>content：文章、页面、分类页面等文件；&lt;/li>
+&lt;li>layouts：网页布局文件；&lt;/li>
+&lt;li>public：hugo 编译后的网站文件夹；&lt;/li>
+&lt;li>static：图片等静态文件；&lt;/li>
+&lt;li>themes：主题文件夹。&lt;/li>
+&lt;/ol>
+&lt;p>在&lt;code>content&lt;/code>文件夹下，&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>categories&lt;/code>是分类页面目录。&lt;/li>
+&lt;li>&lt;code>page&lt;/code>是归档、友链、关于之类页面的目录。&lt;/li>
+&lt;li>&lt;code>post&lt;/code>（也可能是&lt;code>posts&lt;/code>）是存放博客文件的目录。&lt;/li>
+&lt;/ul>
+&lt;p>有两种图片等文件存放方式比较建议。&lt;/p>
+&lt;ol>
+&lt;li>&lt;code>post&lt;/code>文件夹下一篇文章是一个文件夹，文件夹里文章文件命名为&lt;code>index.md&lt;/code>，所有图片文件都存放在这个文件夹下，引用时直接用图片名就可以&lt;code>![图名](image.png)&lt;/code>&lt;/li>
+&lt;li>&lt;code>post&lt;/code>文件夹下直接存放 Markdown 文件，图片存储在&lt;code>static/images&lt;/code>文件夹下，引用时&lt;code>![图名](/images/image.png)&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h3 id="yaml">
+&lt;a href="#yaml" class="header-anchor">#&lt;/a>
+📋YAML
+&lt;/h3>&lt;p>大概说一下stack主题给的示例：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>也可以添加&lt;/p>
+&lt;p>标签会显示在主页标签云内。&lt;/p>
+&lt;p>下面是我的 YAML 模板，可以参考。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;blockquote>
+&lt;p>然后，好像没什么了。本地成功调试 OK 就可以把他给发布到网上了。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="第二阶段网站部署">
+&lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2" class="header-anchor">#&lt;/a>
+👨💻第二阶段——网站部署
+&lt;/h2>&lt;p>&lt;a class="link" href="https://blog.morick66.com/p/20240305055915/" target="_blank" rel="noopener"
+>上文&lt;/a>已经将自己的网站在本地运行成功了👀，但是运行在自己本地的网站怎么能叫网站呢，当然要让他&lt;strong>上网&lt;/strong>🕸了。&lt;/p>
+&lt;h3 id="部署在-vercel">
+&lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8-vercel" class="header-anchor">#&lt;/a>
+💥部署在 Vercel。
+&lt;/h3>&lt;h4 id="仓库发布到-github">
+&lt;a href="#%e4%bb%93%e5%ba%93%e5%8f%91%e5%b8%83%e5%88%b0-github" class="header-anchor">#&lt;/a>
+🛠仓库发布到 Github
+&lt;/h4>&lt;p>还是回到 Vscode，在 VSCode 的侧边栏进入源代码管理。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-5.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>初始化仓库，建立本地 Git 仓库（在根目录会创建一个&lt;code>.git&lt;/code>文件夹）。&lt;/p>
+&lt;p>然后会有一大堆&lt;code>更改&lt;/code>内容。在&lt;strong>消息内输入内容&lt;/strong>（⚠️不输入内容无法提交），点击提交，将文件夹内的更改提交到本地 &lt;code>git&lt;/code> 仓库。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-6.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>提交到本地仓库后，急须点击&lt;code>发布Branch&lt;/code>可以将自己的仓库发布到 Github（前提是已经用 Github 登录了 Vscode）。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-7.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>命名 Github 仓库，选择公开仓库或者私人仓库（如果部署到 Vercel 的话，私人仓库也可以的）。&lt;/p>
+&lt;blockquote>
+&lt;p>看到一些文章里说的需要把仓库名称设置为&lt;code>用户名.github.io&lt;/code> 的，其实不用，直接命名为&lt;code>MyBlog&lt;/code>就可以，当然其他的也可以。&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>❌这里可能会报错，如果报错，应该就是代理的问题。&lt;/p>
+&lt;/blockquote>
+&lt;p>到终端用下面的命令改一下 git 的代理，7890 改为自己的端口。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>然后成功把自己本地 Git 仓库发布到了 Github 远程仓库。&lt;/p>
+&lt;h4 id="部署到-vercel">
+&lt;a href="#%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
+🔗部署到 Vercel
+&lt;/h4>&lt;p>注册登录 Vercel，点击右上角 &lt;code>Add New...&lt;/code>添加一个新的&lt;code>Project&lt;/code>。&lt;/p>
+&lt;p>从 Github 仓库选择刚才创建的博客仓库。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-8.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>然后给&lt;code>Project&lt;/code>命个名，点击&lt;code>Deploy&lt;/code>进行部署，稍微等一会，就部署成功了。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-9.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>进入&lt;code>Dashboard&lt;/code>，&lt;code>Domains&lt;/code>下就是 Vercel 给这个仓库分配的域名。就能进入自己的网站了🎉。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-10.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>但是这个域名在国内访问基本没有速度。所以最好是购买一个自己的域名。&lt;/p>
+&lt;h4 id="vercel-绑定域名">
+&lt;a href="#vercel-%e7%bb%91%e5%ae%9a%e5%9f%9f%e5%90%8d" class="header-anchor">#&lt;/a>
+🕸Vercel 绑定域名
+&lt;/h4>&lt;p>回到 Vercel，在新建的项目里进入设置，&lt;code>Domains&lt;/code>里绑定自己的域名。直接输入域名，&lt;code>Add&lt;/code>就可以。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-11.png"
+loading="lazy"
+>&lt;/p>
+&lt;h4 id="域名解析">
+&lt;a href="#%e5%9f%9f%e5%90%8d%e8%a7%a3%e6%9e%90" class="header-anchor">#&lt;/a>
+🎇域名解析
+&lt;/h4>&lt;p>上一步添加域名后，会给我们 Type、Name、Value 三个值，这时需要回到域名服务商，以阿里云为例，进入域名控制台。&lt;/p>
+&lt;p>在你的域名列表里，点击表格最后的有一个&lt;code>解析&lt;/code>，进入&lt;code>解析&lt;/code>并添加解析记录。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-12.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>Vercel 中给我们的 Type 就是类型，Name 是主机记录，Value 是记录值，然后确认。&lt;/p>
+&lt;p>完成自己域名到 Vercel 的解析。&lt;/p>
+&lt;p>再回到 Vercel，发现已经成功绑定域名，这时你的网站就搭建完成。&lt;/p>
+&lt;p>可以愉快的用自己的域名访问自己的网站了！&lt;/p>
+&lt;h3 id="部署在自己的服务器">
+&lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8" class="header-anchor">#&lt;/a>
+👑部署在自己的服务器
+&lt;/h3>&lt;p>本部分参考《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
+>基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》，大佬的教程十分详细，绝大部分都可以用在 Hugo 上，部分自动化流程相关会在下一节说明。&lt;/p>
+&lt;p>⚠服务器访问需要防火墙开放 80 （http）和 443（https） 端口。参考—&lt;a class="link" href="https://blog.csdn.net/PEABRAIND/article/details/125073418" target="_blank" rel="noopener"
+>这篇文章&lt;/a>&lt;/p>
+&lt;h2 id="第三阶段自动化流程">
+&lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%81%e7%a8%8b" class="header-anchor">#&lt;/a>
+🎿第三阶段——自动化流程
+&lt;/h2>&lt;p>Hugo 一类的静态网站的小缺点就是发布比较麻烦，作为 obsidian 的重度用户，希望还是能在 obsidian 中写文章。&lt;/p>
+&lt;p>同样是介绍两类部署，部署在 &lt;strong>Vercel&lt;/strong> 和部署到&lt;strong>服务器&lt;/strong>。&lt;/p>
+&lt;h3 id="obsidian-的配置">
+&lt;a href="#obsidian-%e7%9a%84%e9%85%8d%e7%bd%ae" class="header-anchor">#&lt;/a>
+🏈Obsidian 的配置
+&lt;/h3>&lt;p>使用 Obsidian 实现如下功能：&lt;/p>
+&lt;ol>
+&lt;li>选题盒子&lt;/li>
+&lt;li>一键新建文章&lt;/li>
+&lt;li>一键预览&lt;/li>
+&lt;li>一键发布&lt;/li>
+&lt;li>文章管理&lt;/li>
+&lt;/ol>
+&lt;p>最终的 Obsidian 效果如下：&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-13.png"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="准备">
+&lt;a href="#%e5%87%86%e5%a4%87" class="header-anchor">#&lt;/a>
+🕳准备
+&lt;/h3>&lt;p>Obsidian 的一个仓库就是一个文件夹，直接用网站目录作为 Obsidian 的仓库。建立一个&lt;code>@Extras&lt;/code>文件夹存放非网站内容的 Obsidian 文件。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321100320.png"
+loading="lazy"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>⚠如果部署在 GitHub，整个网站目录是 git 仓库的话，建议把&lt;code>@Extras&lt;/code>和&lt;code>.obsidian&lt;/code>添加到&lt;code>.gitignore&lt;/code>。看自己需求，如果感觉可以上传那就不用。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="选题盒子">
+&lt;a href="#%e9%80%89%e9%a2%98%e7%9b%92%e5%ad%90" class="header-anchor">#&lt;/a>
+📦选题盒子
+&lt;/h3>&lt;p>我的选题都是一个个文件，也可以不这么麻烦，直接写在一个文件里。&lt;/p>
+&lt;blockquote>
+&lt;p>我的选题盒子使用到的插件，&lt;code>Dataview、QuickAdd、Buttons&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Dataview：内容检索列表展示。&lt;/li>
+&lt;li>QuickAdd：快捷指令&lt;/li>
+&lt;li>Buttons：添加按钮&lt;/li>
+&lt;/ul>
+&lt;p>QuickAdd 使用 Template 创建一个在确定文件夹里新建文件的指令。然后用 Buttons 绑定这个指令。&lt;/p>
+&lt;p>新建个文件，粘贴以下内容（记得删除转义&lt;code>\&lt;/code>）：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>给页面定义一个 CSS 类&lt;code>sidebar&lt;/code>，然后在 obsidian 设置👉外观，添加 css 代码片段。样式自定义，下面是我的，提供参考。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>Button 按钮 CSS 参考：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;blockquote>
+&lt;p>我的按钮向上偏移了一定量，为了跟标题在一行。&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="一键新建文章">
+&lt;a href="#%e4%b8%80%e9%94%ae%e6%96%b0%e5%bb%ba%e6%96%87%e7%ab%a0" class="header-anchor">#&lt;/a>
+📃一键新建文章
+&lt;/h3>&lt;blockquote>
+&lt;p>使用到的 obsidian 插件：`QuickAdd、Buttons&lt;/p>
+&lt;/blockquote>
+&lt;p>新建一个模板文件夹，创建一个文章模板。&lt;/p>
+&lt;p>我的模板👇&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>同上一节，使用 QuickAdd 创建快捷指令，将文章新建在&lt;code>content/post&lt;/code>文件夹下。文件名称&lt;code>{{Date:YYYYMMDDHHmmss}}/index&lt;/code>，含义是创建一个时间命名的文件夹，在这个文件夹下创建一个 index 文件。&lt;/p>
+&lt;blockquote>
+&lt;p>⚠&lt;/p>
+&lt;ul>
+&lt;li>obsidian &lt;code>设置&lt;/code>👉&lt;code>文件与链接&lt;/code>，将附件默认存储路径改为当前文件所在文件夹，往 obsidian 粘贴图片的时候就直接存在文章相同目录了。&lt;/li>
+&lt;li>同样&lt;code>文件与链接&lt;/code>改一下内部链接类型，关闭使用 wiki 链接，使用当前文件的相对路径，并使用标准 md 链接类型，如下图：&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321100311.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>根据需求绑定在合适的位置添加一个按钮，绑定新建文章的 QuickAdd 命令。&lt;/p>
+&lt;h3 id="一键预览">
+&lt;a href="#%e4%b8%80%e9%94%ae%e9%a2%84%e8%a7%88" class="header-anchor">#&lt;/a>
+💎一键预览
+&lt;/h3>&lt;p>一键预览需要设置脚本，QuickAdd 可以定义脚本，但是我不会&lt;code>JavaScript&lt;/code>，询问 Chatgpt 后，实现了这个功能。有两种方式：&lt;/p>
+&lt;h4 id="本地-js-脚本">
+&lt;a href="#%e6%9c%ac%e5%9c%b0-js-%e8%84%9a%e6%9c%ac" class="header-anchor">#&lt;/a>
+🎛本地 js 脚本
+&lt;/h4>&lt;p>建立一个&lt;code>preview.js&lt;/code>文件，写入以下内容：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>就是 shell 命令，&lt;code>cd&lt;/code>到网站根目录，执行&lt;code>hugo server&lt;/code> 然后浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
+&lt;p>⚠这会弹出一个终端窗口，关闭窗口就会关闭 &lt;code>hugo server&lt;/code>&lt;/p>
+&lt;p>然后将这个脚本和主页标题创建链接：&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321110312.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>点击主页标题就可以进行预览。&lt;/p>
+&lt;h4 id="shell-commands-插件">
+&lt;a href="#shell-commands-%e6%8f%92%e4%bb%b6" class="header-anchor">#&lt;/a>
+💻Shell Commands 插件
+&lt;/h4>&lt;p>新建一个 shell 命令，粘贴，&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>原理相同，打开 hugo 服务，浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
+&lt;p>同样会出现一个终端窗口，关闭终端退出 hugo server。&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321110306.png"
+loading="lazy"
+>&lt;/p>
+&lt;h3 id="文章管理">
+&lt;a href="#%e6%96%87%e7%ab%a0%e7%ae%a1%e7%90%86" class="header-anchor">#&lt;/a>
+🧲文章管理
+&lt;/h3>&lt;blockquote>
+&lt;p>使用到的 Obsidian 插件：&lt;code>Dataview&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321120387.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>Obsidian 主页添加一个数据表格，进行文章的管理。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>检索&lt;code>content/post&lt;/code>文件夹下的文章，展示其元数据。&lt;/p>
+&lt;h3 id="一键发布">
+&lt;a href="#%e4%b8%80%e9%94%ae%e5%8f%91%e5%b8%83" class="header-anchor">#&lt;/a>
+📰一键发布
+&lt;/h3>&lt;p>一键发布分下面两种情况，实际操作流程一样。&lt;/p>
+&lt;h4 id="自动部署到-vercel">
+&lt;a href="#%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
+🔑自动部署到 Vercel
+&lt;/h4>&lt;p>部署到 Vercel 的话，需要整个网站目录是 git 仓库，利用 Obsidian Git 插件将仓库&lt;code>push&lt;/code>到 Github，再利用 GithubAction 实现自动编译，并把 public 目录添加到 gh-pages 分支。参考—&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
+>这篇文章&lt;/a>&lt;/p>
+&lt;p>需要在网站根目录创建&lt;code>.github/workflows&lt;/code>目录，新建一个&lt;code>main.yml&lt;/code>文件，写入以下内容：&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>Github Action 检测到 main 分支新的 Push，将 main 分支自动编译成网页文件到&lt;code>public&lt;/code>文件夹。并将 &lt;code>public&lt;/code>文件夹同步到&lt;code>gh-pages&lt;/code>分支。Vercel 部署&lt;code>gh-pages&lt;/code>分支。&lt;/p>
+&lt;p>在 obsidian 中使用 Git 插件，执行 &lt;code>git commit&lt;/code>和 &lt;code>git push&lt;/code>。（可以用 QuickAdd 或者 Commander 插件将这两步骤创建宏。）&lt;/p>
+&lt;p>再用 Commander 插件将命令按钮添加到喜欢的位置。&lt;/p>
+&lt;h4 id="自动部署到服务器">
+&lt;a href="#%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2%e5%88%b0%e6%9c%8d%e5%8a%a1%e5%99%a8" class="header-anchor">#&lt;/a>
+🗝自动部署到服务器
+&lt;/h4>&lt;p>同样使用 git，但部署服务器只需要 &lt;code>public&lt;/code> 目录作为 git 仓库。&lt;/p>
+&lt;p>根据《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
+>基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
+&lt;p>先删除网站目录的 public 文件夹。&lt;/p>
+&lt;p>在博客网站的根目录打开&lt;code>git bush&lt;/code>，执行下面命令把服务器 Git 仓库&lt;code>clone&lt;/code>到网站&lt;code>public&lt;/code>目录。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;blockquote>
+&lt;p>后面是你之前配置的仓库位置。&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;code>clone&lt;/code> 下来后，执行&lt;code>hugo -D&lt;/code>编译网站，再&lt;code>cd public&lt;/code>到 &lt;code>public&lt;/code> 目录。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;span>3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>一套操作下来，将本地编译好的&lt;code>public&lt;/code>文件夹 push 到远程服务器仓库。&lt;/p>
+&lt;blockquote>
+&lt;p>❗前提是正确配置钩子，同样参考上述文章。&lt;/p>
+&lt;/blockquote>
+&lt;p>push 成功，钩子会将你 push 的 public 文件夹内容&lt;code>clone&lt;/code>到你设置的网站目录。&lt;/p>
+&lt;p>域名，代理，都正确的话，很快你就能访问域名看到博客的更新了。&lt;/p>
+&lt;p>步骤是不是还是很繁琐，自动化一下就好。&lt;/p>
+&lt;p>回到 Obsidian。&lt;/p>
+&lt;p>同样是 Git 仓库，但是 Git 插件 Git 仓库是 Obsidian 库，这个步骤的 Git 仓库是 public 文件夹，所以就不使用 Git 插件，换用&lt;code>shell Commands&lt;/code>插件。&lt;/p>
+&lt;blockquote>
+&lt;p>❗设置 shell 的工作目录是网站目录路径，也就是 obsidian 库根目录。&lt;/p>
+&lt;/blockquote>
+&lt;p>添加&lt;code>shell&lt;/code>命令。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;blockquote>
+&lt;p>这段命令首先&lt;code>hugo -D&lt;/code>编译网站，然后转到 &lt;code>public&lt;/code>文件夹，运行 git 发布三部曲。在&lt;code>cd ..&lt;/code>回到网站根目录。&lt;/p>
+&lt;/blockquote>
+&lt;p>到此，完成，博客一键发布。&lt;/p>
+&lt;h4 id="vercel服务器同步发布">
+&lt;a href="#vercel%e6%9c%8d%e5%8a%a1%e5%99%a8%e5%90%8c%e6%ad%a5%e5%8f%91%e5%b8%83" class="header-anchor">#&lt;/a>
+🥽Vercel，服务器同步发布？
+&lt;/h4>&lt;p>可以，因为两种方式都使用了 Git，可以直接用 shell command 插件写命令，先 &lt;code>hugo -D&lt;/code>，发布到服务器，再将整个仓库 push 到 github，也可以用 QuickAdd 的宏，或者 Commander 的宏将两个步骤连起来。&lt;/p>
+&lt;h4 id="上述用到的插件和其他推荐">
+&lt;a href="#%e4%b8%8a%e8%bf%b0%e7%94%a8%e5%88%b0%e7%9a%84%e6%8f%92%e4%bb%b6%e5%92%8c%e5%85%b6%e4%bb%96%e6%8e%a8%e8%8d%90" class="header-anchor">#&lt;/a>
+🎯上述用到的插件和其他推荐
+&lt;/h4>&lt;ol>
+&lt;li>Banners：主页的头图&lt;/li>
+&lt;li>Buttons：页面内添加按钮&lt;/li>
+&lt;li>Commander：给 Obsidian 不同位置添加快捷按钮。上述&lt;/li>
+&lt;li>Dataview：文章列表管理&lt;/li>
+&lt;li>Easy Typing：中文输入体验优化&lt;/li>
+&lt;li>Homepage：给 Obsidian 添加一个主页&lt;/li>
+&lt;li>Latex Suite：Latex 公式输入体验优化&lt;/li>
+&lt;li>Linter：文件自动格式化&lt;/li>
+&lt;li>Paste image rename：图片重命名&lt;/li>
+&lt;li>QuickAdd：给各种操作一个快捷指令&lt;/li>
+&lt;li>Shell commands：在 obsidian 使用 Shell 指令&lt;/li>
+&lt;li>Sortable：让 Dataview 点击表头改变排序&lt;/li>
+&lt;li>Git：Obsidian 内快捷使用 Git，可以用 Shell commands 替代&lt;/li>
+&lt;/ol>
+&lt;h2 id="第四阶段一些有趣的小功能">
+&lt;a href="#%e7%ac%ac%e5%9b%9b%e9%98%b6%e6%ae%b5%e4%b8%80%e4%ba%9b%e6%9c%89%e8%b6%a3%e7%9a%84%e5%b0%8f%e5%8a%9f%e8%83%bd" class="header-anchor">#&lt;/a>
+🎭第四阶段——一些有趣的小功能
+&lt;/h2>&lt;h3 id="评论">
+&lt;a href="#%e8%af%84%e8%ae%ba" class="header-anchor">#&lt;/a>
+💭评论
+&lt;/h3>&lt;p>评论组件有很多，下面是 stack 内置支持的评论组件。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://cactus.chat/" target="_blank" rel="noopener"
+>Cactus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://cusdis.com/" target="_blank" rel="noopener"
+>Cusdis&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://disqus.com/" target="_blank" rel="noopener"
+>Disqus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/SukkaW/DisqusJS" target="_blank" rel="noopener"
+>DisqusJS&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://giscus.app/" target="_blank" rel="noopener"
+>Giscus&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/gitalk/gitalk" target="_blank" rel="noopener"
+>Gitalk&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://remark42.com/" target="_blank" rel="noopener"
+>Remark42&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
+>Twikoo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://utteranc.es/" target="_blank" rel="noopener"
+>utterances&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://vssue.js.org/" target="_blank" rel="noopener"
+>Vssue&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://waline.js.org/" target="_blank" rel="noopener"
+>Waline&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>大部分都需要登录，对于路过游客比较不方便，所以我用的 &lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
+>Twikoo&lt;/a>,配置过程可以直接上官网查看，官网配置过程十分详细，提供了多种部署方式。&lt;/p>
+&lt;p>我使用 docker 将他部署在了服务器上。分配了个子域名。&lt;/p>
+&lt;h3 id="页面添加memos">
+&lt;a href="#%e9%a1%b5%e9%9d%a2%e6%b7%bb%e5%8a%a0memos" class="header-anchor">#&lt;/a>
+🗨页面添加Memos
+&lt;/h3>&lt;p>参考—&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
+>基于 Memos 实现说说和清单功能&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
+&lt;p>在&lt;code>layouts/partials/widget&lt;/code>文件夹下新建一个 memos.html 文件，粘贴如下内容。样式脚本都包含在这个文件内。&lt;/p>
+&lt;p>下面脚本里的网址都换成自己的 memos 域名。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span> 10
+&lt;/span>&lt;span> 11
+&lt;/span>&lt;span> 12
+&lt;/span>&lt;span> 13
+&lt;/span>&lt;span> 14
+&lt;/span>&lt;span> 15
+&lt;/span>&lt;span> 16
+&lt;/span>&lt;span> 17
+&lt;/span>&lt;span> 18
+&lt;/span>&lt;span> 19
+&lt;/span>&lt;span> 20
+&lt;/span>&lt;span> 21
+&lt;/span>&lt;span> 22
+&lt;/span>&lt;span> 23
+&lt;/span>&lt;span> 24
+&lt;/span>&lt;span> 25
+&lt;/span>&lt;span> 26
+&lt;/span>&lt;span> 27
+&lt;/span>&lt;span> 28
+&lt;/span>&lt;span> 29
+&lt;/span>&lt;span> 30
+&lt;/span>&lt;span> 31
+&lt;/span>&lt;span> 32
+&lt;/span>&lt;span> 33
+&lt;/span>&lt;span> 34
+&lt;/span>&lt;span> 35
+&lt;/span>&lt;span> 36
+&lt;/span>&lt;span> 37
+&lt;/span>&lt;span> 38
+&lt;/span>&lt;span> 39
+&lt;/span>&lt;span> 40
+&lt;/span>&lt;span> 41
+&lt;/span>&lt;span> 42
+&lt;/span>&lt;span> 43
+&lt;/span>&lt;span> 44
+&lt;/span>&lt;span> 45
+&lt;/span>&lt;span> 46
+&lt;/span>&lt;span> 47
+&lt;/span>&lt;span> 48
+&lt;/span>&lt;span> 49
+&lt;/span>&lt;span> 50
+&lt;/span>&lt;span> 51
+&lt;/span>&lt;span> 52
+&lt;/span>&lt;span> 53
+&lt;/span>&lt;span> 54
+&lt;/span>&lt;span> 55
+&lt;/span>&lt;span> 56
+&lt;/span>&lt;span> 57
+&lt;/span>&lt;span> 58
+&lt;/span>&lt;span> 59
+&lt;/span>&lt;span> 60
+&lt;/span>&lt;span> 61
+&lt;/span>&lt;span> 62
+&lt;/span>&lt;span> 63
+&lt;/span>&lt;span> 64
+&lt;/span>&lt;span> 65
+&lt;/span>&lt;span> 66
+&lt;/span>&lt;span> 67
+&lt;/span>&lt;span> 68
+&lt;/span>&lt;span> 69
+&lt;/span>&lt;span> 70
+&lt;/span>&lt;span> 71
+&lt;/span>&lt;span> 72
+&lt;/span>&lt;span> 73
+&lt;/span>&lt;span> 74
+&lt;/span>&lt;span> 75
+&lt;/span>&lt;span> 76
+&lt;/span>&lt;span> 77
+&lt;/span>&lt;span> 78
+&lt;/span>&lt;span> 79
+&lt;/span>&lt;span> 80
+&lt;/span>&lt;span> 81
+&lt;/span>&lt;span> 82
+&lt;/span>&lt;span> 83
+&lt;/span>&lt;span> 84
+&lt;/span>&lt;span> 85
+&lt;/span>&lt;span> 86
+&lt;/span>&lt;span> 87
+&lt;/span>&lt;span> 88
+&lt;/span>&lt;span> 89
+&lt;/span>&lt;span> 90
+&lt;/span>&lt;span> 91
+&lt;/span>&lt;span> 92
+&lt;/span>&lt;span> 93
+&lt;/span>&lt;span> 94
+&lt;/span>&lt;span> 95
+&lt;/span>&lt;span> 96
+&lt;/span>&lt;span> 97
+&lt;/span>&lt;span> 98
+&lt;/span>&lt;span> 99
+&lt;/span>&lt;span>100
+&lt;/span>&lt;span>101
+&lt;/span>&lt;span>102
+&lt;/span>&lt;span>103
+&lt;/span>&lt;span>104
+&lt;/span>&lt;span>105
+&lt;/span>&lt;span>106
+&lt;/span>&lt;span>107
+&lt;/span>&lt;span>108
+&lt;/span>&lt;span>109
+&lt;/span>&lt;span>110
+&lt;/span>&lt;span>111
+&lt;/span>&lt;span>112
+&lt;/span>&lt;span>113
+&lt;/span>&lt;span>114
+&lt;/span>&lt;span>115
+&lt;/span>&lt;span>116
+&lt;/span>&lt;span>117
+&lt;/span>&lt;span>118
+&lt;/span>&lt;span>119
+&lt;/span>&lt;span>120
+&lt;/span>&lt;span>121
+&lt;/span>&lt;span>122
+&lt;/span>&lt;span>123
+&lt;/span>&lt;span>124
+&lt;/span>&lt;span>125
+&lt;/span>&lt;span>126
+&lt;/span>&lt;span>127
+&lt;/span>&lt;span>128
+&lt;/span>&lt;span>129
+&lt;/span>&lt;span>130
+&lt;/span>&lt;span>131
+&lt;/span>&lt;span>132
+&lt;/span>&lt;span>133
+&lt;/span>&lt;span>134
+&lt;/span>&lt;span>135
+&lt;/span>&lt;span>136
+&lt;/span>&lt;span>137
+&lt;/span>&lt;span>138
+&lt;/span>&lt;span>139
+&lt;/span>&lt;span>140
+&lt;/span>&lt;span>141
+&lt;/span>&lt;span>142
+&lt;/span>&lt;span>143
+&lt;/span>&lt;span>144
+&lt;/span>&lt;span>145
+&lt;/span>&lt;span>146
+&lt;/span>&lt;span>147
+&lt;/span>&lt;span>148
+&lt;/span>&lt;span>149
+&lt;/span>&lt;span>150
+&lt;/span>&lt;span>151
+&lt;/span>&lt;span>152
+&lt;/span>&lt;span>153
+&lt;/span>&lt;span>154
+&lt;/span>&lt;span>155
+&lt;/span>&lt;span>156
+&lt;/span>&lt;span>157
+&lt;/span>&lt;span>158
+&lt;/span>&lt;span>159
+&lt;/span>&lt;span>160
+&lt;/span>&lt;span>161
+&lt;/span>&lt;span>162
+&lt;/span>&lt;span>163
+&lt;/span>&lt;span>164
+&lt;/span>&lt;span>165
+&lt;/span>&lt;span>166
+&lt;/span>&lt;span>167
+&lt;/span>&lt;span>168
+&lt;/span>&lt;span>169
+&lt;/span>&lt;span>170
+&lt;/span>&lt;span>171
+&lt;/span>&lt;span>172
+&lt;/span>&lt;span>173
+&lt;/span>&lt;span>174
+&lt;/span>&lt;span>175
+&lt;/span>&lt;span>176
+&lt;/span>&lt;span>177
+&lt;/span>&lt;span>178
+&lt;/span>&lt;span>179
+&lt;/span>&lt;span>180
+&lt;/span>&lt;span>181
+&lt;/span>&lt;span>182
+&lt;/span>&lt;span>183
+&lt;/span>&lt;span>184
+&lt;/span>&lt;span>185
+&lt;/span>&lt;span>186
+&lt;/span>&lt;span>187
+&lt;/span>&lt;span>188
+&lt;/span>&lt;span>189
+&lt;/span>&lt;span>190
+&lt;/span>&lt;span>191
+&lt;/span>&lt;span>192
+&lt;/span>&lt;span>193
+&lt;/span>&lt;span>194
+&lt;/span>&lt;span>195
+&lt;/span>&lt;span>196
+&lt;/span>&lt;span>197
+&lt;/span>&lt;span>198
+&lt;/span>&lt;span>199
+&lt;/span>&lt;span>200
+&lt;/span>&lt;span>201
+&lt;/span>&lt;span>202
+&lt;/span>&lt;span>203
+&lt;/span>&lt;span>204
+&lt;/span>&lt;span>205
+&lt;/span>&lt;span>206
+&lt;/span>&lt;span>207
+&lt;/span>&lt;span>208
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>然后到主题配置文件，引用一下新建的小部件。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;span>3
+&lt;/span>&lt;span>4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>实现的效果&lt;/p>
+&lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321130301.png"
+loading="lazy"
+>&lt;/p>
+&lt;p>右下角链接可以跳转到 memos 页面。&lt;/p>
+&lt;p>如果有需求，可以把 twikoo 也嵌入 memos 页面。&lt;/p>
+&lt;p>参考木木大佬的文章&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
+>Memos x Twikoo&lt;/a>&lt;/p>
+&lt;h3 id="软件装备页面">
+&lt;a href="#%e8%bd%af%e4%bb%b6%e8%a3%85%e5%a4%87%e9%a1%b5%e9%9d%a2" class="header-anchor">#&lt;/a>
+🔬软件&amp;amp;装备页面
+&lt;/h3>&lt;p>参考空白大佬的&lt;a class="link" href="https://github.com/koobai/blog/tree/main" target="_blank" rel="noopener"
+>网站源码&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
+&lt;p>关于这种添加侧边栏页面的操作，需要在 &lt;code>content/page&lt;/code>文件夹下新建文件夹，新建的文件夹里创建一个&lt;code>index.md&lt;/code>文件。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>&lt;code>layout&lt;/code> 属性是指引用哪一个布局文件，存放在&lt;code>layouts/_default&lt;/code>文件夹下。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;span>37
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;p>再给页面添加 CSS 样式，可以直接在&lt;code>assets/scss&lt;/code>目录下新建一个 scss 文件，记得在 style.scss 导入新建的样式文件，也可以直接写在 &lt;code>custom.scss&lt;/code>文件中。&lt;/p>
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;span>37
+&lt;/span>&lt;span>38
+&lt;/span>&lt;span>39
+&lt;/span>&lt;span>40
+&lt;/span>&lt;span>41
+&lt;/span>&lt;span>42
+&lt;/span>&lt;span>43
+&lt;/span>&lt;span>44
+&lt;/span>&lt;span>45
+&lt;/span>&lt;span>46
+&lt;/span>&lt;span>47
+&lt;/span>&lt;span>48
+&lt;/span>&lt;span>49
+&lt;/span>&lt;span>50
+&lt;/span>&lt;span>51
+&lt;/span>&lt;span>52
+&lt;/span>&lt;span>53
+&lt;/span>&lt;span>54
+&lt;/span>&lt;span>55
+&lt;/span>&lt;span>56
+&lt;/span>&lt;span>57
+&lt;/span>&lt;span>58
+&lt;/span>&lt;span>59
+&lt;/span>&lt;span>60
+&lt;/span>&lt;span>61
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;h3 id="加载界面">
+&lt;a href="#%e5%8a%a0%e8%bd%bd%e7%95%8c%e9%9d%a2" class="header-anchor">#&lt;/a>
+⭕加载界面
+&lt;/h3>&lt;p>网页切换之间的加载页面。参考—&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
+>为网站加入Loading加载页&lt;/a>&lt;/p>
+&lt;h2 id="第五阶段无止尽的主题折腾">
+&lt;a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5%e6%97%a0%e6%ad%a2%e5%b0%bd%e7%9a%84%e4%b8%bb%e9%a2%98%e6%8a%98%e8%85%be" class="header-anchor">#&lt;/a>
+💟第五阶段——无止尽的主题折腾
+&lt;/h2>&lt;p>因为我自己主题修改的很零散，代码很丑陋，并且直接在主题文件中修改。大部分主题文件都被我修改过内容，直接放弃后期的主题更新，冗余代码很多，如果有需要问的，可以评论区讨论。一些主题美化文章请看下一节的参考文章。&lt;/p>
+&lt;h2 id="参考">
+&lt;a href="#%e5%8f%82%e8%80%83" class="header-anchor">#&lt;/a>
+📑参考
+&lt;/h2>&lt;p>包括但不仅限于：&lt;/p>
+&lt;ol>
+&lt;li>&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
+>Memos x Twikoo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://koobai.com/" target="_blank" rel="noopener"
+>空白&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
+>基于 Memos 实现说说和清单功能&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://yelleis.top/p/61fdb627/" target="_blank" rel="noopener"
+>hugo stack 主题美化&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
+>为网站加入Loading加载页&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.jianshu.com/p/bfa6575b6057" target="_blank" rel="noopener"
+>使用 Hugo 进行持续集成写作及同步&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.zhheo.com/p/99d020fe.html" target="_blank" rel="noopener"
+>Twikoo 腾讯云函数部署转移到私有部署 | 张洪 Heo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/673413550" target="_blank" rel="noopener"
+>使用 Obsidian 免费建个人博客&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
+>Hugo 博客写作最佳实践&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
+>基于 Hexo 的静态博客网站搭建并部署至云服务器&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://shaohanyun.top/posts/env/hugo_aliyun/" target="_blank" rel="noopener"
+>Hugo 博客部署到阿里云服务器&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
+>（3）Stack主题的自定义&lt;/a>&lt;/li>
+&lt;li>…&lt;/li>
+&lt;/ol>
+&lt;h2 id="结语">
+&lt;a href="#%e7%bb%93%e8%af%ad" class="header-anchor">#&lt;/a>
+结语
+&lt;/h2>&lt;blockquote>
+&lt;ul>
+&lt;li>本人技术小白，如果文章中有错误，恳请指正。&lt;/li>
+&lt;li>文章中大部分参考文章均已贴出链接，或许有遗漏，再次找到出处后会及时补上，请谅解。&lt;/li>
+&lt;li>如果遇到问题，欢迎评论。&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Chinese Test</title><link>https://example.com/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://example.com/p/test-chinese/</guid><description>&lt;img src="https://example.com/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" />&lt;h2 id="正文测试">
 &lt;a href="#%e6%ad%a3%e6%96%87%e6%b5%8b%e8%af%95" class="header-anchor">#&lt;/a>
 正文测试
 &lt;/h2>&lt;p>而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p>
@@ -332,7 +1384,671 @@ alt="Google"
 >talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>连接github.com的22端口被拒绝</title><link>https://example.com/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</guid><description>&lt;img src="https://example.com/%E5%B0%81%E9%9D%A2" alt="Featured image of post 连接github.com的22端口被拒绝" />&lt;h1 id="内容来自网络">
+&lt;/div></description></item><item><title/><link>https://example.com/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
+&lt;p>事实上, 编写 Web 内容很麻烦. &lt;strong>WYSIWYG所见即所得&lt;/strong> 编辑器帮助减轻了这一任务. 但通常会导致代码太糟, 或更糟糕的是, 网页也会很丑.&lt;/p>
+&lt;p>没有通常伴随的所有复杂和丑陋的问题, &lt;strong>Markdown&lt;/strong> 是一种更好的生成 &lt;strong>HTML&lt;/strong> 内容的方式.&lt;/p>
+&lt;p>一些主要好处是:&lt;/p>
+&lt;ol>
+&lt;li>Markdown 简单易学, 几乎没有多余的字符, 因此编写内容也更快.&lt;/li>
+&lt;li>用 Markdown 书写时出错的机会更少.&lt;/li>
+&lt;li>可以产生有效的 XHTML 输出.&lt;/li>
+&lt;li>将内容和视觉显示保持分开, 这样就不会打乱网站的外观.&lt;/li>
+&lt;li>可以在你喜欢的任何文本编辑器或 Markdown 应用程序中编写内容.&lt;/li>
+&lt;li>Markdown 使用起来很有趣!&lt;/li>
+&lt;/ol>
+&lt;p>John Gruber, Markdown 的作者如是说:&lt;/p>
+&lt;blockquote>
+&lt;p>Markdown 格式的首要设计目标是更具可读性. 最初的想法是 Markdown 格式的文档应当以纯文本形式发布, 而不会看起来像被标签或格式说明所标记. 虽然 Markdown 的语法受到几种现有的文本到 HTML 转换工具的影响, 但 Markdown 语法的最大灵感来源是纯文本电子邮件的格式.&lt;/p>
+&lt;p>– &lt;em>John Gruber&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>话不多说, 我们来回顾一下 Markdown 的主要语法以及生成的 HTML 样式!&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax1-e6a087e9a2981-标题">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax1-e6a087e9a2981-%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#1-%E6%A0%87%E9%A2%98" target="_blank" rel="noopener"
+>&lt;/a>1 标题
+&lt;/h2>&lt;p>从 &lt;code>h2&lt;/code> 到 &lt;code>h6&lt;/code> 的标题在每个级别上都加上一个 &lt;code>＃&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## h2 标题 ### h3 标题 #### h4 标题 ##### h5 标题 ###### h6 标题
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>h2 标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h2&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h3&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>h3 标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h3&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>h4 标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h4&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h5&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>h5 标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h5&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>h6 标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h6&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>标题 ID&lt;/p>
+&lt;p>要添加自定义标题 ID, 请在与标题相同的行中将自定义 ID 放在花括号中:&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h3&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;custom-id&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>一个很棒的标题&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h3&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax2-e6b3a8e9878a2-注释">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax2-e6b3a8e9878a2-%e6%b3%a8%e9%87%8a" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#2-%E6%B3%A8%E9%87%8A" target="_blank" rel="noopener"
+>&lt;/a>2 注释
+&lt;/h2>&lt;p>注释是和 HTML 兼容的：&lt;/p>
+&lt;p>&lt;strong>不能&lt;/strong>看到以下的注释:&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax3-e6b0b4e5b9b3e7babf3-水平线">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax3-e6b0b4e5b9b3e7babf3-%e6%b0%b4%e5%b9%b3%e7%ba%bf" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#3-%E6%B0%B4%E5%B9%B3%E7%BA%BF" target="_blank" rel="noopener"
+>&lt;/a>3 水平线
+&lt;/h2>&lt;p>HTML 中的 &lt;code>&amp;lt;hr&amp;gt;&lt;/code> 标签是用来在段落元素之间创建一个 “专题间隔” 的. 使用 Markdown, 你可以用以下方式创建一个 &lt;code>&amp;lt;hr&amp;gt;&lt;/code> 标签:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>___&lt;/code>: 三个连续的下划线&lt;/li>
+&lt;li>&lt;code>---&lt;/code>: 三个连续的破折号&lt;/li>
+&lt;li>&lt;code>***&lt;/code>: 三个连续的星号&lt;/li>
+&lt;/ul>
+&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;hr>
+&lt;hr>
+&lt;hr>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax4-e6aeb5e890bd4-段落">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax4-e6aeb5e890bd4-%e6%ae%b5%e8%90%bd" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#4-%E6%AE%B5%E8%90%BD" target="_blank" rel="noopener"
+>&lt;/a>4 段落
+&lt;/h2>&lt;p>按照纯文本的方式书写段落, 纯文本在呈现的 HTML 中将用 &lt;code>&amp;lt;p&amp;gt;&lt;/code>/&lt;code>&amp;lt;/p&amp;gt;&lt;/code> 标签包裹.&lt;/p>
+&lt;p>如下段落:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>可以使用一个空白行进行&lt;strong>换行&lt;/strong>.&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax5-e58685e88194-html-e58583e7b4a05-内联-html-元素">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax5-e58685e88194-html-e58583e7b4a05-%e5%86%85%e8%81%94-html-%e5%85%83%e7%b4%a0" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#5-%E5%86%85%E8%81%94-html-%E5%85%83%E7%B4%A0" target="_blank" rel="noopener"
+>&lt;/a>5 内联 HTML 元素
+&lt;/h2>&lt;p>如果你需要某个 HTML 标签 (带有一个类), 则可以简单地像这样使用:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">Markdown 格式的段落. &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;class&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 这是 &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">b&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>HTML&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">b&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> Markdown 格式的段落.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax6-e5bcbae8b0836-强调">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax6-e5bcbae8b0836-%e5%bc%ba%e8%b0%83" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#6-%E5%BC%BA%E8%B0%83" target="_blank" rel="noopener"
+>&lt;/a>6 强调
+&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe58aa0e7b297加粗">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe58aa0e7b297%e5%8a%a0%e7%b2%97" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%8A%A0%E7%B2%97" target="_blank" rel="noopener"
+>&lt;/a>加粗
+&lt;/h3>&lt;p>用于强调带有较粗字体的文本片段.&lt;/p>
+&lt;p>以下文本片段会被 &lt;strong>渲染为粗体&lt;/strong>.&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe6969ce4bd93斜体">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe6969ce4bd93%e6%96%9c%e4%bd%93" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%96%9C%E4%BD%93" target="_blank" rel="noopener"
+>&lt;/a>斜体
+&lt;/h3>&lt;p>用于强调带有斜体的文本片段.&lt;/p>
+&lt;p>以下文本片段被 &lt;em>渲染为斜体&lt;/em>.&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe588a0e999a4e7babf删除线">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe588a0e999a4e7babf%e5%88%a0%e9%99%a4%e7%ba%bf" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%88%A0%E9%99%A4%E7%BA%BF" target="_blank" rel="noopener"
+>&lt;/a>删除线
+&lt;/h3>&lt;p>按照 &lt;a class="link" href="https://github.github.com/gfm/" target="_blank" rel="noopener"
+>&lt;strong>GFMGitHub flavored Markdown&lt;/strong>&lt;/a> 你可以使用删除线.&lt;/p>
+&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;p>~这段文本带有删除线.~&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe7bb84e59088组合">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe7bb84e59088%e7%bb%84%e5%90%88" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E7%BB%84%E5%90%88" target="_blank" rel="noopener"
+>&lt;/a>组合
+&lt;/h3>&lt;p>加粗, 斜体, 和删除线可以 组合使用.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">***加粗和斜体*** &lt;span class="gd">~~**删除线和加粗**~~&lt;/span> &lt;span class="gd">~~*删除线和斜体*~~&lt;/span> &lt;span class="gd">~~***加粗, 斜体和删除线***~~&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;p>&lt;em>&lt;strong>加粗和斜体&lt;/strong>&lt;/em>&lt;/p>
+&lt;p>~&lt;strong>删除线和加粗&lt;/strong>~&lt;/p>
+&lt;p>~&lt;em>删除线和斜体&lt;/em>~&lt;/p>
+&lt;p>~&lt;em>&lt;strong>加粗, 斜体和删除线&lt;/strong>&lt;/em>~&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>加粗和斜体&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>删除线和加粗&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>删除线和斜体&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>加粗, 斜体和删除线&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">em&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">del&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax7-e5bc95e794a87-引用">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax7-e5bc95e794a87-%e5%bc%95%e7%94%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#7-%E5%BC%95%E7%94%A8" target="_blank" rel="noopener"
+>&lt;/a>7 引用
+&lt;/h2>&lt;p>用于在文档中引用其他来源的内容块.&lt;/p>
+&lt;p>在要引用的任何文本之前添加 &lt;code>&amp;gt;&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">**Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Fusion Drive&lt;/strong> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&lt;/p>
+&lt;/blockquote>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Fusion Drive&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined. &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>引用也可以嵌套:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">&amp;gt; &lt;/span>&lt;span class="ge">Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. &amp;gt;&amp;gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;blockquote>
+&lt;p>Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.&lt;/p>
+&lt;blockquote>
+&lt;p>Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.&lt;/p>
+&lt;/blockquote>
+&lt;/blockquote>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax8-e58897e8a1a88-列表">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax8-e58897e8a1a88-%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#8-%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
+>&lt;/a>8 列表
+&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe697a0e5ba8fe58897e8a1a8无序列表">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe697a0e5ba8fe58897e8a1a8%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
+>&lt;/a>无序列表
+&lt;/h3>&lt;p>一系列项的列表, 其中项的顺序没有明显关系.&lt;/p>
+&lt;p>你可以使用以下任何符号来表示无序列表中的项:&lt;/p>
+&lt;p>例如:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">*&lt;/span> Lorem ipsum dolor sit amet &lt;span class="ge">* Consectetur adipiscing elit *&lt;/span> Integer molestie lorem at massa &lt;span class="ge">* Facilisis in pretium nisl aliquet *&lt;/span> Nulla volutpat aliquam velit &lt;span class="ge">* Phasellus iaculis neque *&lt;/span> Purus sodales ultricies &lt;span class="ge">* Vestibulum laoreet porttitor sem *&lt;/span> Ac tristique libero volutpat at &lt;span class="ge">* Faucibus porta lacus fringilla vel *&lt;/span> Aenean sit amet erat nunc * Eget porttitor lorem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;ul>
+&lt;li>Lorem ipsum dolor sit amet&lt;/li>
+&lt;li>Consectetur adipiscing elit&lt;/li>
+&lt;li>Integer molestie lorem at massa&lt;/li>
+&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
+&lt;li>Nulla volutpat aliquam velit
+&lt;ul>
+&lt;li>Phasellus iaculis neque&lt;/li>
+&lt;li>Purus sodales ultricies&lt;/li>
+&lt;li>Vestibulum laoreet porttitor sem&lt;/li>
+&lt;li>Ac tristique libero volutpat at&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
+&lt;li>Aenean sit amet erat nunc&lt;/li>
+&lt;li>Eget porttitor lorem&lt;/li>
+&lt;/ul>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lorem ipsum dolor sit amet&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Consectetur adipiscing elit&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Integer molestie lorem at massa&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Facilisis in pretium nisl aliquet&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Nulla volutpat aliquam velit &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Phasellus iaculis neque&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Purus sodales ultricies&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Vestibulum laoreet porttitor sem&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Ac tristique libero volutpat at&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Faucibus porta lacus fringilla vel&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Aenean sit amet erat nunc&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Eget porttitor lorem&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ul&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe69c89e5ba8fe58897e8a1a8有序列表">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe69c89e5ba8fe58897e8a1a8%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
+>&lt;/a>有序列表
+&lt;/h3>&lt;p>一系列项的列表, 其中项的顺序确实很重要.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">1.&lt;/span> Lorem ipsum dolor sit amet 2. Consectetur adipiscing elit 3. Integer molestie lorem at massa 4. Facilisis in pretium nisl aliquet 5. Nulla volutpat aliquam velit 6. Faucibus porta lacus fringilla vel 7. Aenean sit amet erat nunc 8. Eget porttitor lorem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;ol>
+&lt;li>Lorem ipsum dolor sit amet&lt;/li>
+&lt;li>Consectetur adipiscing elit&lt;/li>
+&lt;li>Integer molestie lorem at massa&lt;/li>
+&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
+&lt;li>Nulla volutpat aliquam velit&lt;/li>
+&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
+&lt;li>Aenean sit amet erat nunc&lt;/li>
+&lt;li>Eget porttitor lorem&lt;/li>
+&lt;/ol>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">ol&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lorem ipsum dolor sit amet&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Consectetur adipiscing elit&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Integer molestie lorem at massa&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Facilisis in pretium nisl aliquet&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Nulla volutpat aliquam velit&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Faucibus porta lacus fringilla vel&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Aenean sit amet erat nunc&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Eget porttitor lorem&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">li&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">ol&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>技巧&lt;/p>
+&lt;p>如果你对每一项使用 &lt;code>1.&lt;/code>, Markdown 将自动为每一项编号. 例如:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">1.&lt;/span> Lorem ipsum dolor sit amet 1. Consectetur adipiscing elit 1. Integer molestie lorem at massa 1. Facilisis in pretium nisl aliquet 1. Nulla volutpat aliquam velit 1. Faucibus porta lacus fringilla vel 1. Aenean sit amet erat nunc 1. Eget porttitor lorem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;ol>
+&lt;li>Lorem ipsum dolor sit amet&lt;/li>
+&lt;li>Consectetur adipiscing elit&lt;/li>
+&lt;li>Integer molestie lorem at massa&lt;/li>
+&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
+&lt;li>Nulla volutpat aliquam velit&lt;/li>
+&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
+&lt;li>Aenean sit amet erat nunc&lt;/li>
+&lt;li>Eget porttitor lorem&lt;/li>
+&lt;/ol>
+&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe4bbbbe58aa1e58897e8a1a8任务列表">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe4bbbbe58aa1e58897e8a1a8%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
+>&lt;/a>任务列表
+&lt;/h3>&lt;p>任务列表使你可以创建带有复选框的列表. 要创建任务列表, 请在任务列表项之前添加破折号 (&lt;code>-&lt;/code>) 和带有空格的方括号 (&lt;code>[ ]&lt;/code>). 要选择一个复选框，请在方括号之间添加 x (&lt;code>[x]&lt;/code>).&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [x]&lt;/span> Write the press release - [ ] Update the website - [ ] Contact the media
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;ul>
+&lt;li>Write the press release&lt;/li>
+&lt;li>Update the website&lt;/li>
+&lt;li>Contact the media&lt;/li>
+&lt;/ul>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax9-e4bba3e7a0819-代码">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax9-e4bba3e7a0819-%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#9-%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
+>&lt;/a>9 代码
+&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe8a18ce58685e4bba3e7a081行内代码">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe8a18ce58685e4bba3e7a081%e8%a1%8c%e5%86%85%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
+>&lt;/a>行内代码
+&lt;/h3>&lt;p>用 ` 包装行内代码段.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">在这个例子中, &lt;span class="sb">`&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;`&lt;/span> 会被包裹成 &lt;span class="gs">**代码**&lt;/span>.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;p>在这个例子中, &lt;code>&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code> 会被包裹成 &lt;strong>代码&lt;/strong>.&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 在这个例子中, &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;span class="ni">&amp;amp;lt;&lt;/span>section&lt;span class="ni">&amp;amp;gt;&amp;amp;lt;&lt;/span>/section&lt;span class="ni">&amp;amp;gt;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> 会被包裹成 &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>代码&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">strong&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>. &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe7bca9e8bf9be4bba3e7a081缩进代码">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe7bca9e8bf9be4bba3e7a081%e7%bc%a9%e8%bf%9b%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E7%BC%A9%E8%BF%9B%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
+>&lt;/a>缩进代码
+&lt;/h3>&lt;p>将几行代码缩进至少四个空格，例如:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">// Some comments line 1 of code line 2 of code line 3 of code
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">// Some comments
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">line 1 of code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">line 2 of code
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">line 3 of code
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">pre&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> // Some comments line 1 of code line 2 of code line 3 of code &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">pre&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe59bb4e6a08fe4bba3e7a081e59d97围栏代码块">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe59bb4e6a08fe4bba3e7a081e59d97%e5%9b%b4%e6%a0%8f%e4%bb%a3%e7%a0%81%e5%9d%97" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%9B%B4%E6%A0%8F%E4%BB%A3%E7%A0%81%E5%9D%97" target="_blank" rel="noopener"
+>&lt;/a>围栏代码块
+&lt;/h3>&lt;p>使用 “围栏” ``` 来生成一段带有语言属性的代码块.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">```markdown Sample text here... ```
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">pre&lt;/span> &lt;span class="na">language-html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Sample text here...&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">code&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">pre&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe8afade6b395e9ab98e4baae语法高亮">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe8afade6b395e9ab98e4baae%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE" target="_blank" rel="noopener"
+>&lt;/a>语法高亮
+&lt;/h3>&lt;p>&lt;strong>GFMGitHub Flavored Markdown&lt;/strong> 也支持语法高亮.&lt;/p>
+&lt;p>要激活它，只需在第一个代码 “围栏” 之后直接添加你要使用的语言的文件扩展名, ```js, 语法高亮显示将自动应用于渲染的 HTML 中.&lt;/p>
+&lt;p>例如, 在以下 JavaScript 代码中应用语法高亮:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">```js grunt.initConfig({ assemble: { options: { assets: &amp;#39;docs/assets&amp;#39;, data: &amp;#39;src/data/*.{json,yml}&amp;#39;, helpers: &amp;#39;src/custom-helpers.js&amp;#39;, partials: [&amp;#39;src/partials/**/*.{hbs,md}&amp;#39;] }, pages: { options: { layout: &amp;#39;default.hbs&amp;#39; }, files: { &amp;#39;./&amp;#39;: [&amp;#39;src/templates/pages/index.hbs&amp;#39;] } } } }; ```
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">grunt&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="nx">initConfig&lt;/span>&lt;span class="p">({&lt;/span> &lt;span class="nx">assemble&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">options&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">assets&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;docs/assets&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">data&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;src/data/*.{json,yml}&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">helpers&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;src/custom-helpers.js&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">partials&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;src/partials/**/*.{hbs,md}&amp;#39;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="nx">pages&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">options&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">layout&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="s1">&amp;#39;default.hbs&amp;#39;&lt;/span> &lt;span class="p">},&lt;/span> &lt;span class="nx">files&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="s1">&amp;#39;./&amp;#39;&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;src/templates/pages/index.hbs&amp;#39;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="p">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>注意&lt;/p>
+&lt;p>&lt;strong>Hugo&lt;/strong> 文档中的 &lt;a class="link" href="https://gohugo.io/content-management/syntax-highlighting/" target="_blank" rel="noopener"
+>语法高亮页面&lt;/a> 介绍了有关语法高亮的更多信息, 包括语法高亮的 shortcode.&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax10-e8a1a8e6a0bc10-表格">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax10-e8a1a8e6a0bc10-%e8%a1%a8%e6%a0%bc" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#10-%E8%A1%A8%E6%A0%BC" target="_blank" rel="noopener"
+>&lt;/a>10 表格
+&lt;/h2>&lt;p>通过在每个单元格之间添加竖线作为分隔线, 并在标题下添加一行破折号 (也由竖线分隔) 来创建表格. 注意, 竖线不需要垂直对齐.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">| Option | Description | | ------ | ----------- | | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Option&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>data&lt;/td>
+&lt;td>path to data files to supply the data that will be passed into templates.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>engine&lt;/td>
+&lt;td>engine to be used for processing templates. Handlebars is the default.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ext&lt;/td>
+&lt;td>extension to be used for dest files.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">thead&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">th&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Option&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">th&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">th&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Description&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">th&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">thead&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tbody&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>data&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>path to data files to supply the data that will be passed into templates.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>engine&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>engine to be used for processing templates. Handlebars is the default.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>ext&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>extension to be used for dest files.&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">td&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tr&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">tbody&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">table&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>文本右对齐或居中对齐&lt;/p>
+&lt;p>在任何标题下方的破折号右侧添加冒号将使该列的文本右对齐.&lt;/p>
+&lt;p>在任何标题下方的破折号两边添加冒号将使该列的对齐文本居中.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">| Option | Description | |:------:| -----------:| | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Option&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>data&lt;/td>
+&lt;td>path to data files to supply the data that will be passed into templates.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>engine&lt;/td>
+&lt;td>engine to be used for processing templates. Handlebars is the default.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ext&lt;/td>
+&lt;td>extension to be used for dest files.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntaxlinks11-链接">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxlinks11-%e9%93%be%e6%8e%a5" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#links" target="_blank" rel="noopener"
+>&lt;/a>11 链接
+&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe59fbae69cace993bee68ea5基本链接">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe59fbae69cace993bee68ea5%e5%9f%ba%e6%9c%ac%e9%93%be%e6%8e%a5" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%9F%BA%E6%9C%AC%E9%93%BE%E6%8E%A5" target="_blank" rel="noopener"
+>&lt;/a>基本链接
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">https:&lt;/span>&lt;span class="err">//&lt;/span>&lt;span class="na">assemble&lt;/span>&lt;span class="err">.&lt;/span>&lt;span class="na">io&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">contact&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="na">revolunet&lt;/span>&lt;span class="err">.&lt;/span>&lt;span class="na">com&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> [&lt;span class="nt">Assemble&lt;/span>](&lt;span class="na">https://assemble.io&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下 (将鼠标悬停在链接上，没有提示):&lt;/p>
+&lt;p>&lt;a class="link" href="https://assemble.io/" target="_blank" rel="noopener"
+>https://assemble.io&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="mailto:contact@revolunet.com" >contact@revolunet.com&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://assemble.io/" target="_blank" rel="noopener"
+>Assemble&lt;/a>&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://assemble.io&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>https://assemble.io&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mailto:contact@revolunet.com&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>contact@revolunet.com&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://assemble.io&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Assemble&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe6b7bbe58aa0e4b880e4b8aae6a087e9a298添加一个标题">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe6b7bbe58aa0e4b880e4b8aae6a087e9a298%e6%b7%bb%e5%8a%a0%e4%b8%80%e4%b8%aa%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98" target="_blank" rel="noopener"
+>&lt;/a>添加一个标题
+&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">[&lt;span class="nt">Upstage&lt;/span>](&lt;span class="na">https://github.com/upstage/ &amp;#34;Visit Upstage!&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>呈现的输出效果如下 (将鼠标悬停在链接上，会有一行提示):&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/upstage/" title="Visit Upstage!"
+target="_blank" rel="noopener"
+>Upstage&lt;/a>&lt;/p>
+&lt;p>输出的 HTML 看起来像这样:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://github.com/upstage/&amp;#34;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;Visit Upstage!&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Upstage&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe5ae9ae4bd8de6a087e8aeb0定位标记">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe5ae9ae4bd8de6a087e8aeb0%e5%ae%9a%e4%bd%8d%e6%a0%87%e8%ae%b0" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%AE%9A%E4%BD%8D%E6%A0%87%E8%AE%B0" target="_blank" rel="noopener"
+>&lt;/a>定位标记
+&lt;/h3>&lt;p>定位标记使你可以跳至同一页面上的指定锚点. 例如, 每个章节:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## Table of Contents * [Chapter 1](#chapter-1) * [Chapter 2](#chapter-2) * [Chapter 3](#chapter-3)
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>将跳转到这些部分:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## Chapter 1 &amp;lt;a id=&amp;#34;chapter-1&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one. ## Chapter 2 &amp;lt;a id=&amp;#34;chapter-2&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one. ## Chapter 3 &amp;lt;a id=&amp;#34;chapter-3&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one.
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>注意&lt;/p>
+&lt;p>定位标记的位置几乎是任意的. 因为它们并不引人注目, 所以它们通常被放在同一行了.&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax12-e8849ae6b3a812-脚注">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax12-e8849ae6b3a812-%e8%84%9a%e6%b3%a8" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#12-%E8%84%9A%E6%B3%A8" target="_blank" rel="noopener"
+>&lt;/a>12 脚注
+&lt;/h2>&lt;p>脚注使你可以添加注释和参考, 而不会使文档正文混乱. 当你创建脚注时, 会在添加脚注引用的位置出现带有链接的上标编号. 读者可以单击链接以跳至页面底部的脚注内容.&lt;/p>
+&lt;p>要创建脚注引用, 请在方括号中添加插入符号和标识符 (&lt;code>[^1]&lt;/code>). 标识符可以是数字或单词, 但不能包含空格或制表符. 标识符仅将脚注引用与脚注本身相关联 - 在脚注输出中, 脚注按顺序编号.&lt;/p>
+&lt;p>在中括号内使用插入符号和数字以及用冒号和文本来添加脚注内容 (&lt;code>[^1]：这是一段脚注&lt;/code>). 你不一定要在文档末尾添加脚注. 可以将它们放在除列表, 引用和表格等元素之外的任何位置.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">这是一个数字脚注[^1]. 这是一个带标签的脚注[^label] [^1]: 这是一个数字脚注 [^label]: 这是一个带标签的脚注
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>这是一个数字脚注&lt;sup id="fnref:1">&lt;a href="https://hsj01.github.io/posts/basic-markdown-syntax/#fn:1" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>这是一个带标签的脚注&lt;sup id="fnref:2">&lt;a href="https://hsj01.github.io/posts/basic-markdown-syntax/#fn:2" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax13-e59bbee7898713-图片">
+&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax13-e59bbee7898713-%e5%9b%be%e7%89%87" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#13-%E5%9B%BE%E7%89%87" target="_blank" rel="noopener"
+>&lt;/a>13 图片
+&lt;/h2>&lt;p>图片的语法与链接相似, 但包含一个在前面的感叹号.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Minion&lt;/span>](&lt;span class="na">https://octodex.github.com/images/minion.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://octodex.github.com/images/minion.png"
+loading="lazy"
+alt="https://octodex.github.com/images/minion.png"
+>&lt;/p>
+&lt;p>或者:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Alt text&lt;/span>](&lt;span class="na">https://octodex.github.com/images/stormtroopocat.jpg &amp;#34;The Stormtroopocat&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="https://octodex.github.com/images/stormtroopocat.jpg" title="Alt text"
+target="_blank" rel="noopener"
+>&lt;img src="https://octodex.github.com/images/stormtroopocat.jpg"
+loading="lazy"
+alt="https://octodex.github.com/images/stormtroopocat.jpg"
+>&lt;/a>&lt;/p>
+&lt;p>The Stormtroopocat&lt;/p>
+&lt;p>像链接一样, 图片也具有脚注样式的语法:&lt;/p>
+&lt;p>&lt;a class="link" href="https://octodex.github.com/images/dojocat.jpg" title="Alt text"
+target="_blank" rel="noopener"
+>&lt;img src="https://octodex.github.com/images/dojocat.jpg"
+loading="lazy"
+alt="https://octodex.github.com/images/dojocat.jpg"
+>&lt;/a>&lt;/p>
+&lt;p>The Dojocat&lt;/p>
+&lt;p>稍后在文档中提供参考内容, 用来定义 URL 的位置:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">[id]: https://octodex.github.com/images/dojocat.jpg &amp;#34;The Dojocat&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>标题</title><link>https://example.com/p/%E6%A0%87%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/p/%E6%A0%87%E9%A2%98/</guid><description>&lt;img src="https://example.com/%E5%B0%81%E9%9D%A2" alt="Featured image of post 标题" /></description></item><item><title>连接github.com的22端口被拒绝</title><link>https://example.com/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</guid><description>&lt;img src="https://example.com/%E5%B0%81%E9%9D%A2" alt="Featured image of post 连接github.com的22端口被拒绝" />&lt;h1 id="内容来自网络">
 &lt;a href="#%e5%86%85%e5%ae%b9%e6%9d%a5%e8%87%aa%e7%bd%91%e7%bb%9c" class="header-anchor">#&lt;/a>
 内容来自网络
 &lt;/h1>&lt;p>本文以Windows系统为例进行说明，在个人电脑上使用Git命令来操作GitHub上的项目，本来都很正常，突然某一天开始，会提示如下错误&lt;/p>
