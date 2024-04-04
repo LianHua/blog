@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>似水年华</title><link>https://zlh.pp.ua/</link><description>Recent content on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Thu, 04 Apr 2024 08:40:51 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/index.xml" rel="self" type="application/rss+xml"/><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>用hugo+github搭建bolg</title><link>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</link><pubDate>Wed, 03 Apr 2024 13:38:34 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 用hugo+github搭建bolg" />&lt;h1 id="以下内容摘自网络记录在此方便查阅">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>似水年华</title><link>https://zlh.pp.ua/</link><description>Recent content on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Thu, 04 Apr 2024 08:40:51 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/index.xml" rel="self" type="application/rss+xml"/><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
+&lt;blockquote>
+&lt;p>date -R&lt;/p>
+&lt;/blockquote>
+&lt;p>如果时区及时间不对。执行下面的操作&lt;/p>
+&lt;blockquote>
+&lt;p>cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime&lt;/p>
+&lt;/blockquote>
+&lt;p>再次检查时间&lt;/p>
+&lt;blockquote>
+&lt;p>date -R&lt;/p>
+&lt;/blockquote>
+&lt;p>接下来是添加系统的软件源，这样可以提高安装成功率。输入：&lt;/p>
+&lt;blockquote>
+&lt;p>nano /etc/apt/sources.list&lt;/p>
+&lt;/blockquote>
+&lt;p>然后按方向键到最后在空白处添加以下代码：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
+wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
+>https://get.casaos.io&lt;/a> | bash&lt;/p>
+&lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
+&lt;blockquote>
+&lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
+&lt;/blockquote>
+&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。
+另外，还总结了一些方法：
+换源是可以把原先的软件源用“#”注释掉。比如&lt;/p>
+&lt;blockquote>
+&lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
+&lt;a href="#deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free" class="header-anchor">#&lt;/a>
+deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
+>https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
+&lt;/h1>&lt;/blockquote>
+&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
+另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）
+最后还有小伙伴说他用最新版的底包刷机就成功了，我之前刷机的时候是不成功的。也许是casaos更新了版本的缘故。&lt;/p></description></item><item><title>用hugo+github搭建bolg</title><link>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</link><pubDate>Wed, 03 Apr 2024 13:38:34 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 用hugo+github搭建bolg" />&lt;h1 id="以下内容摘自网络记录在此方便查阅">
 &lt;a href="#%e4%bb%a5%e4%b8%8b%e5%86%85%e5%ae%b9%e6%91%98%e8%87%aa%e7%bd%91%e7%bb%9c%e8%ae%b0%e5%bd%95%e5%9c%a8%e6%ad%a4%e6%96%b9%e4%be%bf%e6%9f%a5%e9%98%85" class="header-anchor">#&lt;/a>
 以下内容摘自网络，记录在此方便查阅。
 &lt;/h1>&lt;blockquote>
@@ -1120,271 +1177,7 @@ data-flex-basis="160px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>相册语法来自 &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
->Typlog&lt;/a>&lt;/p></description></item><item><title>Archives</title><link>https://zlh.pp.ua/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/archives/</guid><description/></item><item><title>Markdown Syntax Guide</title><link>https://zlh.pp.ua/p/markdown-syntax-guide/</link><pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/markdown-syntax-guide/</guid><description>&lt;img src="https://zlh.pp.ua/p/markdown-syntax-guide/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" />&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
-&lt;h2 id="headings">
-&lt;a href="#headings" class="header-anchor">#&lt;/a>
-Headings
-&lt;/h2>&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h1 id="h1">
-&lt;a href="#h1" class="header-anchor">#&lt;/a>
-H1
-&lt;/h1>&lt;h2 id="h2">
-&lt;a href="#h2" class="header-anchor">#&lt;/a>
-H2
-&lt;/h2>&lt;h3 id="h3">
-&lt;a href="#h3" class="header-anchor">#&lt;/a>
-H3
-&lt;/h3>&lt;h4 id="h4">
-&lt;a href="#h4" class="header-anchor">#&lt;/a>
-H4
-&lt;/h4>&lt;h5 id="h5">
-&lt;a href="#h5" class="header-anchor">#&lt;/a>
-H5
-&lt;/h5>&lt;h6 id="h6">
-&lt;a href="#h6" class="header-anchor">#&lt;/a>
-H6
-&lt;/h6>&lt;h2 id="paragraph">
-&lt;a href="#paragraph" class="header-anchor">#&lt;/a>
-Paragraph
-&lt;/h2>&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
-&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
-&lt;h2 id="blockquotes">
-&lt;a href="#blockquotes" class="header-anchor">#&lt;/a>
-Blockquotes
-&lt;/h2>&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
-&lt;h4 id="blockquote-without-attribution">
-&lt;a href="#blockquote-without-attribution" class="header-anchor">#&lt;/a>
-Blockquote without attribution
-&lt;/h4>&lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="blockquote-with-attribution">
-&lt;a href="#blockquote-with-attribution" class="header-anchor">#&lt;/a>
-Blockquote with attribution
-&lt;/h4>&lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
-— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="tables">
-&lt;a href="#tables" class="header-anchor">#&lt;/a>
-Tables
-&lt;/h2>&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Age&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Bob&lt;/td>
-&lt;td>27&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Alice&lt;/td>
-&lt;td>23&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4 id="inline-markdown-within-tables">
-&lt;a href="#inline-markdown-within-tables" class="header-anchor">#&lt;/a>
-Inline Markdown within tables
-&lt;/h4>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Italics&lt;/th>
-&lt;th>Bold&lt;/th>
-&lt;th>Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;em>italics&lt;/em>&lt;/td>
-&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
-&lt;td>&lt;code>code&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>A&lt;/th>
-&lt;th>B&lt;/th>
-&lt;th>C&lt;/th>
-&lt;th>D&lt;/th>
-&lt;th>E&lt;/th>
-&lt;th>F&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/td>
-&lt;td>Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex.&lt;/td>
-&lt;td>Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus&lt;/td>
-&lt;td>Proin sit amet velit nec enim imperdiet vehicula.&lt;/td>
-&lt;td>Ut bibendum vestibulum quam, eu egestas turpis gravida nec&lt;/td>
-&lt;td>Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="code-blocks">
-&lt;a href="#code-blocks" class="header-anchor">#&lt;/a>
-Code Blocks
-&lt;/h2>&lt;h4 id="code-block-with-backticks">
-&lt;a href="#code-block-with-backticks" class="header-anchor">#&lt;/a>
-Code block with backticks
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">
-&lt;a href="#code-block-indented-with-four-spaces" class="header-anchor">#&lt;/a>
-Code block indented with four spaces
-&lt;/h4>&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
-&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
-&amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">
-&lt;a href="#code-block-with-hugos-internal-highlight-shortcode" class="header-anchor">#&lt;/a>
-Code block with Hugo&amp;rsquo;s internal highlight shortcode
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;en&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Example HTML5 Document&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Test&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>
-&lt;h4 id="diff-code-block">
-&lt;a href="#diff-code-block" class="header-anchor">#&lt;/a>
-Diff code block
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-diff" data-lang="diff">&lt;span class="line">&lt;span class="cl">[dependencies.bevy]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git = &amp;#34;https://github.com/bevyengine/bevy&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">rev = &amp;#34;11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13&amp;#34;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">- features = [&amp;#34;dynamic&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gd">&lt;/span>&lt;span class="gi">+ features = [&amp;#34;jpeg&amp;#34;, &amp;#34;dynamic&amp;#34;]
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="list-types">
-&lt;a href="#list-types" class="header-anchor">#&lt;/a>
-List Types
-&lt;/h2>&lt;h4 id="ordered-list">
-&lt;a href="#ordered-list" class="header-anchor">#&lt;/a>
-Ordered List
-&lt;/h4>&lt;ol>
-&lt;li>First item&lt;/li>
-&lt;li>Second item&lt;/li>
-&lt;li>Third item&lt;/li>
-&lt;/ol>
-&lt;h4 id="unordered-list">
-&lt;a href="#unordered-list" class="header-anchor">#&lt;/a>
-Unordered List
-&lt;/h4>&lt;ul>
-&lt;li>List item&lt;/li>
-&lt;li>Another item&lt;/li>
-&lt;li>And another item&lt;/li>
-&lt;/ul>
-&lt;h4 id="nested-list">
-&lt;a href="#nested-list" class="header-anchor">#&lt;/a>
-Nested list
-&lt;/h4>&lt;ul>
-&lt;li>Fruit
-&lt;ul>
-&lt;li>Apple&lt;/li>
-&lt;li>Orange&lt;/li>
-&lt;li>Banana&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Dairy
-&lt;ul>
-&lt;li>Milk&lt;/li>
-&lt;li>Cheese&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">
-&lt;a href="#other-elements--abbr-sub-sup-kbd-mark" class="header-anchor">#&lt;/a>
-Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2>&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
-&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
-&lt;p>Press &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> + &lt;kbd>Delete&lt;/kbd> to end the session.&lt;/p>
-&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
-&lt;h2 id="hyperlinked-image">
-&lt;a href="#hyperlinked-image" class="header-anchor">#&lt;/a>
-Hyperlinked image
-&lt;/h2>&lt;p>&lt;a class="link" href="https://google.com" target="_blank" rel="noopener"
->&lt;img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
-loading="lazy"
-alt="Google"
->&lt;/a>&lt;/p>
-&lt;div class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1">
-&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="link" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" target="_blank" rel="noopener"
->talk&lt;/a> during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/div></description></item><item><title/><link>https://zlh.pp.ua/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
+>Typlog&lt;/a>&lt;/p></description></item><item><title>Archives</title><link>https://zlh.pp.ua/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/archives/</guid><description/></item><item><title/><link>https://zlh.pp.ua/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
 &lt;p>事实上, 编写 Web 内容很麻烦. &lt;strong>WYSIWYG所见即所得&lt;/strong> 编辑器帮助减轻了这一任务. 但通常会导致代码太糟, 或更糟糕的是, 网页也会很丑.&lt;/p>
 &lt;p>没有通常伴随的所有复杂和丑陋的问题, &lt;strong>Markdown&lt;/strong> 是一种更好的生成 &lt;strong>HTML&lt;/strong> 内容的方式.&lt;/p>
 &lt;p>一些主要好处是:&lt;/p>
