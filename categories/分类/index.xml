@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分类 on 似水年华</title><link>https://zlh.pp.ua/categories/%E5%88%86%E7%B1%BB/</link><description>Recent content in 分类 on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Sat, 06 Apr 2024 11:35:35 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/categories/%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>雨下一整晚</title><link>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 雨下一整晚" />&lt;p>时间来到三月。温州的天气如约的成了灰蒙蒙的，每到这个时候，房间里都散发着一种腐烂的味道。令人不愉快。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>分类 on 似水年华</title><link>https://zlh.pp.ua/categories/%E5%88%86%E7%B1%BB/</link><description>Recent content in 分类 on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Sat, 06 Apr 2024 11:35:35 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/categories/%E5%88%86%E7%B1%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>雨下一整晚</title><link>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 雨下一整晚" />&lt;p>时间来到三月。温州的天气如约的成了灰蒙蒙的，每到这个时候，房间里都散发着一种腐烂的味道。令人不愉快。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">//代码复制按钮
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">.article-content .copyCodeButton {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> position: absolute;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> top: 10px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> right: 18px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> border-radius: 12px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> opacity: 1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> color: #ffffffad;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> background: none;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> border: none;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> padding: 0;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> font-weight: 500;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">.article-content .languageCodeButton {
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> position: absolute;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> border: none;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> top: 9px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> right: 69px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> border-radius: 12px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> opacity: 1;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> padding: 0 5px;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> background: 0;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> color: #ffffffad;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> font-family: lato;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> font-size: 1.5rem;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
 >https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
 &lt;p>date -R&lt;/p>
@@ -16,19 +44,7 @@
 &lt;p>nano /etc/apt/sources.list&lt;/p>
 &lt;/blockquote>
 &lt;p>然后按方向键到最后在空白处添加以下代码：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
@@ -36,9 +52,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
 >https://get.casaos.io&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
@@ -1115,25 +1129,13 @@ loading="lazy"
 &lt;blockquote>
 &lt;p>ssh: connect to host github.com port 22: Connection refused。&lt;/p>
 &lt;/blockquote>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ git pull
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ git pull
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ssh: connect to host github.com port 22: Connection refused
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">fatal: Could not read from remote repository.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">​
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Please make sure you have the correct access rights
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">and the repository exists.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>排查思路&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>排查思路&lt;/p>
 &lt;blockquote>
 &lt;p>ssh: connect to host github.com port 22: Connection refused&lt;br>
 这个错误提示的是连接github.com的22端口被拒绝了。&lt;/p>
@@ -1142,65 +1144,21 @@ loading="lazy"
 &lt;p>网上搜索这个报错，发现很多人遇到这个问题，大概有2个原因和对应解决方案：&lt;/p>
 &lt;p>使用GitHub的443端口
 22端口可能被防火墙屏蔽了，可以尝试连接GitHub的443端口。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ vim ~/.ssh/config
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h1 id="add-section-below-to-it">
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ vim ~/.ssh/config
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="add-section-below-to-it">
 &lt;a href="#add-section-below-to-it" class="header-anchor">#&lt;/a>
 Add section below to it
 &lt;/h1>&lt;p>Host github.com
 Hostname ssh.github.com
 Port 443&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ ssh -T git@github.com
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">$ ssh -T git@github.com
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">provide shell access.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">这个解决方案的思路是：给~/.ssh/config文件里添加如下内容，这样ssh连接GitHub的时候就会使用443端口。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Host github.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Host github.com
 Hostname ssh.github.com
 Port 443&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;span class="lnt">23
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">如果~/.ssh目录下没有config文件，新建一个即可。
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">如果~/.ssh目录下没有config文件，新建一个即可。
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">修改完~/.ssh/config文件后，使用ssh -T git@github.com来测试和GitHub的网络通信是否正常，如果提示Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access. 就表示一切正常了。
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -1223,6 +1181,4 @@ Port 443&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">这个其实修改的是repo根目录下的./git/config文件。
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">但是这个方法在我这里同样不生效。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
