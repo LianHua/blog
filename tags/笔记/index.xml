@@ -43,13 +43,9 @@
 💻Git 基本配置
 &lt;/h3>&lt;p>安装好 Git 需要一些基本配置。&lt;/p>
 &lt;p>随便一个位置鼠标右键打开 Git Bash，配置用户名和邮箱。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;span>2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>然后在 Git bash 使用：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;span>2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>查看你的用户名和邮箱配置信息。&lt;/p>
 &lt;h3 id="与-github-创建连接">
 &lt;a href="#%e4%b8%8e-github-%e5%88%9b%e5%bb%ba%e8%bf%9e%e6%8e%a5" class="header-anchor">#&lt;/a>
@@ -173,38 +169,11 @@ loading="lazy"
 &lt;a href="#yaml" class="header-anchor">#&lt;/a>
 📋YAML
 &lt;/h3>&lt;p>大概说一下stack主题给的示例：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>也可以添加&lt;/p>
 &lt;p>标签会显示在主页标签云内。&lt;/p>
 &lt;p>下面是我的 YAML 模板，可以参考。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;blockquote>
 &lt;p>然后，好像没什么了。本地成功调试 OK 就可以把他给发布到网上了。&lt;/p>
 &lt;/blockquote>
@@ -240,9 +209,7 @@ loading="lazy"
 &lt;p>❌这里可能会报错，如果报错，应该就是代理的问题。&lt;/p>
 &lt;/blockquote>
 &lt;p>到终端用下面的命令改一下 git 的代理，7890 改为自己的端口。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;span>2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>然后成功把自己本地 Git 仓库发布到了 Github 远程仓库。&lt;/p>
 &lt;h4 id="部署到-vercel">
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
@@ -331,74 +298,11 @@ loading="lazy"
 &lt;/ul>
 &lt;p>QuickAdd 使用 Template 创建一个在确定文件夹里新建文件的指令。然后用 Buttons 绑定这个指令。&lt;/p>
 &lt;p>新建个文件，粘贴以下内容（记得删除转义&lt;code>\&lt;/code>）：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>给页面定义一个 CSS 类&lt;code>sidebar&lt;/code>，然后在 obsidian 设置👉外观，添加 css 代码片段。样式自定义，下面是我的，提供参考。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;span>20
-&lt;/span>&lt;span>21
-&lt;/span>&lt;span>22
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>Button 按钮 CSS 参考：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;span>20
-&lt;/span>&lt;span>21
-&lt;/span>&lt;span>22
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;blockquote>
 &lt;p>我的按钮向上偏移了一定量，为了跟标题在一行。&lt;/p>
 &lt;/blockquote>
@@ -410,25 +314,7 @@ loading="lazy"
 &lt;/blockquote>
 &lt;p>新建一个模板文件夹，创建一个文章模板。&lt;/p>
 &lt;p>我的模板👇&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>同上一节，使用 QuickAdd 创建快捷指令，将文章新建在&lt;code>content/post&lt;/code>文件夹下。文件名称&lt;code>{{Date:YYYYMMDDHHmmss}}/index&lt;/code>，含义是创建一个时间命名的文件夹，在这个文件夹下创建一个 index 文件。&lt;/p>
 &lt;blockquote>
 &lt;p>⚠&lt;/p>
@@ -449,18 +335,7 @@ loading="lazy"
 &lt;a href="#%e6%9c%ac%e5%9c%b0-js-%e8%84%9a%e6%9c%ac" class="header-anchor">#&lt;/a>
 🎛本地 js 脚本
 &lt;/h4>&lt;p>建立一个&lt;code>preview.js&lt;/code>文件，写入以下内容：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>就是 shell 命令，&lt;code>cd&lt;/code>到网站根目录，执行&lt;code>hugo server&lt;/code> 然后浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
 &lt;p>⚠这会弹出一个终端窗口，关闭窗口就会关闭 &lt;code>hugo server&lt;/code>&lt;/p>
 &lt;p>然后将这个脚本和主页标题创建链接：&lt;/p>
@@ -472,8 +347,7 @@ loading="lazy"
 &lt;a href="#shell-commands-%e6%8f%92%e4%bb%b6" class="header-anchor">#&lt;/a>
 💻Shell Commands 插件
 &lt;/h4>&lt;p>新建一个 shell 命令，粘贴，&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>原理相同，打开 hugo 服务，浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
 &lt;p>同样会出现一个终端窗口，关闭终端退出 hugo server。&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321110306.png"
@@ -489,18 +363,7 @@ loading="lazy"
 loading="lazy"
 >&lt;/p>
 &lt;p>Obsidian 主页添加一个数据表格，进行文章的管理。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>检索&lt;code>content/post&lt;/code>文件夹下的文章，展示其元数据。&lt;/p>
 &lt;h3 id="一键发布">
 &lt;a href="#%e4%b8%80%e9%94%ae%e5%8f%91%e5%b8%83" class="header-anchor">#&lt;/a>
@@ -512,43 +375,7 @@ loading="lazy"
 &lt;/h4>&lt;p>部署到 Vercel 的话，需要整个网站目录是 git 仓库，利用 Obsidian Git 插件将仓库&lt;code>push&lt;/code>到 Github，再利用 GithubAction 实现自动编译，并把 public 目录添加到 gh-pages 分支。参考—&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
 >这篇文章&lt;/a>&lt;/p>
 &lt;p>需要在网站根目录创建&lt;code>.github/workflows&lt;/code>目录，新建一个&lt;code>main.yml&lt;/code>文件，写入以下内容：&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;span>20
-&lt;/span>&lt;span>21
-&lt;/span>&lt;span>22
-&lt;/span>&lt;span>23
-&lt;/span>&lt;span>24
-&lt;/span>&lt;span>25
-&lt;/span>&lt;span>26
-&lt;/span>&lt;span>27
-&lt;/span>&lt;span>28
-&lt;/span>&lt;span>29
-&lt;/span>&lt;span>30
-&lt;/span>&lt;span>31
-&lt;/span>&lt;span>32
-&lt;/span>&lt;span>33
-&lt;/span>&lt;span>34
-&lt;/span>&lt;span>35
-&lt;/span>&lt;span>36
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>Github Action 检测到 main 分支新的 Push，将 main 分支自动编译成网页文件到&lt;code>public&lt;/code>文件夹。并将 &lt;code>public&lt;/code>文件夹同步到&lt;code>gh-pages&lt;/code>分支。Vercel 部署&lt;code>gh-pages&lt;/code>分支。&lt;/p>
 &lt;p>在 obsidian 中使用 Git 插件，执行 &lt;code>git commit&lt;/code>和 &lt;code>git push&lt;/code>。（可以用 QuickAdd 或者 Commander 插件将这两步骤创建宏。）&lt;/p>
 &lt;p>再用 Commander 插件将命令按钮添加到喜欢的位置。&lt;/p>
@@ -560,16 +387,12 @@ loading="lazy"
 >基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
 &lt;p>先删除网站目录的 public 文件夹。&lt;/p>
 &lt;p>在博客网站的根目录打开&lt;code>git bush&lt;/code>，执行下面命令把服务器 Git 仓库&lt;code>clone&lt;/code>到网站&lt;code>public&lt;/code>目录。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;blockquote>
 &lt;p>后面是你之前配置的仓库位置。&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;code>clone&lt;/code> 下来后，执行&lt;code>hugo -D&lt;/code>编译网站，再&lt;code>cd public&lt;/code>到 &lt;code>public&lt;/code> 目录。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;span>2
-&lt;/span>&lt;span>3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>一套操作下来，将本地编译好的&lt;code>public&lt;/code>文件夹 push 到远程服务器仓库。&lt;/p>
 &lt;blockquote>
 &lt;p>❗前提是正确配置钩子，同样参考上述文章。&lt;/p>
@@ -583,8 +406,7 @@ loading="lazy"
 &lt;p>❗设置 shell 的工作目录是网站目录路径，也就是 obsidian 库根目录。&lt;/p>
 &lt;/blockquote>
 &lt;p>添加&lt;code>shell&lt;/code>命令。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;blockquote>
 &lt;p>这段命令首先&lt;code>hugo -D&lt;/code>编译网站，然后转到 &lt;code>public&lt;/code>文件夹，运行 git 发布三部曲。在&lt;code>cd ..&lt;/code>回到网站根目录。&lt;/p>
 &lt;/blockquote>
@@ -652,221 +474,9 @@ loading="lazy"
 >基于 Memos 实现说说和清单功能&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
 &lt;p>在&lt;code>layouts/partials/widget&lt;/code>文件夹下新建一个 memos.html 文件，粘贴如下内容。样式脚本都包含在这个文件内。&lt;/p>
 &lt;p>下面脚本里的网址都换成自己的 memos 域名。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span> 10
-&lt;/span>&lt;span> 11
-&lt;/span>&lt;span> 12
-&lt;/span>&lt;span> 13
-&lt;/span>&lt;span> 14
-&lt;/span>&lt;span> 15
-&lt;/span>&lt;span> 16
-&lt;/span>&lt;span> 17
-&lt;/span>&lt;span> 18
-&lt;/span>&lt;span> 19
-&lt;/span>&lt;span> 20
-&lt;/span>&lt;span> 21
-&lt;/span>&lt;span> 22
-&lt;/span>&lt;span> 23
-&lt;/span>&lt;span> 24
-&lt;/span>&lt;span> 25
-&lt;/span>&lt;span> 26
-&lt;/span>&lt;span> 27
-&lt;/span>&lt;span> 28
-&lt;/span>&lt;span> 29
-&lt;/span>&lt;span> 30
-&lt;/span>&lt;span> 31
-&lt;/span>&lt;span> 32
-&lt;/span>&lt;span> 33
-&lt;/span>&lt;span> 34
-&lt;/span>&lt;span> 35
-&lt;/span>&lt;span> 36
-&lt;/span>&lt;span> 37
-&lt;/span>&lt;span> 38
-&lt;/span>&lt;span> 39
-&lt;/span>&lt;span> 40
-&lt;/span>&lt;span> 41
-&lt;/span>&lt;span> 42
-&lt;/span>&lt;span> 43
-&lt;/span>&lt;span> 44
-&lt;/span>&lt;span> 45
-&lt;/span>&lt;span> 46
-&lt;/span>&lt;span> 47
-&lt;/span>&lt;span> 48
-&lt;/span>&lt;span> 49
-&lt;/span>&lt;span> 50
-&lt;/span>&lt;span> 51
-&lt;/span>&lt;span> 52
-&lt;/span>&lt;span> 53
-&lt;/span>&lt;span> 54
-&lt;/span>&lt;span> 55
-&lt;/span>&lt;span> 56
-&lt;/span>&lt;span> 57
-&lt;/span>&lt;span> 58
-&lt;/span>&lt;span> 59
-&lt;/span>&lt;span> 60
-&lt;/span>&lt;span> 61
-&lt;/span>&lt;span> 62
-&lt;/span>&lt;span> 63
-&lt;/span>&lt;span> 64
-&lt;/span>&lt;span> 65
-&lt;/span>&lt;span> 66
-&lt;/span>&lt;span> 67
-&lt;/span>&lt;span> 68
-&lt;/span>&lt;span> 69
-&lt;/span>&lt;span> 70
-&lt;/span>&lt;span> 71
-&lt;/span>&lt;span> 72
-&lt;/span>&lt;span> 73
-&lt;/span>&lt;span> 74
-&lt;/span>&lt;span> 75
-&lt;/span>&lt;span> 76
-&lt;/span>&lt;span> 77
-&lt;/span>&lt;span> 78
-&lt;/span>&lt;span> 79
-&lt;/span>&lt;span> 80
-&lt;/span>&lt;span> 81
-&lt;/span>&lt;span> 82
-&lt;/span>&lt;span> 83
-&lt;/span>&lt;span> 84
-&lt;/span>&lt;span> 85
-&lt;/span>&lt;span> 86
-&lt;/span>&lt;span> 87
-&lt;/span>&lt;span> 88
-&lt;/span>&lt;span> 89
-&lt;/span>&lt;span> 90
-&lt;/span>&lt;span> 91
-&lt;/span>&lt;span> 92
-&lt;/span>&lt;span> 93
-&lt;/span>&lt;span> 94
-&lt;/span>&lt;span> 95
-&lt;/span>&lt;span> 96
-&lt;/span>&lt;span> 97
-&lt;/span>&lt;span> 98
-&lt;/span>&lt;span> 99
-&lt;/span>&lt;span>100
-&lt;/span>&lt;span>101
-&lt;/span>&lt;span>102
-&lt;/span>&lt;span>103
-&lt;/span>&lt;span>104
-&lt;/span>&lt;span>105
-&lt;/span>&lt;span>106
-&lt;/span>&lt;span>107
-&lt;/span>&lt;span>108
-&lt;/span>&lt;span>109
-&lt;/span>&lt;span>110
-&lt;/span>&lt;span>111
-&lt;/span>&lt;span>112
-&lt;/span>&lt;span>113
-&lt;/span>&lt;span>114
-&lt;/span>&lt;span>115
-&lt;/span>&lt;span>116
-&lt;/span>&lt;span>117
-&lt;/span>&lt;span>118
-&lt;/span>&lt;span>119
-&lt;/span>&lt;span>120
-&lt;/span>&lt;span>121
-&lt;/span>&lt;span>122
-&lt;/span>&lt;span>123
-&lt;/span>&lt;span>124
-&lt;/span>&lt;span>125
-&lt;/span>&lt;span>126
-&lt;/span>&lt;span>127
-&lt;/span>&lt;span>128
-&lt;/span>&lt;span>129
-&lt;/span>&lt;span>130
-&lt;/span>&lt;span>131
-&lt;/span>&lt;span>132
-&lt;/span>&lt;span>133
-&lt;/span>&lt;span>134
-&lt;/span>&lt;span>135
-&lt;/span>&lt;span>136
-&lt;/span>&lt;span>137
-&lt;/span>&lt;span>138
-&lt;/span>&lt;span>139
-&lt;/span>&lt;span>140
-&lt;/span>&lt;span>141
-&lt;/span>&lt;span>142
-&lt;/span>&lt;span>143
-&lt;/span>&lt;span>144
-&lt;/span>&lt;span>145
-&lt;/span>&lt;span>146
-&lt;/span>&lt;span>147
-&lt;/span>&lt;span>148
-&lt;/span>&lt;span>149
-&lt;/span>&lt;span>150
-&lt;/span>&lt;span>151
-&lt;/span>&lt;span>152
-&lt;/span>&lt;span>153
-&lt;/span>&lt;span>154
-&lt;/span>&lt;span>155
-&lt;/span>&lt;span>156
-&lt;/span>&lt;span>157
-&lt;/span>&lt;span>158
-&lt;/span>&lt;span>159
-&lt;/span>&lt;span>160
-&lt;/span>&lt;span>161
-&lt;/span>&lt;span>162
-&lt;/span>&lt;span>163
-&lt;/span>&lt;span>164
-&lt;/span>&lt;span>165
-&lt;/span>&lt;span>166
-&lt;/span>&lt;span>167
-&lt;/span>&lt;span>168
-&lt;/span>&lt;span>169
-&lt;/span>&lt;span>170
-&lt;/span>&lt;span>171
-&lt;/span>&lt;span>172
-&lt;/span>&lt;span>173
-&lt;/span>&lt;span>174
-&lt;/span>&lt;span>175
-&lt;/span>&lt;span>176
-&lt;/span>&lt;span>177
-&lt;/span>&lt;span>178
-&lt;/span>&lt;span>179
-&lt;/span>&lt;span>180
-&lt;/span>&lt;span>181
-&lt;/span>&lt;span>182
-&lt;/span>&lt;span>183
-&lt;/span>&lt;span>184
-&lt;/span>&lt;span>185
-&lt;/span>&lt;span>186
-&lt;/span>&lt;span>187
-&lt;/span>&lt;span>188
-&lt;/span>&lt;span>189
-&lt;/span>&lt;span>190
-&lt;/span>&lt;span>191
-&lt;/span>&lt;span>192
-&lt;/span>&lt;span>193
-&lt;/span>&lt;span>194
-&lt;/span>&lt;span>195
-&lt;/span>&lt;span>196
-&lt;/span>&lt;span>197
-&lt;/span>&lt;span>198
-&lt;/span>&lt;span>199
-&lt;/span>&lt;span>200
-&lt;/span>&lt;span>201
-&lt;/span>&lt;span>202
-&lt;/span>&lt;span>203
-&lt;/span>&lt;span>204
-&lt;/span>&lt;span>205
-&lt;/span>&lt;span>206
-&lt;/span>&lt;span>207
-&lt;/span>&lt;span>208
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>然后到主题配置文件，引用一下新建的小部件。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
-&lt;/span>&lt;span>2
-&lt;/span>&lt;span>3
-&lt;/span>&lt;span>4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>实现的效果&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321130301.png"
 loading="lazy"
@@ -881,126 +491,11 @@ loading="lazy"
 &lt;/h3>&lt;p>参考空白大佬的&lt;a class="link" href="https://github.com/koobai/blog/tree/main" target="_blank" rel="noopener"
 >网站源码&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
 &lt;p>关于这种添加侧边栏页面的操作，需要在 &lt;code>content/page&lt;/code>文件夹下新建文件夹，新建的文件夹里创建一个&lt;code>index.md&lt;/code>文件。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>&lt;code>layout&lt;/code> 属性是指引用哪一个布局文件，存放在&lt;code>layouts/_default&lt;/code>文件夹下。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;span>20
-&lt;/span>&lt;span>21
-&lt;/span>&lt;span>22
-&lt;/span>&lt;span>23
-&lt;/span>&lt;span>24
-&lt;/span>&lt;span>25
-&lt;/span>&lt;span>26
-&lt;/span>&lt;span>27
-&lt;/span>&lt;span>28
-&lt;/span>&lt;span>29
-&lt;/span>&lt;span>30
-&lt;/span>&lt;span>31
-&lt;/span>&lt;span>32
-&lt;/span>&lt;span>33
-&lt;/span>&lt;span>34
-&lt;/span>&lt;span>35
-&lt;/span>&lt;span>36
-&lt;/span>&lt;span>37
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;p>再给页面添加 CSS 样式，可以直接在&lt;code>assets/scss&lt;/code>目录下新建一个 scss 文件，记得在 style.scss 导入新建的样式文件，也可以直接写在 &lt;code>custom.scss&lt;/code>文件中。&lt;/p>
-&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
-&lt;/span>&lt;span> 2
-&lt;/span>&lt;span> 3
-&lt;/span>&lt;span> 4
-&lt;/span>&lt;span> 5
-&lt;/span>&lt;span> 6
-&lt;/span>&lt;span> 7
-&lt;/span>&lt;span> 8
-&lt;/span>&lt;span> 9
-&lt;/span>&lt;span>10
-&lt;/span>&lt;span>11
-&lt;/span>&lt;span>12
-&lt;/span>&lt;span>13
-&lt;/span>&lt;span>14
-&lt;/span>&lt;span>15
-&lt;/span>&lt;span>16
-&lt;/span>&lt;span>17
-&lt;/span>&lt;span>18
-&lt;/span>&lt;span>19
-&lt;/span>&lt;span>20
-&lt;/span>&lt;span>21
-&lt;/span>&lt;span>22
-&lt;/span>&lt;span>23
-&lt;/span>&lt;span>24
-&lt;/span>&lt;span>25
-&lt;/span>&lt;span>26
-&lt;/span>&lt;span>27
-&lt;/span>&lt;span>28
-&lt;/span>&lt;span>29
-&lt;/span>&lt;span>30
-&lt;/span>&lt;span>31
-&lt;/span>&lt;span>32
-&lt;/span>&lt;span>33
-&lt;/span>&lt;span>34
-&lt;/span>&lt;span>35
-&lt;/span>&lt;span>36
-&lt;/span>&lt;span>37
-&lt;/span>&lt;span>38
-&lt;/span>&lt;span>39
-&lt;/span>&lt;span>40
-&lt;/span>&lt;span>41
-&lt;/span>&lt;span>42
-&lt;/span>&lt;span>43
-&lt;/span>&lt;span>44
-&lt;/span>&lt;span>45
-&lt;/span>&lt;span>46
-&lt;/span>&lt;span>47
-&lt;/span>&lt;span>48
-&lt;/span>&lt;span>49
-&lt;/span>&lt;span>50
-&lt;/span>&lt;span>51
-&lt;/span>&lt;span>52
-&lt;/span>&lt;span>53
-&lt;/span>&lt;span>54
-&lt;/span>&lt;span>55
-&lt;/span>&lt;span>56
-&lt;/span>&lt;span>57
-&lt;/span>&lt;span>58
-&lt;/span>&lt;span>59
-&lt;/span>&lt;span>60
-&lt;/span>&lt;span>61
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
+&lt;!-- raw HTML omitted -->
 &lt;h3 id="加载界面">
 &lt;a href="#%e5%8a%a0%e8%bd%bd%e7%95%8c%e9%9d%a2" class="header-anchor">#&lt;/a>
 ⭕加载界面

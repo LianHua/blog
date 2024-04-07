@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>标签2 on 似水年华</title><link>https://zlh.pp.ua/tags/%E6%A0%87%E7%AD%BE2/</link><description>Recent content in 标签2 on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Sat, 06 Apr 2024 11:35:35 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/tags/%E6%A0%87%E7%AD%BE2/index.xml" rel="self" type="application/rss+xml"/><item><title>雨下一整晚</title><link>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 雨下一整晚" />&lt;p>时间来到三月。温州的天气如约的成了灰蒙蒙的，每到这个时候，房间里都散发着一种腐烂的味道。令人不愉快。&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="l">//代码复制按钮&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">.article-content .copyCodeButton {&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">position&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">absolute;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">top&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">10px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">right&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">18px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">border-radius&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">12px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">opacity&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="l">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">color&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#ffffffad;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">background&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">none;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">border&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">none;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">padding&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="l">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">font-weight&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">500&lt;/span>&lt;span class="l">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>}&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">.article-content .languageCodeButton {&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">position&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">absolute;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">border&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">none;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">top&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">9px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">right&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">69px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">border-radius&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">12px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">opacity&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="l">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">padding&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">5px;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">background&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="l">;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">color&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c">#ffffffad;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">font-family&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">lato;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">font-size&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1.&lt;/span>&lt;span class="l">5rem;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>}&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[START HERE]&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-c" data-lang="c">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">int&lt;/span> &lt;span class="nf">hash&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">char&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">length&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="c1">// hash function
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kt">int&lt;/span> &lt;span class="n">hash&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">length&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">hash&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">((&lt;/span>&lt;span class="n">hash&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">str&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">i&lt;/span>&lt;span class="p">])&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="mi">31&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="n">MAX_ID&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="c1">// maximum of ID?
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">hash&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">//代码复制按钮&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">.article-content .copyCodeButton {&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">absolute;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">top&lt;/span>: &lt;span style="color:#ae81ff">10px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">right&lt;/span>: &lt;span style="color:#ae81ff">18px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">border-radius&lt;/span>: &lt;span style="color:#ae81ff">12px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">opacity&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#ae81ff">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">color&lt;/span>: &lt;span style="color:#75715e">#ffffffad;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">background&lt;/span>: &lt;span style="color:#ae81ff">none;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">border&lt;/span>: &lt;span style="color:#ae81ff">none;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">padding&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#ae81ff">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-weight&lt;/span>: &lt;span style="color:#ae81ff">500&lt;/span>&lt;span style="color:#ae81ff">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">.article-content .languageCodeButton {&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">absolute;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">border&lt;/span>: &lt;span style="color:#ae81ff">none;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">top&lt;/span>: &lt;span style="color:#ae81ff">9px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">right&lt;/span>: &lt;span style="color:#ae81ff">69px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">border-radius&lt;/span>: &lt;span style="color:#ae81ff">12px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">opacity&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#ae81ff">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">padding&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#ae81ff">5px;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">background&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span>&lt;span style="color:#ae81ff">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">color&lt;/span>: &lt;span style="color:#75715e">#ffffffad;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-family&lt;/span>: &lt;span style="color:#ae81ff">lato;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-size&lt;/span>: &lt;span style="color:#ae81ff">1.&lt;/span>&lt;span style="color:#ae81ff">5rem;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[START HERE]&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">hash&lt;/span>(&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span> str, &lt;span style="color:#66d9ef">int&lt;/span> length) { &lt;span style="color:#75715e">// hash function
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> hash &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> length; i&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hash &lt;span style="color:#f92672">=&lt;/span> ((hash &lt;span style="color:#f92672">+&lt;/span> str[i]) &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#ae81ff">31&lt;/span>) &lt;span style="color:#f92672">%&lt;/span> MAX_ID; &lt;span style="color:#75715e">// maximum of ID?
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> hash;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
 >https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
@@ -52,23 +52,23 @@
 &lt;p>nano /etc/apt/sources.list&lt;/p>
 &lt;/blockquote>
 &lt;p>然后按方向键到最后在空白处添加以下代码：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="l">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="l">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="c"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以&lt;br>
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
 >https://get.casaos.io&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
 &lt;blockquote>
 &lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
 &lt;/blockquote>
-&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。
-另外，还总结了一些方法：
+&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。&lt;br>
+另外，还总结了一些方法：&lt;br>
 换源是可以把原先的软件源用“#”注释掉。比如&lt;/p>
 &lt;blockquote>
 &lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
@@ -76,6 +76,6 @@ wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="n
 deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
 &lt;/h1>&lt;/blockquote>
-&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
-另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）
+&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。&lt;br>
+另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）&lt;br>
 最后还有小伙伴说他用最新版的底包刷机就成功了，我之前刷机的时候是不成功的。也许是casaos更新了版本的缘故。&lt;/p></description></item><item><title>标题</title><link>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 标题" /></description></item></channel></rss>

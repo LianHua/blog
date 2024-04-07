@@ -55,8 +55,8 @@ class="gallery-image"
 data-flex-grow="66"
 data-flex-basis="160px"
 >&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span class="na">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span class="na">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span class="na">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span class="nt">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span class="na">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Photo by Florian Klauer on Unsplash&lt;/span>](&lt;span style="color:#a6e22e">florian-klauer-nptLmg6jqDo-unsplash.jpg&lt;/span>) ![&lt;span style="color:#f92672">Photo by Luca Bravo on Unsplash&lt;/span>](&lt;span style="color:#a6e22e">luca-bravo-alS7ewQ41M8-unsplash.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Photo by Helena Hertz on Unsplash&lt;/span>](&lt;span style="color:#a6e22e">helena-hertz-wWZzXlDpMog-unsplash.jpg&lt;/span>) ![&lt;span style="color:#f92672">Photo by Hudai Gayiran on Unsplash&lt;/span>](&lt;span style="color:#a6e22e">hudai-gayiran-3Od_VKcDEAA-unsplash.jpg&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>相册语法来自 &lt;a class="link" href="https://typlog.com/" target="_blank" rel="noopener"
 >Typlog&lt;/a>&lt;/p></description></item></channel></rss>
