@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on 似水年华</title><link>https://zlh.pp.ua/tags/hugo/</link><description>Recent content in Hugo on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Sun, 07 Apr 2024 16:31:40 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugostack主题美化参考</title><link>https://zlh.pp.ua/p/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://zlh.pp.ua/p/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;p>[李慕然的一天]（https://limuran.top/p/hugo-stack-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/#%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F%E7%BE%8E%E5%8C%96 &amp;ldquo;Hugo Stack 主题美化&amp;rdquo;）&lt;/p>
+&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig&lt;/a>&lt;/p></description></item><item><title>hugo搭建博客</title><link>https://zlh.pp.ua/p/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://zlh.pp.ua/" >&lt;img src="https://zlh.pp.ua/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
+loading="lazy"
+alt="Avatar"
+>&lt;/a>😎&lt;/p>
+&lt;h2 id="目录">
+&lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
+目录
+&lt;/h2>&lt;ol>
+&lt;li>&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >Hugo 环境搭建&lt;/a>
+&lt;ol>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >安装 VS Code&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >安装 Git&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >安装 Hugo&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >Hugo博客搭建&lt;/a>
+&lt;ol>
+&lt;li>&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >初始化博客&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >Stack 主题安装&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >配置博客各个页面&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >开始创作&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >预览博客&lt;/a>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>&lt;a class="link" href="https://zlh.pp.ua/post/hugo-stack/" >&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp"
+loading="lazy"
+alt="Featured image of post 投入 Hugo 的怀抱！"
+>&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://zlh.pp.ua/categories/%E5%8E%9F%E5%88%9B/" >原创&lt;/a> &lt;a class="link" href="https://zlh.pp.ua/categories/%E6%8A%98%E8%85%BE/" >折腾&lt;/a>&lt;/p>
+&lt;h2 id="投入-hugo-的怀抱posthugo-stack">
+&lt;a href="#%e6%8a%95%e5%85%a5-hugo-%e7%9a%84%e6%80%80%e6%8a%b1posthugo-stack" class="header-anchor">#&lt;/a>
+&lt;a class="link" href="https://zlh.pp.ua/post/hugo-stack/" >投入 Hugo 的怀抱！&lt;/a>
+&lt;/h2>&lt;p>这篇文章主要介绍了作者在 Windows 11 系统下搭建 Hugo 环境的过程，包括安装 VS Code、Git 和 Hugo，以及使用 Stack 主题搭建博客的步骤。文章详细介绍了安装步骤和配置方法，包括下载安装软件、设置环境变量、初始化博客、安装主题、配置页面、创作文章和预览博客等内容。作者分享了自己的经验和遇到的问题，并提供了解决方案。整体内容涵盖了从环境搭建到博客搭建的全过程，适合初学者参考。&lt;/p>
+&lt;p>document.addEventListener(&amp;ldquo;DOMContentLoaded&amp;rdquo;,function(){const e=document.querySelector(&amp;quot;.ai-explanation-content&amp;quot;).textContent;new TypeIt(&amp;quot;#ai-explanation&amp;quot;,{strings:e,speed:10,lifeLike:!0,waitUntilVisible:!0}).go()})&lt;/p>
+&lt;blockquote>
+&lt;p>我的环境参数：&lt;/p>
+&lt;ul>
+&lt;li>Windows 11 22H2&lt;/li>
+&lt;li>Google Chrome 114&lt;/li>
+&lt;li>Markdown 编辑器：VS Code&lt;/li>
+&lt;li>博客配置编辑器：VS Code&lt;/li>
+&lt;li>命令行工具：Windows Terminal&lt;/li>
+&lt;li>Git 工具：GitHub Desktop&lt;/li>
+&lt;li>Hugo 版本：0.114.0_extended（笑死，一开始写的时候版本还是 0.112.3）&lt;/li>
+&lt;li>Hugo 主题：Stack&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="hugo-环境搭建hugo-环境搭建">
+&lt;a href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%bahugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" class="header-anchor">#&lt;/a>
+Hugo 环境搭建&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >#&lt;/a>
+&lt;/h2>&lt;h3 id="安装-vs-code安装-vs-code">
+&lt;a href="#%e5%ae%89%e8%a3%85-vs-code%e5%ae%89%e8%a3%85-vs-code" class="header-anchor">#&lt;/a>
+安装 VS Code&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >#&lt;/a>
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>从&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
+>官网&lt;/a>获取 VS Code 安装包（国内直接下载速度慢，可将下载链接中的域名替换为 &lt;code>vscode.cdn.azure.cn&lt;/code>，下载速度直接起飞）&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select Additional Tasks 中把下面列出的全部选项打勾&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Add “Open with Code” action to Windows Explorer file context menu&lt;/li>
+&lt;li>Add “Open with Code” action to Windows Explorer directory context menu&lt;/li>
+&lt;li>Register Code as an editor for supported file types&lt;/li>
+&lt;li>Add to PATH (requires shell restart)&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>install 开始安装，等待安装完成后选择 Finish&lt;/li>
+&lt;/ol>
+&lt;p>至此，VS Code 就安装完成了，接下来安装 Git&lt;/p>
+&lt;h3 id="安装-git安装-git">
+&lt;a href="#%e5%ae%89%e8%a3%85-git%e5%ae%89%e8%a3%85-git" class="header-anchor">#&lt;/a>
+安装 Git&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >#&lt;/a>
+&lt;/h3>&lt;p>小白直接上手 git 感觉门槛有点高，还是建议装 git 的 GUI 版本&lt;br>
+我选的是 GitHub Desktop&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>官网下载安装包&lt;br>
+下载地址：&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
+>https://desktop.github.com/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>使用 &lt;a class="link" href="https://github.com/robotze/GithubDesktopZhTool" target="_blank" rel="noopener"
+>GithubDesktopZhTool&lt;/a> 汉化&lt;br>
+个人觉得没任何难度，实在不懂可以看作者的 README 文档&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>当然大佬们可以直接用 Git，也不需要我多解释&lt;/p>
+&lt;h3 id="安装-hugo安装-hugo">
+&lt;a href="#%e5%ae%89%e8%a3%85-hugo%e5%ae%89%e8%a3%85-hugo" class="header-anchor">#&lt;/a>
+安装 Hugo&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >#&lt;/a>
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>从 Hugo 官方 github 仓库下载 hugo extended 版本&lt;br>
+下载地址: &lt;a class="link" href="https://github.com/gohugoio/hugo/releases/latest" target="_blank" rel="noopener"
+>https://github.com/gohugoio/hugo/releases/latest&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>解压下载下来的压缩包，得到 &lt;code>hugo.exe&lt;/code> 并放到自己心仪的位置&lt;br>
+我这里放在 &lt;code>E:\Hugo\bin&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>设置 Hugo 环境变量，依次打开设置-系统-系统信息-高级系统设置-环境变量添加 Hugo 主程序所在文件夹&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>检查 hugo 是否安装成功，Win + R 输入 &lt;code>cmd&lt;/code> 回车打开 cmd，运行 &lt;code>hugo version&lt;/code>，如果输出版本信息则配置成功 如我这里输出（0.114.0）：&lt;/p>
+&lt;p>hugo v0.114.0-9df2ec7988e5a217a14901cc76c0b7e76b2e9f02+extended windows/amd64 BuildDate=2023-06-19T17:01:43Z VendorInfo=gohugoio&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
+&lt;h2 id="hugo博客搭建hugo博客搭建">
+&lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%bahugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">#&lt;/a>
+Hugo博客搭建&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >#&lt;/a>
+&lt;/h2>&lt;h3 id="初始化博客初始化博客">
+&lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
+初始化博客&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >#&lt;/a>
+&lt;/h3>&lt;p>在任意位置右键，选择在终端打开，输入以下命令：&lt;/p>
+&lt;pre>&lt;code>hugo new site &amp;lt;这里填上你想要的位置&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h3 id="stack-主题安装stack-主题安装">
+&lt;a href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" class="header-anchor">#&lt;/a>
+Stack 主题安装&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >#&lt;/a>
+&lt;/h3>&lt;ol>
+&lt;li>
+&lt;p>获取主题文件&lt;br>
+找到 Stack 主题 GitHub 仓库（链接：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+>https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>）&lt;br>
+Code Download → Download ZIP 下载源码解压&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>改名为 &lt;code>hugo-theme-stack&lt;/code> 后放入博客文件夹根目录 /theme 中&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>将获取到的主题中的 exampleSite 文件夹中所有文件复制到博客文件夹根目录中&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>编辑 config.yaml，根据自己需要进行配置，作者在配置文件里面写了基本注释（虽然都是英文的）&lt;br>
+官方配置文档: &lt;a class="link" href="https://stack.jimmycai.com/config/" target="_blank" rel="noopener"
+>https://stack.jimmycai.com/config/&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="配置博客各个页面配置博客各个页面">
+&lt;a href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" class="header-anchor">#&lt;/a>
+配置博客各个页面&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >#&lt;/a>
+&lt;/h3>&lt;p>如果添加的是自己博客的一个页面，可以在这个页面的 md 文件的 Front Matter 中添加以下内容：&lt;/p>
+&lt;pre>&lt;code>menu:
+main:
+name: # 名称
+weight: -90
+params:
+icon: # 图标名称
+&lt;/code>&lt;/pre>
+&lt;p>如果不是你的博客的一个页面，那么在 config.yaml 中的 menu 部分下添加以下代码：&lt;/p>
+&lt;pre>&lt;code>menu:
+main:
+- identifier:
+name:
+url:
+weight:
+params:
+icon:
+newTab:
+&lt;/code>&lt;/pre>
+&lt;blockquote>
+&lt;p>&lt;code>identifier&lt;/code>: 项目名&lt;br>
+&lt;code>name&lt;/code>: 显示名称&lt;br>
+&lt;code>url&lt;/code>: 链接&lt;br>
+&lt;code>weight&lt;/code>: 优先级，数值越低优先级越大&lt;br>
+params:&lt;br>
+&lt;code>icon&lt;/code>: 自定义图标&lt;br>
+&lt;code>newTab&lt;/code>: 是否在新标签页打开&lt;/p>
+&lt;/blockquote>
+&lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
+>https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
+&lt;h3 id="开始创作开始创作">
+&lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">#&lt;/a>
+开始创作&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >#&lt;/a>
+&lt;/h3>&lt;p>博客文章都存放在 /content 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
+&lt;pre>&lt;code>hugo new posts/my-first-post.md
+&lt;/code>&lt;/pre>
+&lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
+&lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档: &lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
+>https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
+&lt;h3 id="预览博客预览博客">
+&lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
+预览博客&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >#&lt;/a>
+&lt;/h3>&lt;p>创作完成的你一定想要本地预览你的博客吧，博客根目录右键“在终端打开”，输入以下命令：&lt;/p>
+&lt;pre>&lt;code>hugo server --navigateToChanged
+&lt;/code>&lt;/pre>
+&lt;p>后面加的 &lt;code>--navigateToChanged&lt;/code> 可以省略，加它的作用是可以在你更改某个页面后自动跳转查看该页面的修改&lt;/p>
+&lt;p>根本不想每次输代码启动预览服务器的懒癌患者们，可以像我一样在博客根目录新建一个 vbs 文件：&lt;/p>
+&lt;pre>&lt;code>Dim ws
+Set ws = Wscript.CreateObject(&amp;quot;Wscript.Shell&amp;quot;)
+ws.run &amp;quot;hugo server --navigateToChanged&amp;quot;
+Wscript.quit
+&lt;/code>&lt;/pre>
+&lt;p>以后要预览博客可以直接双击运行这个脚本会直接弹出终端界面并启动预览服务器，要停止服务器按 Ctrl + C，终端界面会自己消失&lt;/p>
+&lt;p>另：我遇到过以下的报错：&lt;/p>
+&lt;pre>&lt;code>This is most likely due to infinite recursion. If this is just a slow template, you can try to increase the 'timeout' config setting.
+&lt;/code>&lt;/pre>
+&lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你节省很多找解决办法的时间，解决办法：在 config.yml 根级加入以下代码：&lt;/p>
+&lt;pre>&lt;code>timeout: 10m
+&lt;/code>&lt;/pre></description></item></channel></rss>
