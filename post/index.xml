@@ -172,7 +172,83 @@ font-size: 14px;
 }
 }
 &lt;/style></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
->https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
+>https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。&lt;br>
+下面是一些基本的 Markdown 语法：&lt;/p>
+&lt;h3 id="标题">
+&lt;a href="#%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
+标题
+&lt;/h3>&lt;p>使用 &lt;code>#&lt;/code> 来创建标题。&lt;code>#&lt;/code> 的数量表示标题的级别。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span># 一级标题
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 二级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">### 三级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">#### 四级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">##### 五级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">###### 六级标题
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="段落和换行">
+&lt;a href="#%e6%ae%b5%e8%90%bd%e5%92%8c%e6%8d%a2%e8%a1%8c" class="header-anchor">#&lt;/a>
+段落和换行
+&lt;/h3>&lt;p>段落之间留一个空行。如果想在行内换行，可以在行尾添加两个空格。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>这是第一段。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>这是第二段，这里有两个空格。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>这是换行后的效果。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="强调">
+&lt;a href="#%e5%bc%ba%e8%b0%83" class="header-anchor">#&lt;/a>
+强调
+&lt;/h3>&lt;p>使用星号 &lt;code>*&lt;/code> 或下划线 &lt;code>_&lt;/code> 来强调文本。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>*斜体文本* 或 &lt;span style="font-style:italic">_斜体文本_&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-weight:bold">**粗体文本**&lt;/span> 或 &lt;span style="font-weight:bold">__粗体文本__&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">**&lt;/span>*粗斜体文本*** 或 &lt;span style="font-weight:bold">___粗斜体文本___&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="列表">
+&lt;a href="#%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+列表
+&lt;/h3>&lt;p>使用星号 &lt;code>*&lt;/code>、加号 &lt;code>+&lt;/code> 或连字符 &lt;code>-&lt;/code> 来创建无序列表。有序列表则使用数字后跟一个点 &lt;code>1.&lt;/code>。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>无序列表：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> 列表项一
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> 列表项二
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">*&lt;/span> 子列表项一
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>有序列表：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> 第一项
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">2.&lt;/span> 第二项
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">1.&lt;/span> 子列表项一
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="链接和图片">
+&lt;a href="#%e9%93%be%e6%8e%a5%e5%92%8c%e5%9b%be%e7%89%87" class="header-anchor">#&lt;/a>
+链接和图片
+&lt;/h3>&lt;p>使用 &lt;code>[显示文本](链接地址)&lt;/code> 来创建链接，使用 &lt;code>![图片描述](图片链接地址)&lt;/code> 来插入图片。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">访问 Google&lt;/span>](&lt;span style="color:#a6e22e">https://www.google.com&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Moonshot AI Logo&lt;/span>](&lt;span style="color:#a6e22e">https://kimi.moonshot.cn/images/logo.png&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="引用">
+&lt;a href="#%e5%bc%95%e7%94%a8" class="header-anchor">#&lt;/a>
+引用
+&lt;/h3>&lt;p>使用 &lt;code>&amp;gt;&lt;/code> 符号来创建引用。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">这是一段引用文本。
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">可以包含多行。
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="代码">
+&lt;a href="#%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
+代码
+&lt;/h3>&lt;p>使用反引号 &lt;code>`&lt;/code> 来标记代码。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">`print(&amp;#34;Hello, World!&amp;#34;)`&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="表格">
+&lt;a href="#%e8%a1%a8%e6%a0%bc" class="header-anchor">#&lt;/a>
+表格
+&lt;/h3>&lt;p>使用竖线 &lt;code>|&lt;/code> 和短横线 &lt;code>-&lt;/code> 来创建表格。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| 表头一 | 表头二 | 表头三 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| ------- | ------- | ------- |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| 单元格1 | 单元格2 | 单元格3 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>| 单元格4 | 单元格5 | 单元格6 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="任务列表">
+&lt;a href="#%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
+任务列表
+&lt;/h3>&lt;p>使用 &lt;code>- [ ]&lt;/code> 来创建任务列表项。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> 任务一
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [x]&lt;/span> 任务二（已完成）
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [ ]&lt;/span> 任务三
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这些是 Markdown 的基本语法，掌握这些，你就可以开始使用 Markdown 来编写文档了。随着实践的深入，你还可以探索更多的高级功能，如自定义样式、脚注等。&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
 &lt;p>date -R&lt;/p>
 &lt;/blockquote>
@@ -1082,395 +1158,7 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://zl
 &lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>.emoji {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title/><link>https://zlh.pp.ua/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
-&lt;p>事实上, 编写 Web 内容很麻烦. &lt;strong>WYSIWYG所见即所得&lt;/strong> 编辑器帮助减轻了这一任务. 但通常会导致代码太糟, 或更糟糕的是, 网页也会很丑.&lt;/p>
-&lt;p>没有通常伴随的所有复杂和丑陋的问题, &lt;strong>Markdown&lt;/strong> 是一种更好的生成 &lt;strong>HTML&lt;/strong> 内容的方式.&lt;/p>
-&lt;p>一些主要好处是:&lt;/p>
-&lt;ol>
-&lt;li>Markdown 简单易学, 几乎没有多余的字符, 因此编写内容也更快.&lt;/li>
-&lt;li>用 Markdown 书写时出错的机会更少.&lt;/li>
-&lt;li>可以产生有效的 XHTML 输出.&lt;/li>
-&lt;li>将内容和视觉显示保持分开, 这样就不会打乱网站的外观.&lt;/li>
-&lt;li>可以在你喜欢的任何文本编辑器或 Markdown 应用程序中编写内容.&lt;/li>
-&lt;li>Markdown 使用起来很有趣!&lt;/li>
-&lt;/ol>
-&lt;p>John Gruber, Markdown 的作者如是说:&lt;/p>
-&lt;blockquote>
-&lt;p>Markdown 格式的首要设计目标是更具可读性. 最初的想法是 Markdown 格式的文档应当以纯文本形式发布, 而不会看起来像被标签或格式说明所标记. 虽然 Markdown 的语法受到几种现有的文本到 HTML 转换工具的影响, 但 Markdown 语法的最大灵感来源是纯文本电子邮件的格式.&lt;/p>
-&lt;p>– &lt;em>John Gruber&lt;/em>&lt;/p>
-&lt;/blockquote>
-&lt;p>话不多说, 我们来回顾一下 Markdown 的主要语法以及生成的 HTML 样式!&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax1-e6a087e9a2981-标题">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax1-e6a087e9a2981-%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#1-%E6%A0%87%E9%A2%98" target="_blank" rel="noopener"
->&lt;/a>1 标题
-&lt;/h2>&lt;p>从 &lt;code>h2&lt;/code> 到 &lt;code>h6&lt;/code> 的标题在每个级别上都加上一个 &lt;code>＃&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## h2 标题 ### h3 标题 #### h4 标题 ##### h5 标题 ###### h6 标题
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">h2&lt;/span>&amp;gt;h2 标题&amp;lt;/&lt;span style="color:#f92672">h2&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">h3&lt;/span>&amp;gt;h3 标题&amp;lt;/&lt;span style="color:#f92672">h3&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">h4&lt;/span>&amp;gt;h4 标题&amp;lt;/&lt;span style="color:#f92672">h4&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">h5&lt;/span>&amp;gt;h5 标题&amp;lt;/&lt;span style="color:#f92672">h5&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">h6&lt;/span>&amp;gt;h6 标题&amp;lt;/&lt;span style="color:#f92672">h6&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>标题 ID&lt;/p>
-&lt;p>要添加自定义标题 ID, 请在与标题相同的行中将自定义 ID 放在花括号中:&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">h3&lt;/span> &lt;span style="color:#a6e22e">id&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;custom-id&amp;#34;&lt;/span>&amp;gt;一个很棒的标题&amp;lt;/&lt;span style="color:#f92672">h3&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax2-e6b3a8e9878a2-注释">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax2-e6b3a8e9878a2-%e6%b3%a8%e9%87%8a" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#2-%E6%B3%A8%E9%87%8A" target="_blank" rel="noopener"
->&lt;/a>2 注释
-&lt;/h2>&lt;p>注释是和 HTML 兼容的：&lt;/p>
-&lt;p>&lt;strong>不能&lt;/strong>看到以下的注释:&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax3-e6b0b4e5b9b3e7babf3-水平线">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax3-e6b0b4e5b9b3e7babf3-%e6%b0%b4%e5%b9%b3%e7%ba%bf" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#3-%E6%B0%B4%E5%B9%B3%E7%BA%BF" target="_blank" rel="noopener"
->&lt;/a>3 水平线
-&lt;/h2>&lt;p>HTML 中的 &lt;code>&amp;lt;hr&amp;gt;&lt;/code> 标签是用来在段落元素之间创建一个 “专题间隔” 的. 使用 Markdown, 你可以用以下方式创建一个 &lt;code>&amp;lt;hr&amp;gt;&lt;/code> 标签:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>___&lt;/code>: 三个连续的下划线&lt;/li>
-&lt;li>&lt;code>---&lt;/code>: 三个连续的破折号&lt;/li>
-&lt;li>&lt;code>***&lt;/code>: 三个连续的星号&lt;/li>
-&lt;/ul>
-&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;hr>
-&lt;hr>
-&lt;hr>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax4-e6aeb5e890bd4-段落">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax4-e6aeb5e890bd4-%e6%ae%b5%e8%90%bd" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#4-%E6%AE%B5%E8%90%BD" target="_blank" rel="noopener"
->&lt;/a>4 段落
-&lt;/h2>&lt;p>按照纯文本的方式书写段落, 纯文本在呈现的 HTML 中将用 &lt;code>&amp;lt;p&amp;gt;&lt;/code>/&lt;code>&amp;lt;/p&amp;gt;&lt;/code> 标签包裹.&lt;/p>
-&lt;p>如下段落:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>可以使用一个空白行进行&lt;strong>换行&lt;/strong>.&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax5-e58685e88194-html-e58583e7b4a05-内联-html-元素">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax5-e58685e88194-html-e58583e7b4a05-%e5%86%85%e8%81%94-html-%e5%85%83%e7%b4%a0" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#5-%E5%86%85%E8%81%94-html-%E5%85%83%E7%B4%A0" target="_blank" rel="noopener"
->&lt;/a>5 内联 HTML 元素
-&lt;/h2>&lt;p>如果你需要某个 HTML 标签 (带有一个类), 则可以简单地像这样使用:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>Markdown 格式的段落. &amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;class&amp;#34;&lt;/span>&amp;gt; 这是 &amp;lt;&lt;span style="color:#f92672">b&lt;/span>&amp;gt;HTML&amp;lt;/&lt;span style="color:#f92672">b&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt; Markdown 格式的段落.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax6-e5bcbae8b0836-强调">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax6-e5bcbae8b0836-%e5%bc%ba%e8%b0%83" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#6-%E5%BC%BA%E8%B0%83" target="_blank" rel="noopener"
->&lt;/a>6 强调
-&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe58aa0e7b297加粗">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe58aa0e7b297%e5%8a%a0%e7%b2%97" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%8A%A0%E7%B2%97" target="_blank" rel="noopener"
->&lt;/a>加粗
-&lt;/h3>&lt;p>用于强调带有较粗字体的文本片段.&lt;/p>
-&lt;p>以下文本片段会被 &lt;strong>渲染为粗体&lt;/strong>.&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe6969ce4bd93斜体">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe6969ce4bd93%e6%96%9c%e4%bd%93" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%96%9C%E4%BD%93" target="_blank" rel="noopener"
->&lt;/a>斜体
-&lt;/h3>&lt;p>用于强调带有斜体的文本片段.&lt;/p>
-&lt;p>以下文本片段被 &lt;em>渲染为斜体&lt;/em>.&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe588a0e999a4e7babf删除线">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe588a0e999a4e7babf%e5%88%a0%e9%99%a4%e7%ba%bf" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%88%A0%E9%99%A4%E7%BA%BF" target="_blank" rel="noopener"
->&lt;/a>删除线
-&lt;/h3>&lt;p>按照 &lt;a class="link" href="https://github.github.com/gfm/" target="_blank" rel="noopener"
->&lt;strong>GFMGitHub flavored Markdown&lt;/strong>&lt;/a> 你可以使用删除线.&lt;/p>
-&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;p>~这段文本带有删除线.~&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe7bb84e59088组合">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe7bb84e59088%e7%bb%84%e5%90%88" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E7%BB%84%E5%90%88" target="_blank" rel="noopener"
->&lt;/a>组合
-&lt;/h3>&lt;p>加粗, 斜体, 和删除线可以 组合使用.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>***加粗和斜体*** &lt;span style="color:#f92672">~~**删除线和加粗**~~&lt;/span> &lt;span style="color:#f92672">~~*删除线和斜体*~~&lt;/span> &lt;span style="color:#f92672">~~***加粗, 斜体和删除线***~~&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;p>&lt;em>&lt;strong>加粗和斜体&lt;/strong>&lt;/em>&lt;/p>
-&lt;p>~&lt;strong>删除线和加粗&lt;/strong>~&lt;/p>
-&lt;p>~&lt;em>删除线和斜体&lt;/em>~&lt;/p>
-&lt;p>~&lt;em>&lt;strong>加粗, 斜体和删除线&lt;/strong>&lt;/em>~&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">em&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;加粗和斜体&amp;lt;/&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">em&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">del&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;删除线和加粗&amp;lt;/&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">del&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">del&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">em&lt;/span>&amp;gt;删除线和斜体&amp;lt;/&lt;span style="color:#f92672">em&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">del&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">del&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">em&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;加粗, 斜体和删除线&amp;lt;/&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">em&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">del&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax7-e5bc95e794a87-引用">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax7-e5bc95e794a87-%e5%bc%95%e7%94%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#7-%E5%BC%95%E7%94%A8" target="_blank" rel="noopener"
->&lt;/a>7 引用
-&lt;/h2>&lt;p>用于在文档中引用其他来源的内容块.&lt;/p>
-&lt;p>在要引用的任何文本之前添加 &lt;code>&amp;gt;&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">**Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;strong>Fusion Drive&lt;/strong> combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&lt;/p>
-&lt;/blockquote>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">blockquote&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;Fusion Drive&amp;lt;/&lt;span style="color:#f92672">strong&lt;/span>&amp;gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined. &amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">blockquote&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>引用也可以嵌套:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">&amp;gt; &lt;/span>&lt;span style="font-style:italic">Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. &amp;gt;&amp;gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;blockquote>
-&lt;p>Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.&lt;/p>
-&lt;blockquote>
-&lt;p>Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.&lt;/p>
-&lt;/blockquote>
-&lt;/blockquote>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax8-e58897e8a1a88-列表">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax8-e58897e8a1a88-%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#8-%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
->&lt;/a>8 列表
-&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe697a0e5ba8fe58897e8a1a8无序列表">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe697a0e5ba8fe58897e8a1a8%e6%97%a0%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
->&lt;/a>无序列表
-&lt;/h3>&lt;p>一系列项的列表, 其中项的顺序没有明显关系.&lt;/p>
-&lt;p>你可以使用以下任何符号来表示无序列表中的项:&lt;/p>
-&lt;p>例如:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">*&lt;/span> Lorem ipsum dolor sit amet &lt;span style="font-style:italic">* Consectetur adipiscing elit *&lt;/span> Integer molestie lorem at massa &lt;span style="font-style:italic">* Facilisis in pretium nisl aliquet *&lt;/span> Nulla volutpat aliquam velit &lt;span style="font-style:italic">* Phasellus iaculis neque *&lt;/span> Purus sodales ultricies &lt;span style="font-style:italic">* Vestibulum laoreet porttitor sem *&lt;/span> Ac tristique libero volutpat at &lt;span style="font-style:italic">* Faucibus porta lacus fringilla vel *&lt;/span> Aenean sit amet erat nunc * Eget porttitor lorem
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;ul>
-&lt;li>Lorem ipsum dolor sit amet&lt;/li>
-&lt;li>Consectetur adipiscing elit&lt;/li>
-&lt;li>Integer molestie lorem at massa&lt;/li>
-&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
-&lt;li>Nulla volutpat aliquam velit
-&lt;ul>
-&lt;li>Phasellus iaculis neque&lt;/li>
-&lt;li>Purus sodales ultricies&lt;/li>
-&lt;li>Vestibulum laoreet porttitor sem&lt;/li>
-&lt;li>Ac tristique libero volutpat at&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
-&lt;li>Aenean sit amet erat nunc&lt;/li>
-&lt;li>Eget porttitor lorem&lt;/li>
-&lt;/ul>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">ul&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Lorem ipsum dolor sit amet&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Consectetur adipiscing elit&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Integer molestie lorem at massa&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Nulla volutpat aliquam velit &amp;lt;&lt;span style="color:#f92672">ul&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Phasellus iaculis neque&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Purus sodales ultricies&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Vestibulum laoreet porttitor sem&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Ac tristique libero volutpat at&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">ul&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Aenean sit amet erat nunc&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Eget porttitor lorem&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">ul&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe69c89e5ba8fe58897e8a1a8有序列表">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe69c89e5ba8fe58897e8a1a8%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
->&lt;/a>有序列表
-&lt;/h3>&lt;p>一系列项的列表, 其中项的顺序确实很重要.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> Lorem ipsum dolor sit amet 2. Consectetur adipiscing elit 3. Integer molestie lorem at massa 4. Facilisis in pretium nisl aliquet 5. Nulla volutpat aliquam velit 6. Faucibus porta lacus fringilla vel 7. Aenean sit amet erat nunc 8. Eget porttitor lorem
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;ol>
-&lt;li>Lorem ipsum dolor sit amet&lt;/li>
-&lt;li>Consectetur adipiscing elit&lt;/li>
-&lt;li>Integer molestie lorem at massa&lt;/li>
-&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
-&lt;li>Nulla volutpat aliquam velit&lt;/li>
-&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
-&lt;li>Aenean sit amet erat nunc&lt;/li>
-&lt;li>Eget porttitor lorem&lt;/li>
-&lt;/ol>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">ol&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Lorem ipsum dolor sit amet&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Consectetur adipiscing elit&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Integer molestie lorem at massa&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Nulla volutpat aliquam velit&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Aenean sit amet erat nunc&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">li&lt;/span>&amp;gt;Eget porttitor lorem&amp;lt;/&lt;span style="color:#f92672">li&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">ol&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>技巧&lt;/p>
-&lt;p>如果你对每一项使用 &lt;code>1.&lt;/code>, Markdown 将自动为每一项编号. 例如:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">1.&lt;/span> Lorem ipsum dolor sit amet 1. Consectetur adipiscing elit 1. Integer molestie lorem at massa 1. Facilisis in pretium nisl aliquet 1. Nulla volutpat aliquam velit 1. Faucibus porta lacus fringilla vel 1. Aenean sit amet erat nunc 1. Eget porttitor lorem
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;ol>
-&lt;li>Lorem ipsum dolor sit amet&lt;/li>
-&lt;li>Consectetur adipiscing elit&lt;/li>
-&lt;li>Integer molestie lorem at massa&lt;/li>
-&lt;li>Facilisis in pretium nisl aliquet&lt;/li>
-&lt;li>Nulla volutpat aliquam velit&lt;/li>
-&lt;li>Faucibus porta lacus fringilla vel&lt;/li>
-&lt;li>Aenean sit amet erat nunc&lt;/li>
-&lt;li>Eget porttitor lorem&lt;/li>
-&lt;/ol>
-&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe4bbbbe58aa1e58897e8a1a8任务列表">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe4bbbbe58aa1e58897e8a1a8%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8" target="_blank" rel="noopener"
->&lt;/a>任务列表
-&lt;/h3>&lt;p>任务列表使你可以创建带有复选框的列表. 要创建任务列表, 请在任务列表项之前添加破折号 (&lt;code>-&lt;/code>) 和带有空格的方括号 (&lt;code>[ ]&lt;/code>). 要选择一个复选框，请在方括号之间添加 x (&lt;code>[x]&lt;/code>).&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">- [x]&lt;/span> Write the press release - [ ] Update the website - [ ] Contact the media
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;ul>
-&lt;li>Write the press release&lt;/li>
-&lt;li>Update the website&lt;/li>
-&lt;li>Contact the media&lt;/li>
-&lt;/ul>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax9-e4bba3e7a0819-代码">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax9-e4bba3e7a0819-%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#9-%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
->&lt;/a>9 代码
-&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe8a18ce58685e4bba3e7a081行内代码">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe8a18ce58685e4bba3e7a081%e8%a1%8c%e5%86%85%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
->&lt;/a>行内代码
-&lt;/h3>&lt;p>用 ` 包装行内代码段.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>在这个例子中, &lt;span style="color:#e6db74">`&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;`&lt;/span> 会被包裹成 &lt;span style="font-weight:bold">**代码**&lt;/span>.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;p>在这个例子中, &lt;code>&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code> 会被包裹成 &lt;strong>代码&lt;/strong>.&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt; 在这个例子中, &amp;lt;&lt;span style="color:#f92672">code&lt;/span>&amp;gt;&amp;amp;lt;section&amp;amp;gt;&amp;amp;lt;/section&amp;amp;gt;&amp;lt;/&lt;span style="color:#f92672">code&lt;/span>&amp;gt; 会被包裹成 &amp;lt;&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;代码&amp;lt;/&lt;span style="color:#f92672">strong&lt;/span>&amp;gt;. &amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe7bca9e8bf9be4bba3e7a081缩进代码">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe7bca9e8bf9be4bba3e7a081%e7%bc%a9%e8%bf%9b%e4%bb%a3%e7%a0%81" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E7%BC%A9%E8%BF%9B%E4%BB%A3%E7%A0%81" target="_blank" rel="noopener"
->&lt;/a>缩进代码
-&lt;/h3>&lt;p>将几行代码缩进至少四个空格，例如:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>// Some comments line 1 of code line 2 of code line 3 of code
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;pre tabindex="0">&lt;code>// Some comments
-line 1 of code
-line 2 of code
-line 3 of code
-&lt;/code>&lt;/pre>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">pre&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">code&lt;/span>&amp;gt; // Some comments line 1 of code line 2 of code line 3 of code &amp;lt;/&lt;span style="color:#f92672">code&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">pre&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe59bb4e6a08fe4bba3e7a081e59d97围栏代码块">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe59bb4e6a08fe4bba3e7a081e59d97%e5%9b%b4%e6%a0%8f%e4%bb%a3%e7%a0%81%e5%9d%97" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%9B%B4%E6%A0%8F%E4%BB%A3%E7%A0%81%E5%9D%97" target="_blank" rel="noopener"
->&lt;/a>围栏代码块
-&lt;/h3>&lt;p>使用 “围栏” ``` 来生成一段带有语言属性的代码块.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>```markdown Sample text here... ```
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">pre&lt;/span> &lt;span style="color:#a6e22e">language-html&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">code&lt;/span>&amp;gt;Sample text here...&amp;lt;/&lt;span style="color:#f92672">code&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">pre&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe8afade6b395e9ab98e4baae语法高亮">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe8afade6b395e9ab98e4baae%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E8%AF%AD%E6%B3%95%E9%AB%98%E4%BA%AE" target="_blank" rel="noopener"
->&lt;/a>语法高亮
-&lt;/h3>&lt;p>&lt;strong>GFMGitHub Flavored Markdown&lt;/strong> 也支持语法高亮.&lt;/p>
-&lt;p>要激活它，只需在第一个代码 “围栏” 之后直接添加你要使用的语言的文件扩展名, ```js, 语法高亮显示将自动应用于渲染的 HTML 中.&lt;/p>
-&lt;p>例如, 在以下 JavaScript 代码中应用语法高亮:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>```js grunt.initConfig({ assemble: { options: { assets: &amp;#39;docs/assets&amp;#39;, data: &amp;#39;src/data/*.{json,yml}&amp;#39;, helpers: &amp;#39;src/custom-helpers.js&amp;#39;, partials: [&amp;#39;src/partials/**/*.{hbs,md}&amp;#39;] }, pages: { options: { layout: &amp;#39;default.hbs&amp;#39; }, files: { &amp;#39;./&amp;#39;: [&amp;#39;src/templates/pages/index.hbs&amp;#39;] } } } }; ```
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">grunt&lt;/span>.&lt;span style="color:#a6e22e">initConfig&lt;/span>({ &lt;span style="color:#a6e22e">assemble&lt;/span>&lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#a6e22e">options&lt;/span>&lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#a6e22e">assets&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;docs/assets&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">data&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;src/data/*.{json,yml}&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">helpers&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;src/custom-helpers.js&amp;#39;&lt;/span>, &lt;span style="color:#a6e22e">partials&lt;/span>&lt;span style="color:#f92672">:&lt;/span> [&lt;span style="color:#e6db74">&amp;#39;src/partials/**/*.{hbs,md}&amp;#39;&lt;/span>] }, &lt;span style="color:#a6e22e">pages&lt;/span>&lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#a6e22e">options&lt;/span>&lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#a6e22e">layout&lt;/span>&lt;span style="color:#f92672">:&lt;/span> &lt;span style="color:#e6db74">&amp;#39;default.hbs&amp;#39;&lt;/span> }, &lt;span style="color:#a6e22e">files&lt;/span>&lt;span style="color:#f92672">:&lt;/span> { &lt;span style="color:#e6db74">&amp;#39;./&amp;#39;&lt;/span>&lt;span style="color:#f92672">:&lt;/span> [&lt;span style="color:#e6db74">&amp;#39;src/templates/pages/index.hbs&amp;#39;&lt;/span>] } } } };
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>注意&lt;/p>
-&lt;p>&lt;strong>Hugo&lt;/strong> 文档中的 &lt;a class="link" href="https://gohugo.io/content-management/syntax-highlighting/" target="_blank" rel="noopener"
->语法高亮页面&lt;/a> 介绍了有关语法高亮的更多信息, 包括语法高亮的 shortcode.&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax10-e8a1a8e6a0bc10-表格">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax10-e8a1a8e6a0bc10-%e8%a1%a8%e6%a0%bc" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#10-%E8%A1%A8%E6%A0%BC" target="_blank" rel="noopener"
->&lt;/a>10 表格
-&lt;/h2>&lt;p>通过在每个单元格之间添加竖线作为分隔线, 并在标题下添加一行破折号 (也由竖线分隔) 来创建表格. 注意, 竖线不需要垂直对齐.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| Option | Description | | ------ | ----------- | | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Option&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>data&lt;/td>
-&lt;td>path to data files to supply the data that will be passed into templates.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>engine&lt;/td>
-&lt;td>engine to be used for processing templates. Handlebars is the default.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ext&lt;/td>
-&lt;td>extension to be used for dest files.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">table&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">thead&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">th&lt;/span>&amp;gt;Option&amp;lt;/&lt;span style="color:#f92672">th&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">th&lt;/span>&amp;gt;Description&amp;lt;/&lt;span style="color:#f92672">th&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">thead&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">tbody&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;data&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;path to data files to supply the data that will be passed into templates.&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;engine&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;engine to be used for processing templates. Handlebars is the default.&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;ext&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">td&lt;/span>&amp;gt;extension to be used for dest files.&amp;lt;/&lt;span style="color:#f92672">td&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">tr&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">tbody&lt;/span>&amp;gt; &amp;lt;/&lt;span style="color:#f92672">table&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>文本右对齐或居中对齐&lt;/p>
-&lt;p>在任何标题下方的破折号右侧添加冒号将使该列的文本右对齐.&lt;/p>
-&lt;p>在任何标题下方的破折号两边添加冒号将使该列的对齐文本居中.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>| Option | Description | |:------:| -----------:| | data | path to data files to supply the data that will be passed into templates. | | engine | engine to be used for processing templates. Handlebars is the default. | | ext | extension to be used for dest files. |
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Option&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>data&lt;/td>
-&lt;td>path to data files to supply the data that will be passed into templates.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>engine&lt;/td>
-&lt;td>engine to be used for processing templates. Handlebars is the default.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>ext&lt;/td>
-&lt;td>extension to be used for dest files.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntaxlinks11-链接">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxlinks11-%e9%93%be%e6%8e%a5" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#links" target="_blank" rel="noopener"
->&lt;/a>11 链接
-&lt;/h2>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe59fbae69cace993bee68ea5基本链接">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe59fbae69cace993bee68ea5%e5%9f%ba%e6%9c%ac%e9%93%be%e6%8e%a5" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%9F%BA%E6%9C%AC%E9%93%BE%E6%8E%A5" target="_blank" rel="noopener"
->&lt;/a>基本链接
-&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">https:&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">//&lt;/span>&lt;span style="color:#a6e22e">assemble&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">.&lt;/span>&lt;span style="color:#a6e22e">io&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">contact&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">@&lt;/span>&lt;span style="color:#a6e22e">revolunet&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">.&lt;/span>&lt;span style="color:#a6e22e">com&lt;/span>&amp;gt; [&lt;span style="color:#f92672">Assemble&lt;/span>](&lt;span style="color:#a6e22e">https://assemble.io&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下 (将鼠标悬停在链接上，没有提示):&lt;/p>
-&lt;p>&lt;a class="link" href="https://assemble.io/" target="_blank" rel="noopener"
->https://assemble.io&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="mailto:contact@revolunet.com" >contact@revolunet.com&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://assemble.io/" target="_blank" rel="noopener"
->Assemble&lt;/a>&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://assemble.io&amp;#34;&lt;/span>&amp;gt;https://assemble.io&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;mailto:contact@revolunet.com&amp;#34;&lt;/span>&amp;gt;contact@revolunet.com&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt; &amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://assemble.io&amp;#34;&lt;/span>&amp;gt;Assemble&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe6b7bbe58aa0e4b880e4b8aae6a087e9a298添加一个标题">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe6b7bbe58aa0e4b880e4b8aae6a087e9a298%e6%b7%bb%e5%8a%a0%e4%b8%80%e4%b8%aa%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%E6%A0%87%E9%A2%98" target="_blank" rel="noopener"
->&lt;/a>添加一个标题
-&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#f92672">Upstage&lt;/span>](&lt;span style="color:#a6e22e">https://github.com/upstage/ &amp;#34;Visit Upstage!&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呈现的输出效果如下 (将鼠标悬停在链接上，会有一行提示):&lt;/p>
-&lt;p>&lt;a class="link" href="https://github.com/upstage/" title="Visit Upstage!"
-target="_blank" rel="noopener"
->Upstage&lt;/a>&lt;/p>
-&lt;p>输出的 HTML 看起来像这样:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://github.com/upstage/&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">title&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Visit Upstage!&amp;#34;&lt;/span>&amp;gt;Upstage&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="httpshsj01githubiopostsbasic-markdown-syntaxe5ae9ae4bd8de6a087e8aeb0定位标记">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntaxe5ae9ae4bd8de6a087e8aeb0%e5%ae%9a%e4%bd%8d%e6%a0%87%e8%ae%b0" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#%E5%AE%9A%E4%BD%8D%E6%A0%87%E8%AE%B0" target="_blank" rel="noopener"
->&lt;/a>定位标记
-&lt;/h3>&lt;p>定位标记使你可以跳至同一页面上的指定锚点. 例如, 每个章节:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Table of Contents * [Chapter 1](#chapter-1) * [Chapter 2](#chapter-2) * [Chapter 3](#chapter-3)
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>将跳转到这些部分:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Chapter 1 &amp;lt;a id=&amp;#34;chapter-1&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one. ## Chapter 2 &amp;lt;a id=&amp;#34;chapter-2&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one. ## Chapter 3 &amp;lt;a id=&amp;#34;chapter-3&amp;#34;&amp;gt;&amp;lt;/a&amp;gt; Content for chapter one.
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>注意&lt;/p>
-&lt;p>定位标记的位置几乎是任意的. 因为它们并不引人注目, 所以它们通常被放在同一行了.&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax12-e8849ae6b3a812-脚注">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax12-e8849ae6b3a812-%e8%84%9a%e6%b3%a8" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#12-%E8%84%9A%E6%B3%A8" target="_blank" rel="noopener"
->&lt;/a>12 脚注
-&lt;/h2>&lt;p>脚注使你可以添加注释和参考, 而不会使文档正文混乱. 当你创建脚注时, 会在添加脚注引用的位置出现带有链接的上标编号. 读者可以单击链接以跳至页面底部的脚注内容.&lt;/p>
-&lt;p>要创建脚注引用, 请在方括号中添加插入符号和标识符 (&lt;code>[^1]&lt;/code>). 标识符可以是数字或单词, 但不能包含空格或制表符. 标识符仅将脚注引用与脚注本身相关联 - 在脚注输出中, 脚注按顺序编号.&lt;/p>
-&lt;p>在中括号内使用插入符号和数字以及用冒号和文本来添加脚注内容 (&lt;code>[^1]：这是一段脚注&lt;/code>). 你不一定要在文档末尾添加脚注. 可以将它们放在除列表, 引用和表格等元素之外的任何位置.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>这是一个数字脚注[^1]. 这是一个带标签的脚注[^label] [^1]: 这是一个数字脚注 [^label]: 这是一个带标签的脚注
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这是一个数字脚注&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->1&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->.&lt;/p>
-&lt;p>这是一个带标签的脚注&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="httpshsj01githubiopostsbasic-markdown-syntax13-e59bbee7898713-图片">
-&lt;a href="#httpshsj01githubiopostsbasic-markdown-syntax13-e59bbee7898713-%e5%9b%be%e7%89%87" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hsj01.github.io/posts/basic-markdown-syntax/#13-%E5%9B%BE%E7%89%87" target="_blank" rel="noopener"
->&lt;/a>13 图片
-&lt;/h2>&lt;p>图片的语法与链接相似, 但包含一个在前面的感叹号.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Minion&lt;/span>](&lt;span style="color:#a6e22e">https://octodex.github.com/images/minion.png&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://octodex.github.com/images/minion.png"
-loading="lazy"
-alt="https://octodex.github.com/images/minion.png"
->&lt;/p>
-&lt;p>或者:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Alt text&lt;/span>](&lt;span style="color:#a6e22e">https://octodex.github.com/images/stormtroopocat.jpg &amp;#34;The Stormtroopocat&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a class="link" href="https://octodex.github.com/images/stormtroopocat.jpg" title="Alt text"
-target="_blank" rel="noopener"
->&lt;img src="https://octodex.github.com/images/stormtroopocat.jpg"
-loading="lazy"
-alt="https://octodex.github.com/images/stormtroopocat.jpg"
->&lt;/a>&lt;/p>
-&lt;p>The Stormtroopocat&lt;/p>
-&lt;p>像链接一样, 图片也具有脚注样式的语法:&lt;/p>
-&lt;p>&lt;a class="link" href="https://octodex.github.com/images/dojocat.jpg" title="Alt text"
-target="_blank" rel="noopener"
->&lt;img src="https://octodex.github.com/images/dojocat.jpg"
-loading="lazy"
-alt="https://octodex.github.com/images/dojocat.jpg"
->&lt;/a>&lt;/p>
-&lt;p>The Dojocat&lt;/p>
-&lt;p>稍后在文档中提供参考内容, 用来定义 URL 的位置:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[id]: https://octodex.github.com/images/dojocat.jpg &amp;#34;The Dojocat&amp;#34;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>标题</title><link>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 标题" /></description></item><item><title>连接github.com的22端口被拒绝</title><link>https://zlh.pp.ua/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 连接github.com的22端口被拒绝" />&lt;h1 id="内容来自网络">
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>标题</title><link>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 标题" /></description></item><item><title>连接github.com的22端口被拒绝</title><link>https://zlh.pp.ua/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E8%BF%9E%E6%8E%A5github.com%E7%9A%8422%E7%AB%AF%E5%8F%A3%E8%A2%AB%E6%8B%92%E7%BB%9D/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 连接github.com的22端口被拒绝" />&lt;h1 id="内容来自网络">
 &lt;a href="#%e5%86%85%e5%ae%b9%e6%9d%a5%e8%87%aa%e7%bd%91%e7%bb%9c" class="header-anchor">#&lt;/a>
 内容来自网络
 &lt;/h1>&lt;p>本文以Windows系统为例进行说明，在个人电脑上使用Git命令来操作GitHub上的项目，本来都很正常，突然某一天开始，会提示如下错误&lt;/p>
