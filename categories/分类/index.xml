@@ -27,15 +27,149 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-family&lt;/span>: &lt;span style="color:#ae81ff">lato;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">font-size&lt;/span>: &lt;span style="color:#ae81ff">1.&lt;/span>&lt;span style="color:#ae81ff">5rem;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>[START HERE]&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">hash&lt;/span>(&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span> str, &lt;span style="color:#66d9ef">int&lt;/span> length) { &lt;span style="color:#75715e">// hash function
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c" data-lang="c">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">hash&lt;/span>(&lt;span style="color:#66d9ef">char&lt;/span> &lt;span style="color:#f92672">*&lt;/span> str, &lt;span style="color:#66d9ef">int&lt;/span> length) { &lt;span style="color:#75715e">// hash function
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> &lt;span style="color:#66d9ef">int&lt;/span> hash &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">int&lt;/span> i &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span>; i &lt;span style="color:#f92672">&amp;lt;&lt;/span> length; i&lt;span style="color:#f92672">++&lt;/span>) {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> hash &lt;span style="color:#f92672">=&lt;/span> ((hash &lt;span style="color:#f92672">+&lt;/span> str[i]) &lt;span style="color:#f92672">*&lt;/span> &lt;span style="color:#ae81ff">31&lt;/span>) &lt;span style="color:#f92672">%&lt;/span> MAX_ID; &lt;span style="color:#75715e">// maximum of ID?
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">&lt;/span> }
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> hash;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2023-09-10&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="">
+&lt;div class="timeline__title">&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #FFFFFF;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
 >https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
 &lt;p>date -R&lt;/p>
