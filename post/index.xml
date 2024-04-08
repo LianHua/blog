@@ -196,7 +196,7 @@ font-size: 14px;
 }
 }
 &lt;/style></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
->https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。&lt;br>
+>https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。
 下面是一些基本的 Markdown 语法：&lt;/p>
 &lt;h3 id="标题">
 &lt;a href="#%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
@@ -297,15 +297,15 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
 >https://get.casaos.io&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
 &lt;blockquote>
 &lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
 &lt;/blockquote>
-&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。&lt;br>
-另外，还总结了一些方法：&lt;br>
+&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。
+另外，还总结了一些方法：
 换源是可以把原先的软件源用“#”注释掉。比如&lt;/p>
 &lt;blockquote>
 &lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
@@ -313,8 +313,8 @@ wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="n
 deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
 &lt;/h1>&lt;/blockquote>
-&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。&lt;br>
-另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）&lt;br>
+&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
+另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）
 最后还有小伙伴说他用最新版的底包刷机就成功了，我之前刷机的时候是不成功的。也许是casaos更新了版本的缘故。&lt;/p></description></item><item><title>用hugo+github搭建bolg</title><link>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</link><pubDate>Wed, 03 Apr 2024 13:38:34 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%94%A8hugo-github%E6%90%AD%E5%BB%BAbolg/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2364" alt="Featured image of post 用hugo+github搭建bolg" />&lt;h1 id="以下内容摘自网络记录在此方便查阅">
 &lt;a href="#%e4%bb%a5%e4%b8%8b%e5%86%85%e5%ae%b9%e6%91%98%e8%87%aa%e7%bd%91%e7%bb%9c%e8%ae%b0%e5%bd%95%e5%9c%a8%e6%ad%a4%e6%96%b9%e4%be%bf%e6%9f%a5%e9%98%85" class="header-anchor">#&lt;/a>
 以下内容摘自网络，记录在此方便查阅。
@@ -360,9 +360,13 @@ deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" t
 💻Git 基本配置
 &lt;/h3>&lt;p>安装好 Git 需要一些基本配置。&lt;/p>
 &lt;p>随便一个位置鼠标右键打开 Git Bash，配置用户名和邮箱。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>然后在 Git bash 使用：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>查看你的用户名和邮箱配置信息。&lt;/p>
 &lt;h3 id="与-github-创建连接">
 &lt;a href="#%e4%b8%8e-github-%e5%88%9b%e5%bb%ba%e8%bf%9e%e6%8e%a5" class="header-anchor">#&lt;/a>
@@ -486,11 +490,38 @@ loading="lazy"
 &lt;a href="#yaml" class="header-anchor">#&lt;/a>
 📋YAML
 &lt;/h3>&lt;p>大概说一下stack主题给的示例：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>也可以添加&lt;/p>
 &lt;p>标签会显示在主页标签云内。&lt;/p>
 &lt;p>下面是我的 YAML 模板，可以参考。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;blockquote>
 &lt;p>然后，好像没什么了。本地成功调试 OK 就可以把他给发布到网上了。&lt;/p>
 &lt;/blockquote>
@@ -526,7 +557,9 @@ loading="lazy"
 &lt;p>❌这里可能会报错，如果报错，应该就是代理的问题。&lt;/p>
 &lt;/blockquote>
 &lt;p>到终端用下面的命令改一下 git 的代理，7890 改为自己的端口。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>然后成功把自己本地 Git 仓库发布到了 Github 远程仓库。&lt;/p>
 &lt;h4 id="部署到-vercel">
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
@@ -615,11 +648,74 @@ loading="lazy"
 &lt;/ul>
 &lt;p>QuickAdd 使用 Template 创建一个在确定文件夹里新建文件的指令。然后用 Buttons 绑定这个指令。&lt;/p>
 &lt;p>新建个文件，粘贴以下内容（记得删除转义&lt;code>\&lt;/code>）：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>给页面定义一个 CSS 类&lt;code>sidebar&lt;/code>，然后在 obsidian 设置👉外观，添加 css 代码片段。样式自定义，下面是我的，提供参考。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>Button 按钮 CSS 参考：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;blockquote>
 &lt;p>我的按钮向上偏移了一定量，为了跟标题在一行。&lt;/p>
 &lt;/blockquote>
@@ -631,7 +727,25 @@ loading="lazy"
 &lt;/blockquote>
 &lt;p>新建一个模板文件夹，创建一个文章模板。&lt;/p>
 &lt;p>我的模板👇&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>同上一节，使用 QuickAdd 创建快捷指令，将文章新建在&lt;code>content/post&lt;/code>文件夹下。文件名称&lt;code>{{Date:YYYYMMDDHHmmss}}/index&lt;/code>，含义是创建一个时间命名的文件夹，在这个文件夹下创建一个 index 文件。&lt;/p>
 &lt;blockquote>
 &lt;p>⚠&lt;/p>
@@ -652,7 +766,18 @@ loading="lazy"
 &lt;a href="#%e6%9c%ac%e5%9c%b0-js-%e8%84%9a%e6%9c%ac" class="header-anchor">#&lt;/a>
 🎛本地 js 脚本
 &lt;/h4>&lt;p>建立一个&lt;code>preview.js&lt;/code>文件，写入以下内容：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>就是 shell 命令，&lt;code>cd&lt;/code>到网站根目录，执行&lt;code>hugo server&lt;/code> 然后浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
 &lt;p>⚠这会弹出一个终端窗口，关闭窗口就会关闭 &lt;code>hugo server&lt;/code>&lt;/p>
 &lt;p>然后将这个脚本和主页标题创建链接：&lt;/p>
@@ -664,7 +789,8 @@ loading="lazy"
 &lt;a href="#shell-commands-%e6%8f%92%e4%bb%b6" class="header-anchor">#&lt;/a>
 💻Shell Commands 插件
 &lt;/h4>&lt;p>新建一个 shell 命令，粘贴，&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>原理相同，打开 hugo 服务，浏览器打开&lt;code>http://localhost:1313&lt;/code>。&lt;/p>
 &lt;p>同样会出现一个终端窗口，关闭终端退出 hugo server。&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321110306.png"
@@ -680,7 +806,18 @@ loading="lazy"
 loading="lazy"
 >&lt;/p>
 &lt;p>Obsidian 主页添加一个数据表格，进行文章的管理。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>检索&lt;code>content/post&lt;/code>文件夹下的文章，展示其元数据。&lt;/p>
 &lt;h3 id="一键发布">
 &lt;a href="#%e4%b8%80%e9%94%ae%e5%8f%91%e5%b8%83" class="header-anchor">#&lt;/a>
@@ -692,7 +829,43 @@ loading="lazy"
 &lt;/h4>&lt;p>部署到 Vercel 的话，需要整个网站目录是 git 仓库，利用 Obsidian Git 插件将仓库&lt;code>push&lt;/code>到 Github，再利用 GithubAction 实现自动编译，并把 public 目录添加到 gh-pages 分支。参考—&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
 >这篇文章&lt;/a>&lt;/p>
 &lt;p>需要在网站根目录创建&lt;code>.github/workflows&lt;/code>目录，新建一个&lt;code>main.yml&lt;/code>文件，写入以下内容：&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>Github Action 检测到 main 分支新的 Push，将 main 分支自动编译成网页文件到&lt;code>public&lt;/code>文件夹。并将 &lt;code>public&lt;/code>文件夹同步到&lt;code>gh-pages&lt;/code>分支。Vercel 部署&lt;code>gh-pages&lt;/code>分支。&lt;/p>
 &lt;p>在 obsidian 中使用 Git 插件，执行 &lt;code>git commit&lt;/code>和 &lt;code>git push&lt;/code>。（可以用 QuickAdd 或者 Commander 插件将这两步骤创建宏。）&lt;/p>
 &lt;p>再用 Commander 插件将命令按钮添加到喜欢的位置。&lt;/p>
@@ -704,12 +877,16 @@ loading="lazy"
 >基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
 &lt;p>先删除网站目录的 public 文件夹。&lt;/p>
 &lt;p>在博客网站的根目录打开&lt;code>git bush&lt;/code>，执行下面命令把服务器 Git 仓库&lt;code>clone&lt;/code>到网站&lt;code>public&lt;/code>目录。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;blockquote>
 &lt;p>后面是你之前配置的仓库位置。&lt;/p>
 &lt;/blockquote>
 &lt;p>&lt;code>clone&lt;/code> 下来后，执行&lt;code>hugo -D&lt;/code>编译网站，再&lt;code>cd public&lt;/code>到 &lt;code>public&lt;/code> 目录。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;span>3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>一套操作下来，将本地编译好的&lt;code>public&lt;/code>文件夹 push 到远程服务器仓库。&lt;/p>
 &lt;blockquote>
 &lt;p>❗前提是正确配置钩子，同样参考上述文章。&lt;/p>
@@ -723,7 +900,8 @@ loading="lazy"
 &lt;p>❗设置 shell 的工作目录是网站目录路径，也就是 obsidian 库根目录。&lt;/p>
 &lt;/blockquote>
 &lt;p>添加&lt;code>shell&lt;/code>命令。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;blockquote>
 &lt;p>这段命令首先&lt;code>hugo -D&lt;/code>编译网站，然后转到 &lt;code>public&lt;/code>文件夹，运行 git 发布三部曲。在&lt;code>cd ..&lt;/code>回到网站根目录。&lt;/p>
 &lt;/blockquote>
@@ -791,9 +969,221 @@ loading="lazy"
 >基于 Memos 实现说说和清单功能&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
 &lt;p>在&lt;code>layouts/partials/widget&lt;/code>文件夹下新建一个 memos.html 文件，粘贴如下内容。样式脚本都包含在这个文件内。&lt;/p>
 &lt;p>下面脚本里的网址都换成自己的 memos 域名。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span> 10
+&lt;/span>&lt;span> 11
+&lt;/span>&lt;span> 12
+&lt;/span>&lt;span> 13
+&lt;/span>&lt;span> 14
+&lt;/span>&lt;span> 15
+&lt;/span>&lt;span> 16
+&lt;/span>&lt;span> 17
+&lt;/span>&lt;span> 18
+&lt;/span>&lt;span> 19
+&lt;/span>&lt;span> 20
+&lt;/span>&lt;span> 21
+&lt;/span>&lt;span> 22
+&lt;/span>&lt;span> 23
+&lt;/span>&lt;span> 24
+&lt;/span>&lt;span> 25
+&lt;/span>&lt;span> 26
+&lt;/span>&lt;span> 27
+&lt;/span>&lt;span> 28
+&lt;/span>&lt;span> 29
+&lt;/span>&lt;span> 30
+&lt;/span>&lt;span> 31
+&lt;/span>&lt;span> 32
+&lt;/span>&lt;span> 33
+&lt;/span>&lt;span> 34
+&lt;/span>&lt;span> 35
+&lt;/span>&lt;span> 36
+&lt;/span>&lt;span> 37
+&lt;/span>&lt;span> 38
+&lt;/span>&lt;span> 39
+&lt;/span>&lt;span> 40
+&lt;/span>&lt;span> 41
+&lt;/span>&lt;span> 42
+&lt;/span>&lt;span> 43
+&lt;/span>&lt;span> 44
+&lt;/span>&lt;span> 45
+&lt;/span>&lt;span> 46
+&lt;/span>&lt;span> 47
+&lt;/span>&lt;span> 48
+&lt;/span>&lt;span> 49
+&lt;/span>&lt;span> 50
+&lt;/span>&lt;span> 51
+&lt;/span>&lt;span> 52
+&lt;/span>&lt;span> 53
+&lt;/span>&lt;span> 54
+&lt;/span>&lt;span> 55
+&lt;/span>&lt;span> 56
+&lt;/span>&lt;span> 57
+&lt;/span>&lt;span> 58
+&lt;/span>&lt;span> 59
+&lt;/span>&lt;span> 60
+&lt;/span>&lt;span> 61
+&lt;/span>&lt;span> 62
+&lt;/span>&lt;span> 63
+&lt;/span>&lt;span> 64
+&lt;/span>&lt;span> 65
+&lt;/span>&lt;span> 66
+&lt;/span>&lt;span> 67
+&lt;/span>&lt;span> 68
+&lt;/span>&lt;span> 69
+&lt;/span>&lt;span> 70
+&lt;/span>&lt;span> 71
+&lt;/span>&lt;span> 72
+&lt;/span>&lt;span> 73
+&lt;/span>&lt;span> 74
+&lt;/span>&lt;span> 75
+&lt;/span>&lt;span> 76
+&lt;/span>&lt;span> 77
+&lt;/span>&lt;span> 78
+&lt;/span>&lt;span> 79
+&lt;/span>&lt;span> 80
+&lt;/span>&lt;span> 81
+&lt;/span>&lt;span> 82
+&lt;/span>&lt;span> 83
+&lt;/span>&lt;span> 84
+&lt;/span>&lt;span> 85
+&lt;/span>&lt;span> 86
+&lt;/span>&lt;span> 87
+&lt;/span>&lt;span> 88
+&lt;/span>&lt;span> 89
+&lt;/span>&lt;span> 90
+&lt;/span>&lt;span> 91
+&lt;/span>&lt;span> 92
+&lt;/span>&lt;span> 93
+&lt;/span>&lt;span> 94
+&lt;/span>&lt;span> 95
+&lt;/span>&lt;span> 96
+&lt;/span>&lt;span> 97
+&lt;/span>&lt;span> 98
+&lt;/span>&lt;span> 99
+&lt;/span>&lt;span>100
+&lt;/span>&lt;span>101
+&lt;/span>&lt;span>102
+&lt;/span>&lt;span>103
+&lt;/span>&lt;span>104
+&lt;/span>&lt;span>105
+&lt;/span>&lt;span>106
+&lt;/span>&lt;span>107
+&lt;/span>&lt;span>108
+&lt;/span>&lt;span>109
+&lt;/span>&lt;span>110
+&lt;/span>&lt;span>111
+&lt;/span>&lt;span>112
+&lt;/span>&lt;span>113
+&lt;/span>&lt;span>114
+&lt;/span>&lt;span>115
+&lt;/span>&lt;span>116
+&lt;/span>&lt;span>117
+&lt;/span>&lt;span>118
+&lt;/span>&lt;span>119
+&lt;/span>&lt;span>120
+&lt;/span>&lt;span>121
+&lt;/span>&lt;span>122
+&lt;/span>&lt;span>123
+&lt;/span>&lt;span>124
+&lt;/span>&lt;span>125
+&lt;/span>&lt;span>126
+&lt;/span>&lt;span>127
+&lt;/span>&lt;span>128
+&lt;/span>&lt;span>129
+&lt;/span>&lt;span>130
+&lt;/span>&lt;span>131
+&lt;/span>&lt;span>132
+&lt;/span>&lt;span>133
+&lt;/span>&lt;span>134
+&lt;/span>&lt;span>135
+&lt;/span>&lt;span>136
+&lt;/span>&lt;span>137
+&lt;/span>&lt;span>138
+&lt;/span>&lt;span>139
+&lt;/span>&lt;span>140
+&lt;/span>&lt;span>141
+&lt;/span>&lt;span>142
+&lt;/span>&lt;span>143
+&lt;/span>&lt;span>144
+&lt;/span>&lt;span>145
+&lt;/span>&lt;span>146
+&lt;/span>&lt;span>147
+&lt;/span>&lt;span>148
+&lt;/span>&lt;span>149
+&lt;/span>&lt;span>150
+&lt;/span>&lt;span>151
+&lt;/span>&lt;span>152
+&lt;/span>&lt;span>153
+&lt;/span>&lt;span>154
+&lt;/span>&lt;span>155
+&lt;/span>&lt;span>156
+&lt;/span>&lt;span>157
+&lt;/span>&lt;span>158
+&lt;/span>&lt;span>159
+&lt;/span>&lt;span>160
+&lt;/span>&lt;span>161
+&lt;/span>&lt;span>162
+&lt;/span>&lt;span>163
+&lt;/span>&lt;span>164
+&lt;/span>&lt;span>165
+&lt;/span>&lt;span>166
+&lt;/span>&lt;span>167
+&lt;/span>&lt;span>168
+&lt;/span>&lt;span>169
+&lt;/span>&lt;span>170
+&lt;/span>&lt;span>171
+&lt;/span>&lt;span>172
+&lt;/span>&lt;span>173
+&lt;/span>&lt;span>174
+&lt;/span>&lt;span>175
+&lt;/span>&lt;span>176
+&lt;/span>&lt;span>177
+&lt;/span>&lt;span>178
+&lt;/span>&lt;span>179
+&lt;/span>&lt;span>180
+&lt;/span>&lt;span>181
+&lt;/span>&lt;span>182
+&lt;/span>&lt;span>183
+&lt;/span>&lt;span>184
+&lt;/span>&lt;span>185
+&lt;/span>&lt;span>186
+&lt;/span>&lt;span>187
+&lt;/span>&lt;span>188
+&lt;/span>&lt;span>189
+&lt;/span>&lt;span>190
+&lt;/span>&lt;span>191
+&lt;/span>&lt;span>192
+&lt;/span>&lt;span>193
+&lt;/span>&lt;span>194
+&lt;/span>&lt;span>195
+&lt;/span>&lt;span>196
+&lt;/span>&lt;span>197
+&lt;/span>&lt;span>198
+&lt;/span>&lt;span>199
+&lt;/span>&lt;span>200
+&lt;/span>&lt;span>201
+&lt;/span>&lt;span>202
+&lt;/span>&lt;span>203
+&lt;/span>&lt;span>204
+&lt;/span>&lt;span>205
+&lt;/span>&lt;span>206
+&lt;/span>&lt;span>207
+&lt;/span>&lt;span>208
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>然后到主题配置文件，引用一下新建的小部件。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
+&lt;/span>&lt;span>2
+&lt;/span>&lt;span>3
+&lt;/span>&lt;span>4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>实现的效果&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240321130301.png"
 loading="lazy"
@@ -808,11 +1198,126 @@ loading="lazy"
 &lt;/h3>&lt;p>参考空白大佬的&lt;a class="link" href="https://github.com/koobai/blog/tree/main" target="_blank" rel="noopener"
 >网站源码&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
 &lt;p>关于这种添加侧边栏页面的操作，需要在 &lt;code>content/page&lt;/code>文件夹下新建文件夹，新建的文件夹里创建一个&lt;code>index.md&lt;/code>文件。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>&lt;code>layout&lt;/code> 属性是指引用哪一个布局文件，存放在&lt;code>layouts/_default&lt;/code>文件夹下。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;span>37
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;p>再给页面添加 CSS 样式，可以直接在&lt;code>assets/scss&lt;/code>目录下新建一个 scss 文件，记得在 style.scss 导入新建的样式文件，也可以直接写在 &lt;code>custom.scss&lt;/code>文件中。&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
+&lt;/span>&lt;span> 2
+&lt;/span>&lt;span> 3
+&lt;/span>&lt;span> 4
+&lt;/span>&lt;span> 5
+&lt;/span>&lt;span> 6
+&lt;/span>&lt;span> 7
+&lt;/span>&lt;span> 8
+&lt;/span>&lt;span> 9
+&lt;/span>&lt;span>10
+&lt;/span>&lt;span>11
+&lt;/span>&lt;span>12
+&lt;/span>&lt;span>13
+&lt;/span>&lt;span>14
+&lt;/span>&lt;span>15
+&lt;/span>&lt;span>16
+&lt;/span>&lt;span>17
+&lt;/span>&lt;span>18
+&lt;/span>&lt;span>19
+&lt;/span>&lt;span>20
+&lt;/span>&lt;span>21
+&lt;/span>&lt;span>22
+&lt;/span>&lt;span>23
+&lt;/span>&lt;span>24
+&lt;/span>&lt;span>25
+&lt;/span>&lt;span>26
+&lt;/span>&lt;span>27
+&lt;/span>&lt;span>28
+&lt;/span>&lt;span>29
+&lt;/span>&lt;span>30
+&lt;/span>&lt;span>31
+&lt;/span>&lt;span>32
+&lt;/span>&lt;span>33
+&lt;/span>&lt;span>34
+&lt;/span>&lt;span>35
+&lt;/span>&lt;span>36
+&lt;/span>&lt;span>37
+&lt;/span>&lt;span>38
+&lt;/span>&lt;span>39
+&lt;/span>&lt;span>40
+&lt;/span>&lt;span>41
+&lt;/span>&lt;span>42
+&lt;/span>&lt;span>43
+&lt;/span>&lt;span>44
+&lt;/span>&lt;span>45
+&lt;/span>&lt;span>46
+&lt;/span>&lt;span>47
+&lt;/span>&lt;span>48
+&lt;/span>&lt;span>49
+&lt;/span>&lt;span>50
+&lt;/span>&lt;span>51
+&lt;/span>&lt;span>52
+&lt;/span>&lt;span>53
+&lt;/span>&lt;span>54
+&lt;/span>&lt;span>55
+&lt;/span>&lt;span>56
+&lt;/span>&lt;span>57
+&lt;/span>&lt;span>58
+&lt;/span>&lt;span>59
+&lt;/span>&lt;span>60
+&lt;/span>&lt;span>61
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;td>&lt;pre tabindex="0">&lt;/pre>&lt;/td>&lt;/tr>&lt;/tbody>&lt;/table>
 &lt;h3 id="加载界面">
 &lt;a href="#%e5%8a%a0%e8%bd%bd%e7%95%8c%e9%9d%a2" class="header-anchor">#&lt;/a>
 ⭕加载界面
@@ -959,15 +1464,15 @@ Blockquotes
 &lt;a href="#blockquote-without-attribution" class="header-anchor">#&lt;/a>
 Blockquote without attribution
 &lt;/h4>&lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.&lt;br>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
 &lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="blockquote-with-attribution">
 &lt;a href="#blockquote-with-attribution" class="header-anchor">#&lt;/a>
 Blockquote with attribution
 &lt;/h4>&lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted -->&lt;br>
-— &lt;!-- raw HTML omitted -->Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;br>
+— &lt;cite>Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="tables">
 &lt;a href="#tables" class="header-anchor">#&lt;/a>
@@ -1123,11 +1628,11 @@ Nested list
 &lt;h2 id="other-elements--abbr-sub-sup-kbd-mark">
 &lt;a href="#other-elements--abbr-sub-sup-kbd-mark" class="header-anchor">#&lt;/a>
 Other Elements — abbr, sub, sup, kbd, mark
-&lt;/h2>&lt;p>&lt;!-- raw HTML omitted -->GIF&lt;!-- raw HTML omitted --> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->O&lt;/p>
-&lt;p>X&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> + Y&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> = Z&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>Press &lt;!-- raw HTML omitted -->CTRL&lt;!-- raw HTML omitted --> + &lt;!-- raw HTML omitted -->ALT&lt;!-- raw HTML omitted --> + &lt;!-- raw HTML omitted -->Delete&lt;!-- raw HTML omitted --> to end the session.&lt;/p>
-&lt;p>Most &lt;!-- raw HTML omitted -->salamanders&lt;!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;/h2>&lt;p>&lt;abbr title="Graphics Interchange Format">GIF&lt;/abbr> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;sub>2&lt;/sub>O&lt;/p>
+&lt;p>X&lt;sup>n&lt;/sup> + Y&lt;sup>n&lt;/sup> = Z&lt;sup>n&lt;/sup>&lt;/p>
+&lt;p>Press &lt;kbd>CTRL&lt;/kbd> + &lt;kbd>ALT&lt;/kbd> + &lt;kbd>Delete&lt;/kbd> to end the session.&lt;/p>
+&lt;p>Most &lt;mark>salamanders&lt;/mark> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
 &lt;h2 id="hyperlinked-image">
 &lt;a href="#hyperlinked-image" class="header-anchor">#&lt;/a>
 Hyperlinked image
@@ -1166,16 +1671,17 @@ alt="Google"
 &lt;a href="#examples" class="header-anchor">#&lt;/a>
 Examples
 &lt;/h3>&lt;p>Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
-&lt;p>Block math:&lt;br>
-$$&lt;br>
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }&lt;br>
+&lt;p>Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://zlh.pp.ua/p/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/emoji-support/</guid><description>&lt;img src="https://zlh.pp.ua/p/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" />&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
 &lt;p>The &lt;a class="link" href="https://gohugo.io/functions/emojify/" target="_blank" rel="noopener"
 >&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a class="link" href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes" target="_blank" rel="noopener"
 >Inline Shortcodes&lt;/a>.&lt;/p>
 &lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your site&amp;rsquo;s &lt;a class="link" href="https://gohugo.io/getting-started/configuration/" target="_blank" rel="noopener"
 >configuration&lt;/a> and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p>
-&lt;!-- raw HTML omitted -->
+&lt;p>&lt;span class="nowrap">&lt;span class="emojify">🙈&lt;/span> &lt;code>:see_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙉&lt;/span> &lt;code>:hear_no_evil:&lt;/code>&lt;/span> &lt;span class="nowrap">&lt;span class="emojify">🙊&lt;/span> &lt;code>:speak_no_evil:&lt;/code>&lt;/span>&lt;/p>
+&lt;br>
 &lt;p>The &lt;a class="link" href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener"
 >Emoji cheat sheet&lt;/a> is a useful reference for emoji shorthand codes.&lt;/p>
 &lt;hr>
@@ -1189,46 +1695,56 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://zl
 &lt;blockquote>
 &lt;p>ssh: connect to host github.com port 22: Connection refused。&lt;/p>
 &lt;/blockquote>
-&lt;pre tabindex="0">&lt;code>$ git pull
-ssh: connect to host github.com port 22: Connection refused
-fatal: Could not read from remote repository.
-​
-Please make sure you have the correct access rights
-and the repository exists.
-&lt;/code>&lt;/pre>&lt;p>排查思路&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ git pull
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ssh: connect to host github.com port 22: Connection refused
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fatal: Could not read from remote repository.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>​
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Please make sure you have the correct access rights
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>and the repository exists.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>排查思路&lt;/p>
 &lt;blockquote>
 &lt;p>ssh: connect to host github.com port 22: Connection refused&lt;br>
 这个错误提示的是连接github.com的22端口被拒绝了。&lt;/p>
 &lt;/blockquote>
 &lt;p>原本以为http://github.com挂了，但是浏览器访问http://github.com一切正常。&lt;/p>
 &lt;p>网上搜索这个报错，发现很多人遇到这个问题，大概有2个原因和对应解决方案：&lt;/p>
-&lt;p>使用GitHub的443端口&lt;br>
+&lt;p>使用GitHub的443端口
 22端口可能被防火墙屏蔽了，可以尝试连接GitHub的443端口。&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ vim ~/.ssh/config
-&lt;/code>&lt;/pre>&lt;h1 id="add-section-below-to-it">
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ vim ~/.ssh/config
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="add-section-below-to-it">
 &lt;a href="#add-section-below-to-it" class="header-anchor">#&lt;/a>
 Add section below to it
-&lt;/h1>&lt;p>Host github.com&lt;br>
-Hostname ssh.github.com&lt;br>
+&lt;/h1>&lt;p>Host github.com
+Hostname ssh.github.com
 Port 443&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ ssh -T git@github.com
-Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not
-provide shell access.
-这个解决方案的思路是：给~/.ssh/config文件里添加如下内容，这样ssh连接GitHub的时候就会使用443端口。
-&lt;/code>&lt;/pre>&lt;p>Host github.com&lt;br>
-Hostname ssh.github.com&lt;br>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ ssh -T git@github.com
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>provide shell access.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>这个解决方案的思路是：给~/.ssh/config文件里添加如下内容，这样ssh连接GitHub的时候就会使用443端口。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Host github.com
+Hostname ssh.github.com
 Port 443&lt;/p>
-&lt;pre tabindex="0">&lt;code>如果~/.ssh目录下没有config文件，新建一个即可。
-修改完~/.ssh/config文件后，使用ssh -T git@github.com来测试和GitHub的网络通信是否正常，如果提示Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access. 就表示一切正常了。
-但是，这个方案在我这里行不通，修改后还是提示ssh: connect to host github.com port 443: Connection refused。
-这个方案有效的前提是：执行命令ssh -T -p 443 git@ssh.github.com后不再提示connection refused，所以要尝试这个方案的小伙伴先执行这条命令测试下。
-使用https协议，不要使用ssh协议
-在你的GitHub的本地repo目录，执行如下命令：
-$ git config --local -e
-然后把里面的url配置项从git格式
-url = git@github.com:username/repo.git
-修改为https格式
-url = https://github.com/username/repo.git
-这个其实修改的是repo根目录下的./git/config文件。
-但是这个方法在我这里同样不生效。
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>如果~/.ssh目录下没有config文件，新建一个即可。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>修改完~/.ssh/config文件后，使用ssh -T git@github.com来测试和GitHub的网络通信是否正常，如果提示Hi xxxxx! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access. 就表示一切正常了。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>但是，这个方案在我这里行不通，修改后还是提示ssh: connect to host github.com port 443: Connection refused。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>这个方案有效的前提是：执行命令ssh -T -p 443 git@ssh.github.com后不再提示connection refused，所以要尝试这个方案的小伙伴先执行这条命令测试下。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>使用https协议，不要使用ssh协议
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>在你的GitHub的本地repo目录，执行如下命令：
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ git config --local -e
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>然后把里面的url配置项从git格式
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>url = git@github.com:username/repo.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>修改为https格式
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>url = https://github.com/username/repo.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>这个其实修改的是repo根目录下的./git/config文件。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>但是这个方法在我这里同样不生效。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

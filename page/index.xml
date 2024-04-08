@@ -138,7 +138,6 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;br>
 &lt;div class="timeline__row">
 &lt;div class="timeline__time">
 &lt;div class="timeline__time">2024-04-08&lt;/div>

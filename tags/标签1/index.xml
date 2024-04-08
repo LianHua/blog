@@ -170,7 +170,7 @@ font-size: 14px;
 }
 }
 &lt;/style></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>测试在picsum获取一张随机的图片。&lt;/p></description></item><item><title>测试随机图片</title><link>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
->https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。&lt;br>
+>https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://zlh.pp.ua/p/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。
 下面是一些基本的 Markdown 语法：&lt;/p>
 &lt;h3 id="标题">
 &lt;a href="#%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
@@ -271,15 +271,15 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以&lt;br>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
 >https://get.casaos.io&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
 &lt;blockquote>
 &lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
 &lt;/blockquote>
-&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。&lt;br>
-另外，还总结了一些方法：&lt;br>
+&lt;p>小贴士：有很多小伙伴会卡在安装这步，主要还是网络问题。因为casaos的软件源在国外，大家有加速环境的最好能用上。
+另外，还总结了一些方法：
 换源是可以把原先的软件源用“#”注释掉。比如&lt;/p>
 &lt;blockquote>
 &lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
@@ -287,6 +287,6 @@ wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="n
 deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
 &lt;/h1>&lt;/blockquote>
-&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。&lt;br>
-另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）&lt;br>
+&lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
+另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）
 最后还有小伙伴说他用最新版的底包刷机就成功了，我之前刷机的时候是不成功的。也许是casaos更新了版本的缘故。&lt;/p></description></item><item><title>标题</title><link>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/%E6%A0%87%E9%A2%98/</guid><description>&lt;img src="https://zlh.pp.ua/%E5%B0%81%E9%9D%A2" alt="Featured image of post 标题" /></description></item></channel></rss>
