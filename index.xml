@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>似水年华</title><link>https://zlh.pp.ua/</link><description>Recent content on 似水年华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Sun, 07 Apr 2024 16:31:40 +0800</lastBuildDate><atom:link href="https://zlh.pp.ua/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugostack主题美化参考</title><link>https://zlh.pp.ua/p/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://zlh.pp.ua/p/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;p>[李慕然的一天]（https://limuran.top/p/hugo-stack-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/#%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F%E7%BE%8E%E5%8C%96 &amp;ldquo;Hugo Stack 主题美化&amp;rdquo;）&lt;/p>
-&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig&lt;/a>&lt;/p></description></item><item><title>雨下一整晚</title><link>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 雨下一整晚" />&lt;p>时间来到三月。温州的天气如约的成了灰蒙蒙的，每到这个时候，房间里都散发着一种腐烂的味道。令人不愉快。&lt;/p>
+&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig&lt;/a>&lt;/p></description></item><item><title>快坏掉的橘子才好吃</title><link>https://zlh.pp.ua/p/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90%E6%89%8D%E5%A5%BD%E5%90%83/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90%E6%89%8D%E5%A5%BD%E5%90%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 快坏掉的橘子才好吃" />&lt;h2 id="有人说--快坏掉的橘子最好吃">
+&lt;a href="#%e6%9c%89%e4%ba%ba%e8%af%b4--%e5%bf%ab%e5%9d%8f%e6%8e%89%e7%9a%84%e6%a9%98%e5%ad%90%e6%9c%80%e5%a5%bd%e5%90%83" class="header-anchor">#&lt;/a>
+有人说 &amp;gt; 快坏掉的橘子最好吃
+&lt;/h2>&lt;p>这话不假，快坏掉的橘子确实是要甜一点。&lt;br>
+人们似乎也习惯性的把好东西留到后面，可是大多时候，掌握不好那个度的话，好的就变成了坏的。&lt;/p></description></item><item><title>雨下一整晚</title><link>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://zlh.pp.ua/p/%E9%9B%A8%E4%B8%8B%E4%B8%80%E6%95%B4%E6%99%9A/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e7d8b" alt="Featured image of post 雨下一整晚" />&lt;p>时间来到三月。温州的天气如约的成了灰蒙蒙的，每到这个时候，房间里都散发着一种腐烂的味道。令人不愉快。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">//代码复制按钮&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ae81ff">.article-content .copyCodeButton {&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">position&lt;/span>: &lt;span style="color:#ae81ff">absolute;&lt;/span>
@@ -1083,7 +1087,281 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://zl
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>关于</title><link>https://zlh.pp.ua/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>做制造加工的子弟。学人家搞了一个博客。&lt;/p>
 &lt;p>虽然每天重复着同一种工作。却也苦中作乐。&lt;/p>
 &lt;p>学人家折腾在github上搭建了一个利用hugo生成的静态博客&lt;/p>
-&lt;p>想要坚持记录点什么，给平淡的生活加点颜色。&lt;/p></description></item><item><title/><link>https://zlh.pp.ua/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
+&lt;p>想要坚持记录点什么，给平淡的生活加点颜色。&lt;/p>
+&lt;p>&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2023-09-10&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="">
+&lt;div class="timeline__title">教师节&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #FFFFFF;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style>
+&lt;br>
+&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2024-04-08&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="">
+&lt;div class="timeline__title">博客正式完工&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #FFFFFF;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style>
+&lt;/p></description></item><item><title/><link>https://zlh.pp.ua/p/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://zlh.pp.ua/p/</guid><description>&lt;p>这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.&lt;/p>
 &lt;p>事实上, 编写 Web 内容很麻烦. &lt;strong>WYSIWYG所见即所得&lt;/strong> 编辑器帮助减轻了这一任务. 但通常会导致代码太糟, 或更糟糕的是, 网页也会很丑.&lt;/p>
 &lt;p>没有通常伴随的所有复杂和丑陋的问题, &lt;strong>Markdown&lt;/strong> 是一种更好的生成 &lt;strong>HTML&lt;/strong> 内容的方式.&lt;/p>
 &lt;p>一些主要好处是:&lt;/p>
