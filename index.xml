@@ -2079,4 +2079,7 @@ font-size: 14px;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#ae81ff">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">website&lt;/span>: &lt;span style="color:#ae81ff">https://www.typescriptlang.org&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">ts-logo-128.jpg&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="qexo-friends">&lt;/div>
+&lt;link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
+&lt;script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/friends.js">&lt;/script>
+&lt;script>loadQexoFriends("qexo-friends", "https://admin.mide.eu.org")&lt;/script></description></item></channel></rss>
