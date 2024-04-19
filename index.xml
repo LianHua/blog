@@ -1792,13 +1792,149 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://mi
 &lt;p>&lt;strong>N.B.&lt;/strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>.emoji {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>关于</title><link>https://mide.eu.org/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://mide.eu.org/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>做制造加工的子弟。学人家搞了一个博客。&lt;/p>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>关于</title><link>https://mide.eu.org/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://mide.eu.org/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>跟着网上的大佬有有模有样的搞了一个博客。&lt;/p>
 &lt;p>虽然每天重复着同一种工作。却也苦中作乐。&lt;/p>
-&lt;p>学人家折腾在github上搭建了一个利用hugo生成的静态博客&lt;/p>
+&lt;p>在github上搭建了一个利用hugo生成的静态博客&lt;/p>
 &lt;p>想要坚持记录点什么，给平淡的生活加点颜色。&lt;/p>
 &lt;p>&lt;div class="timeline__row">
 &lt;div class="timeline__time">
-&lt;div class="timeline__time">2023-09-10&lt;/div>
+&lt;div class="timeline__time">2024-4-19&lt;/div>
+&lt;div class="timeline__split-line">&lt;/div>
+&lt;/div>
+&lt;div class="timeline__content">
+&lt;div class="timeline__tags">
+&lt;span class="timeline__tag">&lt;/span>
+&lt;/div>
+&lt;a href="https://mide.eu.org/talks">
+&lt;div class="timeline__title">接入说说&lt;/div>
+&lt;/a>
+&lt;div class="timeline__description">
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.timeline {
+display: flex;
+flex-direction: column;
+}
+.timeline__row {
+display: flex;
+padding-left: 4%;
+height: 90px;
+}
+.timeline__time {
+flex: 0 0 110px;
+color: #5d5d5d;
+font-size: 17px;
+text-transform: uppercase;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0.5rem 0;
+}
+.timeline__time-text {
+margin: 0;
+}
+.timeline__split-line {
+position: absolute;
+top: 0.5rem;
+right: -20px;
+height: 100%;
+width: 2px;
+background-color: #84c4e240;
+z-index: 0;
+}
+.timeline__split-line:before {
+content: "";
+position: absolute;
+top: 24%;
+right: -4px;
+transform: translateY(-50%);
+width: 10px;
+height: 10px;
+background-color: #c9e5f2;
+box-shadow: 0 0 0 4px var(--theme);
+border-radius: 50%;
+border: 0px solid #84c4e2;
+z-index: -1;
+}
+.timeline__content {
+flex: 1;
+margin-left: 4.5rem;
+padding: 0.5rem 0 1.2rem 0;
+}
+.timeline__title {
+margin: 0;
+margin-bottom: 2px;
+padding-top: 3px;
+margin-left: 0.5rem;
+color: var(--content);
+font-family: var(--font-family-teshu);
+font-size: 19px;
+font-weight: 600;
+width: fit-content;
+display: inline-block;
+vertical-align: middle;
+}
+.timeline__tags {
+display: inline-block;
+padding: 0;
+margin-left: 0.3rem;
+align-items: center;
+gap: 0.3rem;
+}
+.timeline__tag {
+display: inline-block;
+color: var(--secondary);
+background-color: #84c4e230;
+border: 1.5px solid #84c4e230;
+border-radius: 999px;
+padding: 0rem 0.5rem;
+font-size: 12px;
+white-space: nowrap;
+line-height: 1.4rem;
+opacity: 0.8;
+vertical-align: middle;
+}
+.timeline__description {
+font-size: 15px;
+line-height: 1.6;
+color: #5d5d5d;
+overflow: hidden;
+text-overflow: ellipsis;
+margin: 0.5rem 0 0.4rem 1.5rem;
+}
+.timeline__tag-style {
+background-color: #c581da;
+border-color: #c581da;
+color: #FFFFFF;
+}
+.timeline__tag-article {
+background-color: #92d392;
+border-color: #92d392;
+color: #000000;
+}
+.timeline__tag-page {
+background-color: #707070;
+border-color: #707070;
+color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.timeline__time {
+font-size: 14px;
+}
+.timeline__title {
+font-size: 16px;
+}
+.timeline__description {
+font-size: 14px;
+}
+}
+&lt;/style>
+&lt;div class="timeline__row">
+&lt;div class="timeline__time">
+&lt;div class="timeline__time">2024-4-18&lt;/div>
 &lt;div class="timeline__split-line">&lt;/div>
 &lt;/div>
 &lt;div class="timeline__content">
@@ -1806,7 +1942,7 @@ $$&lt;/p></description></item><item><title>Emoji Support</title><link>https://mi
 &lt;span class="timeline__tag">&lt;/span>
 &lt;/div>
 &lt;a href="">
-&lt;div class="timeline__title">教师节&lt;/div>
+&lt;div class="timeline__title">Qexo让博客动起来了&lt;/div>
 &lt;/a>
 &lt;div class="timeline__description">
 &lt;/div>
@@ -2080,7 +2216,7 @@ font-size: 14px;
 qexoDaodao?.init({
 el: "#qexoDaoDao",
 avatar: "https://q1.qlogo.cn/g?b=qq&amp;nk=2496091142&amp;s=640",
-name: "UyoAhz",
+name: "连华",
 limit: 10,
 useLoadingImg: false,
 baseURL: "https://admin.mide.eu.org/",
