@@ -2068,7 +2068,27 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;/p></description></item><item><title>搜索</title><link>https://mide.eu.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/search/</guid><description/></item><item><title>我的相册</title><link>https://mide.eu.org/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/photos/</guid><description/></item><item><title>友链</title><link>https://mide.eu.org/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/%E5%8F%8B%E9%93%BE/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;/p></description></item><item><title/><link>https://mide.eu.org/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/</guid><description>&lt;head>
+&lt;!-- ... -->
+&lt;script src="//cdn.jsdelivr.net/gh/Uyoahz26/daodao@main/dist/qexo-dao.min.js">&lt;/script>
+&lt;!-- ... -->
+&lt;/head>
+&lt;body>
+&lt;!-- ... -->
+&lt;div id="qexoDaoDao">&lt;/div>
+&lt;script>
+qexoDaodao?.init({
+el: "#qexoDaoDao",
+avatar: "https://q1.qlogo.cn/g?b=qq&amp;nk=2496091142&amp;s=640",
+name: "UyoAhz",
+limit: 10,
+useLoadingImg: false,
+baseURL: "https://admin.mide.eu.org/",
+}).then(function (){
+console.log("qexoDaodao加载完成");
+})
+&lt;/script>
+&lt;/body></description></item><item><title>搜索</title><link>https://mide.eu.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/search/</guid><description/></item><item><title>我的相册</title><link>https://mide.eu.org/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/photos/</guid><description/></item><item><title>友链</title><link>https://mide.eu.org/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/%E5%8F%8B%E9%93%BE/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">links&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">GitHub&lt;/span>
