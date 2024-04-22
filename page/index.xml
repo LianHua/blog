@@ -426,7 +426,7 @@ font-size: 14px;
 页面访问量 &lt;span id="qexo-page-pv">Loading...&lt;/span>
 &lt;script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/statistic.js">&lt;/script>
 &lt;script>
-loadStatistic("https://qexo.mide.eu.org")
+loadStatistic("https://admin.mide.eu.org")
 &lt;/script>
 &lt;/body>
 &lt;/html></description></item><item><title>说说</title><link>https://mide.eu.org/%E8%AF%B4%E8%AF%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mide.eu.org/%E8%AF%B4%E8%AF%B4/</guid><description>&lt;head>
