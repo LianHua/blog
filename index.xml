@@ -2174,7 +2174,7 @@ avatar: "https://q1.qlogo.cn/g?b=qq&amp;nk=2496091142&amp;s=640",
 name: "连华",
 limit: 10,
 useLoadingImg: false,
-baseURL: "https://admin.mide.eu.org/",
+baseURL: "https://admin.hitz.eu.org/",
 }).then(function (){
 console.log("qexoDaodao加载完成");
 })
