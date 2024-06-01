@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 连华</title><link>https://hitz.eu.org/page/</link><description>Recent content in Pages on 连华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hitz.eu.org/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://hitz.eu.org/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://hitz.eu.org/archives/</guid><description/></item><item><title>关于</title><link>https://hitz.eu.org/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://hitz.eu.org/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>&lt;code>寻寻觅觅，终有所得&lt;/code>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 连华</title><link>https://hua.my.id/page/</link><description>Recent content in Pages on 连华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hua.my.id/page/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://hua.my.id/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://hua.my.id/archives/</guid><description/></item><item><title>关于</title><link>https://hua.my.id/%E5%85%B3%E4%BA%8E/</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E5%85%B3%E4%BA%8E/</guid><description>&lt;p>&lt;code>寻寻觅觅，终有所得&lt;/code>&lt;/p>
 &lt;p>跟着网上的大佬有有模有样的搞了一个博客。&lt;/p>
 &lt;p>虽然每天重复着同一种工作。却也苦中作乐。&lt;/p>
 &lt;p>在github上搭建了一个利用hugo生成的静态博客&lt;/p>
@@ -15,7 +15,7 @@
 &lt;div class="timeline__tags">
 &lt;span class="timeline__tag">&lt;/span>
 &lt;/div>
-&lt;a href="https://hitz.eu.org/">
+&lt;a href="https://hua.my.id/">
 &lt;div class="timeline__title">更新域名 dzik.eu.org&lt;/div>
 &lt;/a>
 &lt;div class="timeline__description">
@@ -151,7 +151,7 @@ font-size: 14px;
 &lt;div class="timeline__tags">
 &lt;span class="timeline__tag">&lt;/span>
 &lt;/div>
-&lt;a href="https://hitz.eu.org/">
+&lt;a href="https://hua.my.id/">
 &lt;div class="timeline__title">更新域名 meide.eu.org&lt;/div>
 &lt;/a>
 &lt;div class="timeline__description">
@@ -287,7 +287,7 @@ font-size: 14px;
 &lt;div class="timeline__tags">
 &lt;span class="timeline__tag">&lt;/span>
 &lt;/div>
-&lt;a href="https://hitz.eu.org/%e8%af%b4%e8%af%b4">
+&lt;a href="https://hua.my.id/%e8%af%b4%e8%af%b4">
 &lt;div class="timeline__title">接入说说&lt;/div>
 &lt;/a>
 &lt;div class="timeline__description">
@@ -686,7 +686,7 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;/p></description></item><item><title>说说</title><link>https://hitz.eu.org/%E8%AF%B4%E8%AF%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hitz.eu.org/%E8%AF%B4%E8%AF%B4/</guid><description>&lt;head>
+&lt;/p></description></item><item><title>说说</title><link>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</guid><description>&lt;head>
 &lt;!-- ... -->
 &lt;script src="//cdn.jsdelivr.net/gh/Uyoahz26/daodao@main/dist/qexo-dao.min.js">&lt;/script>
 &lt;!-- ... -->
@@ -706,7 +706,7 @@ baseURL: "https://admin.hitz.eu.org/",
 console.log("qexoDaodao加载完成");
 })
 &lt;/script>
-&lt;/body></description></item><item><title>搜索</title><link>https://hitz.eu.org/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hitz.eu.org/search/</guid><description/></item><item><title>友链</title><link>https://hitz.eu.org/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hitz.eu.org/%E5%8F%8B%E9%93%BE/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;/body></description></item><item><title>搜索</title><link>https://hua.my.id/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/search/</guid><description/></item><item><title>友链</title><link>https://hua.my.id/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E5%8F%8B%E9%93%BE/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">links&lt;/span>:
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">GitHub&lt;/span>
