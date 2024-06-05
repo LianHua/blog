@@ -321,7 +321,173 @@ Wscript.quit
 &lt;/code>&lt;/pre>
 &lt;p>不知道你会不会遇到，但如果遇到了，那恭喜你节省很多找解决办法的时间，解决办法：在 config.yml 根级加入以下代码：&lt;/p>
 &lt;pre>&lt;code>timeout: 10m
-&lt;/code>&lt;/pre></description></item><item><title>Markdown 基本语法</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post Markdown 基本语法" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。
+&lt;/code>&lt;/pre></description></item><item><title>hugo搭建博客</title><link>https://hua.my.id/posts/%E6%8A%98%E8%85%BE/web002/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%98%E8%85%BE/web002/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
+loading="lazy"
+alt="Avatar"
+>&lt;/a>😎&lt;/p>
+&lt;h2 id="目录">
+&lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
+目录
+&lt;/h2>&lt;p>1根据您提供的网页内容，以下是转换为Markdown格式的示例：&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="gh"># Deploy Your Site Step By Step
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gh">&lt;/span>By LinSnow.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">## 在GitHub和Vercel部署你的博客
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### 🍕利用Github Page和Github Action部署你的Hugo博客
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">#### 🍔注册GitHub
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>打开 &lt;span class="sb">`https://github.com/`&lt;/span>, 注册一个GitHub账号。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">#### 🧀创建Github仓库
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>为了使用 &lt;span class="sb">`GitHub Action`&lt;/span> 自动部署，创建两个仓库。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">1.&lt;/span> 创建一个名字为 &lt;span class="sb">`blog`&lt;/span> 的仓库。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">2.&lt;/span> 创建一个名为 &lt;span class="sb">`blog-file`&lt;/span> 的仓库。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">#### 🍦获取SSH Key密钥
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>生成SSH密钥，配置邮箱和用户名。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">```bash
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global user.email &amp;#34;you@example.com&amp;#34;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git config --global user.name &amp;#34;Your Name&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>生成SSH key。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ssh-keygen -t rsa
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>将公钥配置到 &lt;code>GitHub&lt;/code> 账户中。&lt;/p>
+&lt;h4 id="部署hugo博客">
+&lt;a href="#%e9%83%a8%e7%bd%b2hugo%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
+🍚部署hugo博客
+&lt;/h4>&lt;p>在博客根目录下创建 &lt;code>.github/workflows/deploy.yml&lt;/code> 文件，并填写相应内容。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub Page&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">main&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Cache resources&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/cache@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify --gc&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>创建 &lt;code>deploy.sh&lt;/code> 文件用于一键部署博客。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">hugo
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git init
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git add -A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git commit -m &lt;span class="s1">&amp;#39;deploy&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push -f git@github.com:lin-snow/blog-file.git main
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>运行 &lt;code>deploy.sh&lt;/code> 推送文件到仓库。&lt;/p>
+&lt;h4 id="开启github-page">
+&lt;a href="#%e5%bc%80%e5%90%afgithub-page" class="header-anchor">#&lt;/a>
+🍺开启Github Page
+&lt;/h4>&lt;p>进入 &lt;code>blog&lt;/code> 仓库，打开设置，找到 &lt;code>page&lt;/code> 项。&lt;/p>
+&lt;h3 id="利用vercel部署你的hugo博客">
+&lt;a href="#%e5%88%a9%e7%94%a8vercel%e9%83%a8%e7%bd%b2%e4%bd%a0%e7%9a%84hugo%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
+🥝利用Vercel部署你的Hugo博客
+&lt;/h3>&lt;h4 id="登录vercel">
+&lt;a href="#%e7%99%bb%e5%bd%95vercel" class="header-anchor">#&lt;/a>
+🍖登录Vercel
+&lt;/h4>&lt;p>使用GitHub登录Vercel。&lt;/p>
+&lt;h4 id="导入博客">
+&lt;a href="#%e5%af%bc%e5%85%a5%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
+🎈导入博客
+&lt;/h4>&lt;p>登录后，选择 &lt;code>Add New ...&lt;/code> -&amp;gt; &lt;code>Project&lt;/code>，导入GitHub上的 &lt;code>Blog&lt;/code> 项目。&lt;/p>
+&lt;h4 id="自定义域名">
+&lt;a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e5%9f%9f%e5%90%8d" class="header-anchor">#&lt;/a>
+自定义域名
+&lt;/h4>&lt;p>在Vercel中设置自定义域名，并在域名服务商添加解析。&lt;/p>
+&lt;p>完成博客在Vercel的部署。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">请注意，Markdown格式的代码块使用三个反引号 ``` 包围，而yaml和bash代码块使用 ```yaml 或 ```bash 来指定语言。此外，Markdown格式的链接需要替换为实际的URL，这里为了简化，我省略了链接的详细内容。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Markdown 基本语法</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post Markdown 基本语法" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。
 下面是一些基本的 Markdown 语法：&lt;/p>
 &lt;h3 id="标题">
 &lt;a href="#%e6%a0%87%e9%a2%98" class="header-anchor">#&lt;/a>
