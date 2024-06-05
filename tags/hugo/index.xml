@@ -211,8 +211,7 @@ alt="Avatar"
 &lt;h2 id="目录">
 &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
 目录
-&lt;/h2>&lt;p>1根据您提供的网页内容，以下是转换为Markdown格式的示例：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -362,12 +361,8 @@ alt="Avatar"
 &lt;p>完成博客在Vercel的部署。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">请注意，Markdown格式的代码块使用三个反引号 ``` 包围，而yaml和bash代码块使用 ```yaml 或 ```bash 来指定语言。此外，Markdown格式的链接需要替换为实际的URL，这里为了简化，我省略了链接的详细内容。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item></channel></rss>

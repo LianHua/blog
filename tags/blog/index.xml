@@ -211,8 +211,7 @@ alt="Avatar"
 &lt;h2 id="目录">
 &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
 目录
-&lt;/h2>&lt;p>1根据您提供的网页内容，以下是转换为Markdown格式的示例：&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
 &lt;/span>&lt;span class="lnt"> 2
@@ -362,13 +361,9 @@ alt="Avatar"
 &lt;p>完成博客在Vercel的部署。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">请注意，Markdown格式的代码块使用三个反引号 ``` 包围，而yaml和bash代码块使用 ```yaml 或 ```bash 来指定语言。此外，Markdown格式的链接需要替换为实际的URL，这里为了简化，我省略了链接的详细内容。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div></description></item><item><title>Markdown 基本语法</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post Markdown 基本语法" />&lt;p>Markdown 是一种轻量级的标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成结构化的HTML页面。Markdown 由 John Gruber 和 Aaron Swartz 共同创建，目的是使人们能够专注于撰写内容而非排版样式。
 下面是一些基本的 Markdown 语法：&lt;/p>
