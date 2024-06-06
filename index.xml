@@ -2814,7 +2814,10 @@ baseURL: "https://admin.hitz.eu.org/",
 console.log("qexoDaodao加载完成");
 })
 &lt;/script>
-&lt;/body></description></item><item><title>搜索</title><link>https://hua.my.id/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/search/</guid><description/></item><item><title>我的相册</title><link>https://hua.my.id/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/photos/</guid><description/></item><item><title>友链</title><link>https://hua.my.id/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E5%8F%8B%E9%93%BE/</guid><description>&lt;p>我的朋友们:&lt;/p>
+&lt;/body></description></item><item><title>搜索</title><link>https://hua.my.id/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/search/</guid><description/></item><item><title>我的相册</title><link>https://hua.my.id/photos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/photos/</guid><description/></item><item><title>友链</title><link>https://hua.my.id/%E5%8F%8B%E9%93%BE/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E5%8F%8B%E9%93%BE/</guid><description>&lt;div id="friends-api">&lt;/div>
+&lt;script src="https://unpkg.com/qexo-friends/friends-api.js">&lt;/script>
+&lt;script>qexo_friend_api("friends-api","admin.hitz.eu.org","人机验证秘钥，没有的不填");&lt;/script>
+&lt;p>我的朋友们:&lt;/p>
 &lt;div id="qexo-friends">&lt;/div>
 &lt;link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
 &lt;script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/friends.js">&lt;/script>
