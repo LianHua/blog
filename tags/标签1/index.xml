@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>标签1 on 连华</title><link>https://hua.my.id/tags/%E6%A0%87%E7%AD%BE1/</link><description>Recent content in 标签1 on 连华</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>LianHua</copyright><lastBuildDate>Thu, 04 Apr 2024 08:40:51 +0800</lastBuildDate><atom:link href="https://hua.my.id/tags/%E6%A0%87%E7%AD%BE1/index.xml" rel="self" type="application/rss+xml"/><item><title>测试随机图片</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
->https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
+>https://picsum.photos/800/600.webp?random={{
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
 &lt;p>date -R&lt;/p>
 &lt;/blockquote>
@@ -40,7 +47,14 @@
 &lt;/div>
 &lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
->https://get.casaos.io&lt;/a> | bash&lt;/p>
+>https://get.casaos.io
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
 &lt;blockquote>
 &lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
@@ -52,7 +66,14 @@ wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="n
 &lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
 &lt;a href="#deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free" class="header-anchor">#&lt;/a>
 deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
->https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
+>https://mirrors.tuna.tsinghua.edu.cn/debian/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> bullseye main contrib non-free
 &lt;/h1>&lt;/blockquote>
 &lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
 另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）

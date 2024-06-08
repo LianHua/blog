@@ -126,8 +126,22 @@ Port 443&lt;/p>
 &lt;p>大概记录一下这个流程及实现方式，希望对你有参考价值。&lt;/p>
 &lt;blockquote>
 &lt;p>首先介绍一下我目前的使用环境，使用&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo&lt;/a>框架，魔改后的 &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
->Stack&lt;/a>主题，阿里云购买的域名，部署在阿里云服务器，用 Obsidian 进行文章创作。&lt;/p>
+>Hugo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>框架，魔改后的 &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+>Stack
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>主题，阿里云购买的域名，部署在阿里云服务器，用 Obsidian 进行文章创作。&lt;/p>
 &lt;/blockquote>
 &lt;p>So，让我们开始吧💪！&lt;/p>
 &lt;h2 id="准备一下">
@@ -141,14 +155,42 @@ Port 443&lt;/p>
 &lt;p>❓非必须：Git，VsCode，Obsidian&lt;/p>
 &lt;/blockquote>
 &lt;p>下载 &lt;strong>Hugo&lt;/strong> 可以去 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo 官网&lt;/a> 查看，官网提供了不同系统的安装方式，或者在&lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
->Github页面&lt;/a>Releases 下载。&lt;/p>
+>Hugo 官网
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> 查看，官网提供了不同系统的安装方式，或者在&lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
+>Github页面
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>Releases 下载。&lt;/p>
 &lt;p>&lt;strong>Git&lt;/strong> 用来发布到 Github，在我的流程中，部署到自己的服务器也用 Git，如果想纯手动上传到服务器，也不是不可以。&lt;/p>
 &lt;p>&lt;strong>VsCode&lt;/strong> 用来进行网站的配置，也有可视化的 Git 界面可以使用。&lt;/p>
 &lt;p>Obsidian 是个笔记软件，可以用来创作，插件丰富，可&lt;strong>疯狂&lt;/strong>自定义。&lt;/p>
 &lt;p>&lt;strong>Git&lt;/strong>、 &lt;strong>Obsidian&lt;/strong>和 &lt;strong>VsCode&lt;/strong> 直接上官网下载安装就好，可以看 &lt;a class="link" href="https://blog.linsnow.cn/" target="_blank" rel="noopener"
->L1nSn0w’&lt;/a>的这篇文章《&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
->（1）带着Stack主题入坑Hugo&lt;/a>》&lt;/p>
+>L1nSn0w’
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>的这篇文章《&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
+>（1）带着Stack主题入坑Hugo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》&lt;/p>
 &lt;blockquote>
 &lt;ol>
 &lt;li>⚠Hugo 需要 Go 环境。&lt;/li>
@@ -217,7 +259,14 @@ loading="lazy"
 &lt;a href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98" class="header-anchor">#&lt;/a>
 ✨下载安装主题
 &lt;/h4>&lt;p>我用的是 Stack 主题，你也可以到 &lt;a class="link" href="https://themes.gohugo.io/" target="_blank" rel="noopener"
->Hugo主题列表&lt;/a>找自己喜欢的主题。&lt;/p>
+>Hugo主题列表
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>找自己喜欢的主题。&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-1.png"
 loading="lazy"
 >&lt;/p>
@@ -329,7 +378,14 @@ loading="lazy"
 &lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2" class="header-anchor">#&lt;/a>
 👨💻第二阶段——网站部署
 &lt;/h2>&lt;p>&lt;a class="link" href="https://blog.morick66.com/p/20240305055915/" target="_blank" rel="noopener"
->上文&lt;/a>已经将自己的网站在本地运行成功了👀，但是运行在自己本地的网站怎么能叫网站呢，当然要让他&lt;strong>上网&lt;/strong>🕸了。&lt;/p>
+>上文
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>已经将自己的网站在本地运行成功了👀，但是运行在自己本地的网站怎么能叫网站呢，当然要让他&lt;strong>上网&lt;/strong>🕸了。&lt;/p>
 &lt;h3 id="部署在-vercel">
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8-vercel" class="header-anchor">#&lt;/a>
 💥部署在 Vercel。
@@ -401,9 +457,23 @@ loading="lazy"
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8" class="header-anchor">#&lt;/a>
 👑部署在自己的服务器
 &lt;/h3>&lt;p>本部分参考《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》，大佬的教程十分详细，绝大部分都可以用在 Hugo 上，部分自动化流程相关会在下一节说明。&lt;/p>
+>基于Hexo的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》，大佬的教程十分详细，绝大部分都可以用在 Hugo 上，部分自动化流程相关会在下一节说明。&lt;/p>
 &lt;p>⚠服务器访问需要防火墙开放 80 （http）和 443（https） 端口。参考—&lt;a class="link" href="https://blog.csdn.net/PEABRAIND/article/details/125073418" target="_blank" rel="noopener"
->这篇文章&lt;/a>&lt;/p>
+>这篇文章
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h2 id="第三阶段自动化流程">
 &lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%81%e7%a8%8b" class="header-anchor">#&lt;/a>
 🎿第三阶段——自动化流程
@@ -627,7 +697,14 @@ loading="lazy"
 &lt;a href="#%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
 🔑自动部署到 Vercel
 &lt;/h4>&lt;p>部署到 Vercel 的话，需要整个网站目录是 git 仓库，利用 Obsidian Git 插件将仓库&lt;code>push&lt;/code>到 Github，再利用 GithubAction 实现自动编译，并把 public 目录添加到 gh-pages 分支。参考—&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
->这篇文章&lt;/a>&lt;/p>
+>这篇文章
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;p>需要在网站根目录创建&lt;code>.github/workflows&lt;/code>目录，新建一个&lt;code>main.yml&lt;/code>文件，写入以下内容：&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
 &lt;/span>&lt;span> 2
@@ -674,7 +751,14 @@ loading="lazy"
 🗝自动部署到服务器
 &lt;/h4>&lt;p>同样使用 git，但部署服务器只需要 &lt;code>public&lt;/code> 目录作为 git 仓库。&lt;/p>
 &lt;p>根据《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
+>基于Hexo的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
 &lt;p>先删除网站目录的 public 文件夹。&lt;/p>
 &lt;p>在博客网站的根目录打开&lt;code>git bush&lt;/code>，执行下面命令把服务器 Git 仓库&lt;code>clone&lt;/code>到网站&lt;code>public&lt;/code>目录。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
@@ -737,36 +821,127 @@ loading="lazy"
 &lt;/h3>&lt;p>评论组件有很多，下面是 stack 内置支持的评论组件。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://cactus.chat/" target="_blank" rel="noopener"
->Cactus&lt;/a>&lt;/li>
+>Cactus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://cusdis.com/" target="_blank" rel="noopener"
->Cusdis&lt;/a>&lt;/li>
+>Cusdis
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://disqus.com/" target="_blank" rel="noopener"
->Disqus&lt;/a>&lt;/li>
+>Disqus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/SukkaW/DisqusJS" target="_blank" rel="noopener"
->DisqusJS&lt;/a>&lt;/li>
+>DisqusJS
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://giscus.app/" target="_blank" rel="noopener"
->Giscus&lt;/a>&lt;/li>
+>Giscus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/gitalk/gitalk" target="_blank" rel="noopener"
->Gitalk&lt;/a>&lt;/li>
+>Gitalk
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://remark42.com/" target="_blank" rel="noopener"
->Remark42&lt;/a>&lt;/li>
+>Remark42
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
->Twikoo&lt;/a>&lt;/li>
+>Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://utteranc.es/" target="_blank" rel="noopener"
->utterances&lt;/a>&lt;/li>
+>utterances
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://vssue.js.org/" target="_blank" rel="noopener"
->Vssue&lt;/a>&lt;/li>
+>Vssue
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://waline.js.org/" target="_blank" rel="noopener"
->Waline&lt;/a>&lt;/li>
+>Waline
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>大部分都需要登录，对于路过游客比较不方便，所以我用的 &lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
->Twikoo&lt;/a>,配置过程可以直接上官网查看，官网配置过程十分详细，提供了多种部署方式。&lt;/p>
+>Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>,配置过程可以直接上官网查看，官网配置过程十分详细，提供了多种部署方式。&lt;/p>
 &lt;p>我使用 docker 将他部署在了服务器上。分配了个子域名。&lt;/p>
 &lt;h3 id="页面添加memos">
 &lt;a href="#%e9%a1%b5%e9%9d%a2%e6%b7%bb%e5%8a%a0memos" class="header-anchor">#&lt;/a>
 🗨页面添加Memos
 &lt;/h3>&lt;p>参考—&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
->基于 Memos 实现说说和清单功能&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
+>基于 Memos 实现说说和清单功能
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
 &lt;p>在&lt;code>layouts/partials/widget&lt;/code>文件夹下新建一个 memos.html 文件，粘贴如下内容。样式脚本都包含在这个文件内。&lt;/p>
 &lt;p>下面脚本里的网址都换成自己的 memos 域名。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
@@ -991,12 +1166,26 @@ loading="lazy"
 &lt;p>右下角链接可以跳转到 memos 页面。&lt;/p>
 &lt;p>如果有需求，可以把 twikoo 也嵌入 memos 页面。&lt;/p>
 &lt;p>参考木木大佬的文章&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
->Memos x Twikoo&lt;/a>&lt;/p>
+>Memos x Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h3 id="软件装备页面">
 &lt;a href="#%e8%bd%af%e4%bb%b6%e8%a3%85%e5%a4%87%e9%a1%b5%e9%9d%a2" class="header-anchor">#&lt;/a>
 🔬软件&amp;amp;装备页面
 &lt;/h3>&lt;p>参考空白大佬的&lt;a class="link" href="https://github.com/koobai/blog/tree/main" target="_blank" rel="noopener"
->网站源码&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
+>网站源码
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
 &lt;p>关于这种添加侧边栏页面的操作，需要在 &lt;code>content/page&lt;/code>文件夹下新建文件夹，新建的文件夹里创建一个&lt;code>index.md&lt;/code>文件。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
 &lt;/span>&lt;span> 2
@@ -1122,7 +1311,14 @@ loading="lazy"
 &lt;a href="#%e5%8a%a0%e8%bd%bd%e7%95%8c%e9%9d%a2" class="header-anchor">#&lt;/a>
 ⭕加载界面
 &lt;/h3>&lt;p>网页切换之间的加载页面。参考—&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
->为网站加入Loading加载页&lt;/a>&lt;/p>
+>为网站加入Loading加载页
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h2 id="第五阶段无止尽的主题折腾">
 &lt;a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5%e6%97%a0%e6%ad%a2%e5%b0%bd%e7%9a%84%e4%b8%bb%e9%a2%98%e6%8a%98%e8%85%be" class="header-anchor">#&lt;/a>
 💟第五阶段——无止尽的主题折腾
@@ -1133,29 +1329,113 @@ loading="lazy"
 &lt;/h2>&lt;p>包括但不仅限于：&lt;/p>
 &lt;ol>
 &lt;li>&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
->Memos x Twikoo&lt;/a>&lt;/li>
+>Memos x Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://koobai.com/" target="_blank" rel="noopener"
->空白&lt;/a>&lt;/li>
+>空白
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
->基于 Memos 实现说说和清单功能&lt;/a>&lt;/li>
+>基于 Memos 实现说说和清单功能
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yelleis.top/p/61fdb627/" target="_blank" rel="noopener"
->hugo stack 主题美化&lt;/a>&lt;/li>
+>hugo stack 主题美化
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
->为网站加入Loading加载页&lt;/a>&lt;/li>
+>为网站加入Loading加载页
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.jianshu.com/p/bfa6575b6057" target="_blank" rel="noopener"
->使用 Hugo 进行持续集成写作及同步&lt;/a>&lt;/li>
+>使用 Hugo 进行持续集成写作及同步
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.zhheo.com/p/99d020fe.html" target="_blank" rel="noopener"
->Twikoo 腾讯云函数部署转移到私有部署 | 张洪 Heo&lt;/a>&lt;/li>
+>Twikoo 腾讯云函数部署转移到私有部署 | 张洪 Heo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/673413550" target="_blank" rel="noopener"
->使用 Obsidian 免费建个人博客&lt;/a>&lt;/li>
+>使用 Obsidian 免费建个人博客
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
->Hugo 博客写作最佳实践&lt;/a>&lt;/li>
+>Hugo 博客写作最佳实践
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于 Hexo 的静态博客网站搭建并部署至云服务器&lt;/a>&lt;/li>
+>基于 Hexo 的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://shaohanyun.top/posts/env/hugo_aliyun/" target="_blank" rel="noopener"
->Hugo 博客部署到阿里云服务器&lt;/a>&lt;/li>
+>Hugo 博客部署到阿里云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
->（3）Stack主题的自定义&lt;/a>&lt;/li>
+>（3）Stack主题的自定义
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>…&lt;/li>
 &lt;/ol>
 &lt;h2 id="结语">

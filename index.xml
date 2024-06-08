@@ -161,10 +161,12 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;/p></description></item><item><title>hugo搭建博客(三)</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web003/</link><pubDate>Tue, 04 Jun 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web003/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客(三)" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
+&lt;/p></description></item><item><title/><link>https://hua.my.id/posts/%E6%B5%8B%E8%AF%95%E7%9F%AD%E9%93%BE%E6%8E%A5/</link><pubDate>Thu, 06 Jun 2024 11:17:59 +0800</pubDate><guid>https://hua.my.id/posts/%E6%B5%8B%E8%AF%95%E7%9F%AD%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>#测试短链接&lt;/p>
+&lt;p>😆&lt;/p></description></item><item><title>hugo搭建博客(三)</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web003/</link><pubDate>Tue, 04 Jun 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web003/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客(三)" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
 loading="lazy"
 alt="Avatar"
->&lt;/a>😎&lt;/p>
+>
+&lt;/a>😎&lt;/p>
 &lt;h2 id="目录">
 &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
 目录
@@ -439,7 +441,38 @@ macOS 风格红绿灯图标
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>“二四八月乱穿衣”：自然现象与主观适应的辩证思考</title><link>https://hua.my.id/posts/2024/%E4%BA%8C%E5%9B%9B%E5%85%AB%E6%9C%88%E4%B9%B1%E7%A9%BF%E8%A1%A3/</link><pubDate>Wed, 10 Apr 2024 11:35:35 +0800</pubDate><guid>https://hua.my.id/posts/2024/%E4%BA%8C%E5%9B%9B%E5%85%AB%E6%9C%88%E4%B9%B1%E7%A9%BF%E8%A1%A3/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e738b" alt="Featured image of post “二四八月乱穿衣”：自然现象与主观适应的辩证思考" />&lt;h2 id="气候与哲学二四八月乱穿衣自然现象与主观适应的辩证思考">
+&lt;/div></description></item><item><title>重装系统遇到的坑：pe下无法使用键盘鼠标</title><link>https://hua.my.id/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91pe%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E9%BC%A0%E6%A0%87/</link><pubDate>Sun, 02 Jun 2024 07:02:32 +0800</pubDate><guid>https://hua.my.id/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91pe%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E9%BC%A0%E6%A0%87/</guid><description>&lt;hr>
+&lt;h1 id="技术博文一次不平凡的mastercam-2022安装之旅">
+&lt;a href="#%e6%8a%80%e6%9c%af%e5%8d%9a%e6%96%87%e4%b8%80%e6%ac%a1%e4%b8%8d%e5%b9%b3%e5%87%a1%e7%9a%84mastercam-2022%e5%ae%89%e8%a3%85%e4%b9%8b%e6%97%85" class="header-anchor">#&lt;/a>
+技术博文：一次不平凡的Mastercam 2022安装之旅
+&lt;/h1>&lt;h2 id="引言">
+&lt;a href="#%e5%bc%95%e8%a8%80" class="header-anchor">#&lt;/a>
+引言
+&lt;/h2>&lt;p>在现代制造业中，Mastercam作为一款强大的CAD/CAM软件，对于提升生产效率和精度至关重要。然而，安装过程并非总是一帆风顺。本文将分享一次安装Mastercam 2022时遇到的挑战及其解决方案，希望能为遇到类似问题的同仁们提供参考。&lt;/p>
+&lt;h2 id="启动阶段u盘启动与pe系统">
+&lt;a href="#%e5%90%af%e5%8a%a8%e9%98%b6%e6%ae%b5u%e7%9b%98%e5%90%af%e5%8a%a8%e4%b8%8epe%e7%b3%bb%e7%bb%9f" class="header-anchor">#&lt;/a>
+启动阶段：U盘启动与PE系统
+&lt;/h2>&lt;p>在安装Mastercam 2022的初始阶段，我选择了使用U盘启动进入PE系统。这是一个常见的做法，因为PE系统可以提供一个轻量级的Windows环境，方便进行系统安装和维护。&lt;/p>
+&lt;h2 id="遇到的问题键盘和鼠标失灵">
+&lt;a href="#%e9%81%87%e5%88%b0%e7%9a%84%e9%97%ae%e9%a2%98%e9%94%ae%e7%9b%98%e5%92%8c%e9%bc%a0%e6%a0%87%e5%a4%b1%e7%81%b5" class="header-anchor">#&lt;/a>
+遇到的问题：键盘和鼠标失灵
+&lt;/h2>&lt;p>然而，我遇到了一个棘手的问题：在PE系统中，键盘和鼠标都失去了响应。这无疑给安装过程带来了不小的挑战。&lt;/p>
+&lt;h2 id="解决方案探索bios设置调整">
+&lt;a href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%8e%a2%e7%b4%a2bios%e8%ae%be%e7%bd%ae%e8%b0%83%e6%95%b4" class="header-anchor">#&lt;/a>
+解决方案探索：BIOS设置调整
+&lt;/h2>&lt;p>我首先尝试了网上推荐的解决方案，即通过调整BIOS设置来解决这个问题。遗憾的是，我发现新主板并没有提供网上所描述的那些选项，这让我陷入了困境。&lt;/p>
+&lt;h2 id="转机更换pe系统">
+&lt;a href="#%e8%bd%ac%e6%9c%ba%e6%9b%b4%e6%8d%a2pe%e7%b3%bb%e7%bb%9f" class="header-anchor">#&lt;/a>
+转机：更换PE系统
+&lt;/h2>&lt;p>就在我几乎要放弃的时候，一位经验丰富的技术大神给了我一个宝贵的建议：尝试使用另一个版本的PE系统。这听起来是一个简单但有效的解决方案。&lt;/p>
+&lt;h2 id="结果成功启动与安装">
+&lt;a href="#%e7%bb%93%e6%9e%9c%e6%88%90%e5%8a%9f%e5%90%af%e5%8a%a8%e4%b8%8e%e5%ae%89%e8%a3%85" class="header-anchor">#&lt;/a>
+结果：成功启动与安装
+&lt;/h2>&lt;p>按照大神的建议，我更换了PE系统，再次尝试启动。令人惊喜的是，这次键盘和鼠标都能够正常工作了。我顺利地完成了Mastercam 2022的安装。&lt;/p>
+&lt;h2 id="总结">
+&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor">#&lt;/a>
+总结
+&lt;/h2>&lt;p>这次安装经历提醒我们，在面对技术问题时，有时候需要的不仅仅是技术知识，更需要的是耐心和开放的心态。更换PE系统这一简单的步骤，解决了一个看似复杂的问题。希望我的经历能够激励你在遇到挑战时，不要轻易放弃，总有解决的办法。&lt;/p></description></item><item><title>“二四八月乱穿衣”：自然现象与主观适应的辩证思考</title><link>https://hua.my.id/posts/2024/%E4%BA%8C%E5%9B%9B%E5%85%AB%E6%9C%88%E4%B9%B1%E7%A9%BF%E8%A1%A3/</link><pubDate>Wed, 10 Apr 2024 11:35:35 +0800</pubDate><guid>https://hua.my.id/posts/2024/%E4%BA%8C%E5%9B%9B%E5%85%AB%E6%9C%88%E4%B9%B1%E7%A9%BF%E8%A1%A3/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=e85e738b" alt="Featured image of post “二四八月乱穿衣”：自然现象与主观适应的辩证思考" />&lt;h2 id="气候与哲学二四八月乱穿衣自然现象与主观适应的辩证思考">
 &lt;a href="#%e6%b0%94%e5%80%99%e4%b8%8e%e5%93%b2%e5%ad%a6%e4%ba%8c%e5%9b%9b%e5%85%ab%e6%9c%88%e4%b9%b1%e7%a9%bf%e8%a1%a3%e8%87%aa%e7%84%b6%e7%8e%b0%e8%b1%a1%e4%b8%8e%e4%b8%bb%e8%a7%82%e9%80%82%e5%ba%94%e7%9a%84%e8%be%a9%e8%af%81%e6%80%9d%e8%80%83" class="header-anchor">#&lt;/a>
 【气候与哲学】“二四八月乱穿衣”：自然现象与主观适应的辩证思考
 &lt;/h2>&lt;h3 id="引言">
@@ -591,8 +624,18 @@ Port 443&lt;/p>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">但是这个方法在我这里同样不生效。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Hugostack主题美化参考</title><link>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;p>[李慕然的一天]（https://limuran.top/p/hugo-stack-%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/#%E9%80%89%E4%B8%AD%E6%96%87%E6%9C%AC%E6%A0%B7%E5%BC%8F%E7%BE%8E%E5%8C%96 &amp;ldquo;Hugo Stack 主题美化&amp;rdquo;）&lt;/p>
-&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig&lt;/a>&lt;/p></description></item><item><title>快坏掉的橘子才好吃</title><link>https://hua.my.id/posts/2024/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://hua.my.id/posts/2024/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90/</guid><description>&lt;img src="https://hua.my.id/image/%E6%A9%98%E5%AD%90.jpg" alt="Featured image of post 快坏掉的橘子才好吃" />&lt;h1 id="快坏掉的橘子一种生活的哲学">
+&lt;/div></description></item><item><title>Hugostack主题美化参考</title><link>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;p>[李慕然的一天]（https://limuran.top）
+&lt;a class="link" href="https://thirdshire.com/" target="_blank" rel="noopener"
+>第三夏尔
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig
+&lt;/a>&lt;/p></description></item><item><title>快坏掉的橘子才好吃</title><link>https://hua.my.id/posts/2024/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90/</link><pubDate>Sat, 06 Apr 2024 11:35:35 +0800</pubDate><guid>https://hua.my.id/posts/2024/%E5%BF%AB%E5%9D%8F%E6%8E%89%E7%9A%84%E6%A9%98%E5%AD%90/</guid><description>&lt;img src="https://hua.my.id/image/%E6%A9%98%E5%AD%90.jpg" alt="Featured image of post 快坏掉的橘子才好吃" />&lt;h1 id="快坏掉的橘子一种生活的哲学">
 &lt;a href="#%e5%bf%ab%e5%9d%8f%e6%8e%89%e7%9a%84%e6%a9%98%e5%ad%90%e4%b8%80%e7%a7%8d%e7%94%9f%e6%b4%bb%e7%9a%84%e5%93%b2%e5%ad%a6" class="header-anchor">#&lt;/a>
 快坏掉的橘子：一种生活的哲学
 &lt;/h1>&lt;p>在我们日常生活中，橘子是一种常见的水果，它以其鲜艳的色泽、酸甜的口感和丰富的营养价值而受到人们的喜爱。然而，你有没有注意到，往往在橘子即将变质的时候，它的味道会变得更加浓郁，更加令人难忘。这种现象不仅是一种自然现象，更是一种生活的哲学。&lt;/p>
@@ -624,36 +667,51 @@ Port 443&lt;/p>
 &lt;p>总的来说，虽然温州三月的天气可能会带来一些不便，但通过采取适当的措施，我们仍然可以享受到春天的美好。让我们积极应对，用行动改善我们的生活环境，让生活充满阳光和希望。&lt;/p></description></item><item><title>hugo搭建博客</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
 loading="lazy"
 alt="Avatar"
->&lt;/a>😎&lt;/p>
+>
+&lt;/a>😎&lt;/p>
 &lt;h2 id="目录">
 &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
 目录
 &lt;/h2>&lt;ol>
-&lt;li>&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >Hugo 环境搭建&lt;/a>
+&lt;li>&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >Hugo 环境搭建
+&lt;/a>
 &lt;ol>
-&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >安装 VS Code&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >安装 Git&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >安装 Hugo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >安装 VS Code
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >安装 Git
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >安装 Hugo
+&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/li>
-&lt;li>&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >Hugo博客搭建&lt;/a>
+&lt;li>&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >Hugo博客搭建
+&lt;/a>
 &lt;ol>
-&lt;li>&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >初始化博客&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >Stack 主题安装&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >配置博客各个页面&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >开始创作&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >预览博客&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >初始化博客
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >Stack 主题安装
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >配置博客各个页面
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >开始创作
+&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >预览博客
+&lt;/a>&lt;/li>
 &lt;/ol>
 &lt;/li>
 &lt;/ol>
 &lt;p>&lt;a class="link" href="https://hua.my.id/post/hugo-stack/" >&lt;img src="https://cdn.xalaok.top/images/blog/2023/06/22/stack.webp"
 loading="lazy"
 alt="Featured image of post 投入 Hugo 的怀抱！"
->&lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="https://hua.my.id/categories/%E5%8E%9F%E5%88%9B/" >原创&lt;/a> &lt;a class="link" href="https://hua.my.id/categories/%E6%8A%98%E8%85%BE/" >折腾&lt;/a>&lt;/p>
+>
+&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://hua.my.id/categories/%E5%8E%9F%E5%88%9B/" >原创
+&lt;/a> &lt;a class="link" href="https://hua.my.id/categories/%E6%8A%98%E8%85%BE/" >折腾
+&lt;/a>&lt;/p>
 &lt;h2 id="投入-hugo-的怀抱posthugo-stack">
 &lt;a href="#%e6%8a%95%e5%85%a5-hugo-%e7%9a%84%e6%80%80%e6%8a%b1posthugo-stack" class="header-anchor">#&lt;/a>
-&lt;a class="link" href="https://hua.my.id/post/hugo-stack/" >投入 Hugo 的怀抱！&lt;/a>
+&lt;a class="link" href="https://hua.my.id/post/hugo-stack/" >投入 Hugo 的怀抱！
+&lt;/a>
 &lt;/h2>&lt;p>这篇文章主要介绍了作者在 Windows 11 系统下搭建 Hugo 环境的过程，包括安装 VS Code、Git 和 Hugo，以及使用 Stack 主题搭建博客的步骤。文章详细介绍了安装步骤和配置方法，包括下载安装软件、设置环境变量、初始化博客、安装主题、配置页面、创作文章和预览博客等内容。作者分享了自己的经验和遇到的问题，并提供了解决方案。整体内容涵盖了从环境搭建到博客搭建的全过程，适合初学者参考。&lt;/p>
 &lt;p>document.addEventListener(&amp;ldquo;DOMContentLoaded&amp;rdquo;,function(){const e=document.querySelector(&amp;quot;.ai-explanation-content&amp;quot;).textContent;new TypeIt(&amp;quot;#ai-explanation&amp;quot;,{strings:e,speed:10,lifeLike:!0,waitUntilVisible:!0}).go()})&lt;/p>
 &lt;blockquote>
@@ -671,14 +729,23 @@ alt="Featured image of post 投入 Hugo 的怀抱！"
 &lt;/blockquote>
 &lt;h2 id="hugo-环境搭建hugo-环境搭建">
 &lt;a href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%bahugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" class="header-anchor">#&lt;/a>
-Hugo 环境搭建&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >#&lt;/a>
+Hugo 环境搭建&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba" >#
+&lt;/a>
 &lt;/h2>&lt;h3 id="安装-vs-code安装-vs-code">
 &lt;a href="#%e5%ae%89%e8%a3%85-vs-code%e5%ae%89%e8%a3%85-vs-code" class="header-anchor">#&lt;/a>
-安装 VS Code&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >#&lt;/a>
+安装 VS Code&lt;a class="link" href="#%e5%ae%89%e8%a3%85-vs-code" >#
+&lt;/a>
 &lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>从&lt;a class="link" href="https://code.visualstudio.com/" target="_blank" rel="noopener"
->官网&lt;/a>获取 VS Code 安装包（国内直接下载速度慢，可将下载链接中的域名替换为 &lt;code>vscode.cdn.azure.cn&lt;/code>，下载速度直接起飞）&lt;/p>
+>官网
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>获取 VS Code 安装包（国内直接下载速度慢，可将下载链接中的域名替换为 &lt;code>vscode.cdn.azure.cn&lt;/code>，下载速度直接起飞）&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select Additional Tasks 中把下面列出的全部选项打勾&lt;/p>
@@ -696,30 +763,53 @@ Hugo 环境搭建&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%b
 &lt;p>至此，VS Code 就安装完成了，接下来安装 Git&lt;/p>
 &lt;h3 id="安装-git安装-git">
 &lt;a href="#%e5%ae%89%e8%a3%85-git%e5%ae%89%e8%a3%85-git" class="header-anchor">#&lt;/a>
-安装 Git&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >#&lt;/a>
+安装 Git&lt;a class="link" href="#%e5%ae%89%e8%a3%85-git" >#
+&lt;/a>
 &lt;/h3>&lt;p>小白直接上手 git 感觉门槛有点高，还是建议装 git 的 GUI 版本&lt;br>
 我选的是 GitHub Desktop&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>官网下载安装包&lt;br>
 下载地址：&lt;a class="link" href="https://desktop.github.com/" target="_blank" rel="noopener"
->https://desktop.github.com/&lt;/a>&lt;/p>
+>https://desktop.github.com/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>使用 &lt;a class="link" href="https://github.com/robotze/GithubDesktopZhTool" target="_blank" rel="noopener"
->GithubDesktopZhTool&lt;/a> 汉化&lt;br>
+>GithubDesktopZhTool
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> 汉化&lt;br>
 个人觉得没任何难度，实在不懂可以看作者的 README 文档&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>当然大佬们可以直接用 Git，也不需要我多解释&lt;/p>
 &lt;h3 id="安装-hugo安装-hugo">
 &lt;a href="#%e5%ae%89%e8%a3%85-hugo%e5%ae%89%e8%a3%85-hugo" class="header-anchor">#&lt;/a>
-安装 Hugo&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >#&lt;/a>
+安装 Hugo&lt;a class="link" href="#%e5%ae%89%e8%a3%85-hugo" >#
+&lt;/a>
 &lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>从 Hugo 官方 github 仓库下载 hugo extended 版本&lt;br>
 下载地址: &lt;a class="link" href="https://github.com/gohugoio/hugo/releases/latest" target="_blank" rel="noopener"
->https://github.com/gohugoio/hugo/releases/latest&lt;/a>&lt;/p>
+>https://github.com/gohugoio/hugo/releases/latest
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>解压下载下来的压缩包，得到 &lt;code>hugo.exe&lt;/code> 并放到自己心仪的位置&lt;br>
@@ -736,21 +826,31 @@ Hugo 环境搭建&lt;a class="link" href="#hugo-%e7%8e%af%e5%a2%83%e6%90%ad%e5%b
 &lt;p>恭喜！到这里，基本就都配置完毕了，现在可以开始博客的搭建了&lt;/p>
 &lt;h2 id="hugo博客搭建hugo博客搭建">
 &lt;a href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%bahugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" class="header-anchor">#&lt;/a>
-Hugo博客搭建&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >#&lt;/a>
+Hugo博客搭建&lt;a class="link" href="#hugo%e5%8d%9a%e5%ae%a2%e6%90%ad%e5%bb%ba" >#
+&lt;/a>
 &lt;/h2>&lt;h3 id="初始化博客初始化博客">
 &lt;a href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
-初始化博客&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >#&lt;/a>
+初始化博客&lt;a class="link" href="#%e5%88%9d%e5%a7%8b%e5%8c%96%e5%8d%9a%e5%ae%a2" >#
+&lt;/a>
 &lt;/h3>&lt;p>在任意位置右键，选择在终端打开，输入以下命令：&lt;/p>
 &lt;pre>&lt;code>hugo new site &amp;lt;这里填上你想要的位置&amp;gt;
 &lt;/code>&lt;/pre>
 &lt;h3 id="stack-主题安装stack-主题安装">
 &lt;a href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" class="header-anchor">#&lt;/a>
-Stack 主题安装&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >#&lt;/a>
+Stack 主题安装&lt;a class="link" href="#stack-%e4%b8%bb%e9%a2%98%e5%ae%89%e8%a3%85" >#
+&lt;/a>
 &lt;/h3>&lt;ol>
 &lt;li>
 &lt;p>获取主题文件&lt;br>
 找到 Stack 主题 GitHub 仓库（链接：&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
->https://github.com/CaiJimmy/hugo-theme-stack&lt;/a>）&lt;br>
+>https://github.com/CaiJimmy/hugo-theme-stack
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>）&lt;br>
 Code Download → Download ZIP 下载源码解压&lt;/p>
 &lt;/li>
 &lt;li>
@@ -762,12 +862,20 @@ Code Download → Download ZIP 下载源码解压&lt;/p>
 &lt;li>
 &lt;p>编辑 config.yaml，根据自己需要进行配置，作者在配置文件里面写了基本注释（虽然都是英文的）&lt;br>
 官方配置文档: &lt;a class="link" href="https://stack.jimmycai.com/config/" target="_blank" rel="noopener"
->https://stack.jimmycai.com/config/&lt;/a>&lt;/p>
+>https://stack.jimmycai.com/config/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="配置博客各个页面配置博客各个页面">
 &lt;a href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" class="header-anchor">#&lt;/a>
-配置博客各个页面&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >#&lt;/a>
+配置博客各个页面&lt;a class="link" href="#%e9%85%8d%e7%bd%ae%e5%8d%9a%e5%ae%a2%e5%90%84%e4%b8%aa%e9%a1%b5%e9%9d%a2" >#
+&lt;/a>
 &lt;/h3>&lt;p>如果添加的是自己博客的一个页面，可以在这个页面的 md 文件的 Front Matter 中添加以下内容：&lt;/p>
 &lt;pre>&lt;code>menu:
 main:
@@ -797,19 +905,35 @@ params:&lt;br>
 &lt;code>newTab&lt;/code>: 是否在新标签页打开&lt;/p>
 &lt;/blockquote>
 &lt;p>官方文档：&lt;a class="link" href="https://stack.jimmycai.com/config/menu" target="_blank" rel="noopener"
->https://stack.jimmycai.com/config/menu&lt;/a>&lt;/p>
+>https://stack.jimmycai.com/config/menu
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h3 id="开始创作开始创作">
 &lt;a href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" class="header-anchor">#&lt;/a>
-开始创作&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >#&lt;/a>
+开始创作&lt;a class="link" href="#%e5%bc%80%e5%a7%8b%e5%88%9b%e4%bd%9c" >#
+&lt;/a>
 &lt;/h3>&lt;p>博客文章都存放在 /content 中，如果想要创建一篇文章，可以在博客文件夹根目录下打开终端输入以下命令：&lt;/p>
 &lt;pre>&lt;code>hugo new posts/my-first-post.md
 &lt;/code>&lt;/pre>
 &lt;p>再打开 /content/posts 就可以找到一个 Hugo 为你创建好的一个名为 my-first-post.md 的文件&lt;/p>
 &lt;p>当然你也可以使用官方推荐的一篇文章一个文件夹的方式（官方文档: &lt;a class="link" href="https://stack.jimmycai.com/writing/markdown" target="_blank" rel="noopener"
->https://stack.jimmycai.com/writing/markdown&lt;/a>）&lt;/p>
+>https://stack.jimmycai.com/writing/markdown
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>）&lt;/p>
 &lt;h3 id="预览博客预览博客">
 &lt;a href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" class="header-anchor">#&lt;/a>
-预览博客&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >#&lt;/a>
+预览博客&lt;a class="link" href="#%e9%a2%84%e8%a7%88%e5%8d%9a%e5%ae%a2" >#
+&lt;/a>
 &lt;/h3>&lt;p>创作完成的你一定想要本地预览你的博客吧，博客根目录右键“在终端打开”，输入以下命令：&lt;/p>
 &lt;pre>&lt;code>hugo server --navigateToChanged
 &lt;/code>&lt;/pre>
@@ -829,7 +953,8 @@ Wscript.quit
 &lt;/code>&lt;/pre></description></item><item><title>hugo搭建博客</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web002/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web002/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
 loading="lazy"
 alt="Avatar"
->&lt;/a>😎&lt;/p>
+>
+&lt;/a>😎&lt;/p>
 &lt;h2 id="目录">
 &lt;a href="#%e7%9b%ae%e5%bd%95" class="header-anchor">#&lt;/a>
 目录
@@ -1093,7 +1218,16 @@ alt="Avatar"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">![&lt;span class="nt">Moonshot AI Logo&lt;/span>](&lt;span class="na">https://kimi.moonshot.cn/images/logo.png&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h3 id="引用">
+&lt;/div>&lt;p>&lt;a class="link" href="https://kimi.moonshot.cn/images/logo.png" target="_blank" rel="noopener"
+>Moonshot AI Logo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
+&lt;h3 id="引用">
 &lt;a href="#%e5%bc%95%e7%94%a8" class="header-anchor">#&lt;/a>
 引用
 &lt;/h3>&lt;p>使用 &lt;code>&amp;gt;&lt;/code> 符号来创建引用。&lt;/p>
@@ -1155,8 +1289,22 @@ alt="Avatar"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [ ]&lt;/span> 任务三
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>这些是 Markdown 的基本语法，掌握这些，你就可以开始使用 Markdown 来编写文档了。随着实践的深入，你还可以探索更多的高级功能，如自定义样式、脚注等。&lt;/p></description></item><item><title>测试随机图片</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
->https://picsum.photos/800/600.webp?random={{&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
+&lt;/div>&lt;h3 id="实现内容折叠">
+&lt;a href="#%e5%ae%9e%e7%8e%b0%e5%86%85%e5%ae%b9%e6%8a%98%e5%8f%a0" class="header-anchor">#&lt;/a>
+实现内容折叠
+&lt;/h3>&lt;details>
+&lt;summary>&lt;/summary>
+Collapsed text
+&lt;/details>
+&lt;p>这些是 Markdown 的基本语法，掌握这些，你就可以开始使用 Markdown 来编写文档了。随着实践的深入，你还可以探索更多的高级功能，如自定义样式、脚注等。&lt;/p></description></item><item><title>测试随机图片</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E6%B5%8B%E8%AF%95%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post 测试随机图片" />&lt;p>image: &lt;a class="link" href="https://picsum.photos/800/600.webp?random=%7b%7b" target="_blank" rel="noopener"
+>https://picsum.photos/800/600.webp?random={{
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> substr (md5 (.Date)) 4 8 }}&lt;/p></description></item><item><title>玩客云刷机</title><link>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E6%8A%80%E6%9C%AF/%E7%8E%A9%E5%AE%A2%E4%BA%91%E5%88%B7%E6%9C%BA/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b2964" alt="Featured image of post 玩客云刷机" />&lt;p>检查时间&lt;/p>
 &lt;blockquote>
 &lt;p>date -R&lt;/p>
 &lt;/blockquote>
@@ -1197,7 +1345,14 @@ alt="Avatar"
 &lt;/div>
 &lt;/div>&lt;p>然后就是安装casaos系统了，casaos的安装只要这一条代码就可以
 wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="noopener"
->https://get.casaos.io&lt;/a> | bash&lt;/p>
+>https://get.casaos.io
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> | bash&lt;/p>
 &lt;p>如果你的网络不好，可以执行这个国内源代码试试（注意使用了国内源的一键安装以后是无法自动升级casaos系统的）：&lt;/p>
 &lt;blockquote>
 &lt;p>curl -fsSL cn-get.casaos.io | bash&lt;/p>
@@ -1209,7 +1364,14 @@ wget -qO- &lt;a class="link" href="https://get.casaos.io" target="_blank" rel="n
 &lt;h1 id="deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free">
 &lt;a href="#deb-src-httpsmirrorstunatsinghuaeducndebian-bullseye-main-contrib-non-free" class="header-anchor">#&lt;/a>
 deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" target="_blank" rel="noopener"
->https://mirrors.tuna.tsinghua.edu.cn/debian/&lt;/a> bullseye main contrib non-free
+>https://mirrors.tuna.tsinghua.edu.cn/debian/
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> bullseye main contrib non-free
 &lt;/h1>&lt;/blockquote>
 &lt;p>这句前面加了“#”，系统就不会运行这句代码了。同样地可以把复制粘贴的新代码去掉注释，这样就会有更多的新软件源。
 另外有的网友不添加软件源反而安装成功了，大家也可以试试。（我怀疑是网络原因，与换源无关）
@@ -1224,8 +1386,22 @@ deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" t
 &lt;p>大概记录一下这个流程及实现方式，希望对你有参考价值。&lt;/p>
 &lt;blockquote>
 &lt;p>首先介绍一下我目前的使用环境，使用&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo&lt;/a>框架，魔改后的 &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
->Stack&lt;/a>主题，阿里云购买的域名，部署在阿里云服务器，用 Obsidian 进行文章创作。&lt;/p>
+>Hugo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>框架，魔改后的 &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+>Stack
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>主题，阿里云购买的域名，部署在阿里云服务器，用 Obsidian 进行文章创作。&lt;/p>
 &lt;/blockquote>
 &lt;p>So，让我们开始吧💪！&lt;/p>
 &lt;h2 id="准备一下">
@@ -1239,14 +1415,42 @@ deb-src &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/debian/" t
 &lt;p>❓非必须：Git，VsCode，Obsidian&lt;/p>
 &lt;/blockquote>
 &lt;p>下载 &lt;strong>Hugo&lt;/strong> 可以去 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
->Hugo 官网&lt;/a> 查看，官网提供了不同系统的安装方式，或者在&lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
->Github页面&lt;/a>Releases 下载。&lt;/p>
+>Hugo 官网
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a> 查看，官网提供了不同系统的安装方式，或者在&lt;a class="link" href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener"
+>Github页面
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>Releases 下载。&lt;/p>
 &lt;p>&lt;strong>Git&lt;/strong> 用来发布到 Github，在我的流程中，部署到自己的服务器也用 Git，如果想纯手动上传到服务器，也不是不可以。&lt;/p>
 &lt;p>&lt;strong>VsCode&lt;/strong> 用来进行网站的配置，也有可视化的 Git 界面可以使用。&lt;/p>
 &lt;p>Obsidian 是个笔记软件，可以用来创作，插件丰富，可&lt;strong>疯狂&lt;/strong>自定义。&lt;/p>
 &lt;p>&lt;strong>Git&lt;/strong>、 &lt;strong>Obsidian&lt;/strong>和 &lt;strong>VsCode&lt;/strong> 直接上官网下载安装就好，可以看 &lt;a class="link" href="https://blog.linsnow.cn/" target="_blank" rel="noopener"
->L1nSn0w’&lt;/a>的这篇文章《&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
->（1）带着Stack主题入坑Hugo&lt;/a>》&lt;/p>
+>L1nSn0w’
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>的这篇文章《&lt;a class="link" href="https://blog.linsnow.cn/p/join-hugo-and-stack/" target="_blank" rel="noopener"
+>（1）带着Stack主题入坑Hugo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》&lt;/p>
 &lt;blockquote>
 &lt;ol>
 &lt;li>⚠Hugo 需要 Go 环境。&lt;/li>
@@ -1315,7 +1519,14 @@ loading="lazy"
 &lt;a href="#%e4%b8%8b%e8%bd%bd%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98" class="header-anchor">#&lt;/a>
 ✨下载安装主题
 &lt;/h4>&lt;p>我用的是 Stack 主题，你也可以到 &lt;a class="link" href="https://themes.gohugo.io/" target="_blank" rel="noopener"
->Hugo主题列表&lt;/a>找自己喜欢的主题。&lt;/p>
+>Hugo主题列表
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>找自己喜欢的主题。&lt;/p>
 &lt;p>&lt;img src="https://www.morick66.com/p/20240321055915/2420240320-1.png"
 loading="lazy"
 >&lt;/p>
@@ -1427,7 +1638,14 @@ loading="lazy"
 &lt;a href="#%e7%ac%ac%e4%ba%8c%e9%98%b6%e6%ae%b5%e7%bd%91%e7%ab%99%e9%83%a8%e7%bd%b2" class="header-anchor">#&lt;/a>
 👨💻第二阶段——网站部署
 &lt;/h2>&lt;p>&lt;a class="link" href="https://blog.morick66.com/p/20240305055915/" target="_blank" rel="noopener"
->上文&lt;/a>已经将自己的网站在本地运行成功了👀，但是运行在自己本地的网站怎么能叫网站呢，当然要让他&lt;strong>上网&lt;/strong>🕸了。&lt;/p>
+>上文
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>已经将自己的网站在本地运行成功了👀，但是运行在自己本地的网站怎么能叫网站呢，当然要让他&lt;strong>上网&lt;/strong>🕸了。&lt;/p>
 &lt;h3 id="部署在-vercel">
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8-vercel" class="header-anchor">#&lt;/a>
 💥部署在 Vercel。
@@ -1499,9 +1717,23 @@ loading="lazy"
 &lt;a href="#%e9%83%a8%e7%bd%b2%e5%9c%a8%e8%87%aa%e5%b7%b1%e7%9a%84%e6%9c%8d%e5%8a%a1%e5%99%a8" class="header-anchor">#&lt;/a>
 👑部署在自己的服务器
 &lt;/h3>&lt;p>本部分参考《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》，大佬的教程十分详细，绝大部分都可以用在 Hugo 上，部分自动化流程相关会在下一节说明。&lt;/p>
+>基于Hexo的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》，大佬的教程十分详细，绝大部分都可以用在 Hugo 上，部分自动化流程相关会在下一节说明。&lt;/p>
 &lt;p>⚠服务器访问需要防火墙开放 80 （http）和 443（https） 端口。参考—&lt;a class="link" href="https://blog.csdn.net/PEABRAIND/article/details/125073418" target="_blank" rel="noopener"
->这篇文章&lt;/a>&lt;/p>
+>这篇文章
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h2 id="第三阶段自动化流程">
 &lt;a href="#%e7%ac%ac%e4%b8%89%e9%98%b6%e6%ae%b5%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%81%e7%a8%8b" class="header-anchor">#&lt;/a>
 🎿第三阶段——自动化流程
@@ -1725,7 +1957,14 @@ loading="lazy"
 &lt;a href="#%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2%e5%88%b0-vercel" class="header-anchor">#&lt;/a>
 🔑自动部署到 Vercel
 &lt;/h4>&lt;p>部署到 Vercel 的话，需要整个网站目录是 git 仓库，利用 Obsidian Git 插件将仓库&lt;code>push&lt;/code>到 Github，再利用 GithubAction 实现自动编译，并把 public 目录添加到 gh-pages 分支。参考—&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
->这篇文章&lt;/a>&lt;/p>
+>这篇文章
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;p>需要在网站根目录创建&lt;code>.github/workflows&lt;/code>目录，新建一个&lt;code>main.yml&lt;/code>文件，写入以下内容：&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
 &lt;/span>&lt;span> 2
@@ -1772,7 +2011,14 @@ loading="lazy"
 🗝自动部署到服务器
 &lt;/h4>&lt;p>同样使用 git，但部署服务器只需要 &lt;code>public&lt;/code> 目录作为 git 仓库。&lt;/p>
 &lt;p>根据《&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于Hexo的静态博客网站搭建并部署至云服务器&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
+>基于Hexo的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>》这篇文章教程，服务器创建 Git 仓库后，本地与服务器连接也正常后，进行下面的步骤。&lt;/p>
 &lt;p>先删除网站目录的 public 文件夹。&lt;/p>
 &lt;p>在博客网站的根目录打开&lt;code>git bush&lt;/code>，执行下面命令把服务器 Git 仓库&lt;code>clone&lt;/code>到网站&lt;code>public&lt;/code>目录。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span>1
@@ -1835,36 +2081,127 @@ loading="lazy"
 &lt;/h3>&lt;p>评论组件有很多，下面是 stack 内置支持的评论组件。&lt;/p>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://cactus.chat/" target="_blank" rel="noopener"
->Cactus&lt;/a>&lt;/li>
+>Cactus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://cusdis.com/" target="_blank" rel="noopener"
->Cusdis&lt;/a>&lt;/li>
+>Cusdis
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://disqus.com/" target="_blank" rel="noopener"
->Disqus&lt;/a>&lt;/li>
+>Disqus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/SukkaW/DisqusJS" target="_blank" rel="noopener"
->DisqusJS&lt;/a>&lt;/li>
+>DisqusJS
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://giscus.app/" target="_blank" rel="noopener"
->Giscus&lt;/a>&lt;/li>
+>Giscus
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://github.com/gitalk/gitalk" target="_blank" rel="noopener"
->Gitalk&lt;/a>&lt;/li>
+>Gitalk
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://remark42.com/" target="_blank" rel="noopener"
->Remark42&lt;/a>&lt;/li>
+>Remark42
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
->Twikoo&lt;/a>&lt;/li>
+>Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://utteranc.es/" target="_blank" rel="noopener"
->utterances&lt;/a>&lt;/li>
+>utterances
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://vssue.js.org/" target="_blank" rel="noopener"
->Vssue&lt;/a>&lt;/li>
+>Vssue
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://waline.js.org/" target="_blank" rel="noopener"
->Waline&lt;/a>&lt;/li>
+>Waline
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>大部分都需要登录，对于路过游客比较不方便，所以我用的 &lt;a class="link" href="https://twikoo.js.org/" target="_blank" rel="noopener"
->Twikoo&lt;/a>,配置过程可以直接上官网查看，官网配置过程十分详细，提供了多种部署方式。&lt;/p>
+>Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>,配置过程可以直接上官网查看，官网配置过程十分详细，提供了多种部署方式。&lt;/p>
 &lt;p>我使用 docker 将他部署在了服务器上。分配了个子域名。&lt;/p>
 &lt;h3 id="页面添加memos">
 &lt;a href="#%e9%a1%b5%e9%9d%a2%e6%b7%bb%e5%8a%a0memos" class="header-anchor">#&lt;/a>
 🗨页面添加Memos
 &lt;/h3>&lt;p>参考—&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
->基于 Memos 实现说说和清单功能&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
+>基于 Memos 实现说说和清单功能
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>，脚本内容可能是 memos 的更新有些错误，做了一些修改，外观样式也做了一些魔改，更符合 stack 主题。方式如下：&lt;/p>
 &lt;p>在&lt;code>layouts/partials/widget&lt;/code>文件夹下新建一个 memos.html 文件，粘贴如下内容。样式脚本都包含在这个文件内。&lt;/p>
 &lt;p>下面脚本里的网址都换成自己的 memos 域名。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
@@ -2089,12 +2426,26 @@ loading="lazy"
 &lt;p>右下角链接可以跳转到 memos 页面。&lt;/p>
 &lt;p>如果有需求，可以把 twikoo 也嵌入 memos 页面。&lt;/p>
 &lt;p>参考木木大佬的文章&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
->Memos x Twikoo&lt;/a>&lt;/p>
+>Memos x Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h3 id="软件装备页面">
 &lt;a href="#%e8%bd%af%e4%bb%b6%e8%a3%85%e5%a4%87%e9%a1%b5%e9%9d%a2" class="header-anchor">#&lt;/a>
 🔬软件&amp;amp;装备页面
 &lt;/h3>&lt;p>参考空白大佬的&lt;a class="link" href="https://github.com/koobai/blog/tree/main" target="_blank" rel="noopener"
->网站源码&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
+>网站源码
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>并配合自己的主题进行样式修改。&lt;/p>
 &lt;p>关于这种添加侧边栏页面的操作，需要在 &lt;code>content/page&lt;/code>文件夹下新建文件夹，新建的文件夹里创建一个&lt;code>index.md&lt;/code>文件。&lt;/p>
 &lt;table>&lt;tbody>&lt;tr>&lt;td>&lt;pre tabindex="0">&lt;code>&lt;span> 1
 &lt;/span>&lt;span> 2
@@ -2220,7 +2571,14 @@ loading="lazy"
 &lt;a href="#%e5%8a%a0%e8%bd%bd%e7%95%8c%e9%9d%a2" class="header-anchor">#&lt;/a>
 ⭕加载界面
 &lt;/h3>&lt;p>网页切换之间的加载页面。参考—&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
->为网站加入Loading加载页&lt;/a>&lt;/p>
+>为网站加入Loading加载页
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
 &lt;h2 id="第五阶段无止尽的主题折腾">
 &lt;a href="#%e7%ac%ac%e4%ba%94%e9%98%b6%e6%ae%b5%e6%97%a0%e6%ad%a2%e5%b0%bd%e7%9a%84%e4%b8%bb%e9%a2%98%e6%8a%98%e8%85%be" class="header-anchor">#&lt;/a>
 💟第五阶段——无止尽的主题折腾
@@ -2231,29 +2589,113 @@ loading="lazy"
 &lt;/h2>&lt;p>包括但不仅限于：&lt;/p>
 &lt;ol>
 &lt;li>&lt;a class="link" href="https://immmmm.com/memos-with-twikoo/" target="_blank" rel="noopener"
->Memos x Twikoo&lt;/a>&lt;/li>
+>Memos x Twikoo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://koobai.com/" target="_blank" rel="noopener"
->空白&lt;/a>&lt;/li>
+>空白
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.leonus.cn/2023/memeos.html" target="_blank" rel="noopener"
->基于 Memos 实现说说和清单功能&lt;/a>&lt;/li>
+>基于 Memos 实现说说和清单功能
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://yelleis.top/p/61fdb627/" target="_blank" rel="noopener"
->hugo stack 主题美化&lt;/a>&lt;/li>
+>hugo stack 主题美化
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://marsgrid.com/post/a09_loading/" target="_blank" rel="noopener"
->为网站加入Loading加载页&lt;/a>&lt;/li>
+>为网站加入Loading加载页
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.jianshu.com/p/bfa6575b6057" target="_blank" rel="noopener"
->使用 Hugo 进行持续集成写作及同步&lt;/a>&lt;/li>
+>使用 Hugo 进行持续集成写作及同步
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.zhheo.com/p/99d020fe.html" target="_blank" rel="noopener"
->Twikoo 腾讯云函数部署转移到私有部署 | 张洪 Heo&lt;/a>&lt;/li>
+>Twikoo 腾讯云函数部署转移到私有部署 | 张洪 Heo
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://zhuanlan.zhihu.com/p/673413550" target="_blank" rel="noopener"
->使用 Obsidian 免费建个人博客&lt;/a>&lt;/li>
+>使用 Obsidian 免费建个人博客
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.zhangyingwei.com/posts/2022m4d11h19m42s28/" target="_blank" rel="noopener"
->Hugo 博客写作最佳实践&lt;/a>&lt;/li>
+>Hugo 博客写作最佳实践
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.glimound.com/build-hexo-blog/" target="_blank" rel="noopener"
->基于 Hexo 的静态博客网站搭建并部署至云服务器&lt;/a>&lt;/li>
+>基于 Hexo 的静态博客网站搭建并部署至云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://shaohanyun.top/posts/env/hugo_aliyun/" target="_blank" rel="noopener"
->Hugo 博客部署到阿里云服务器&lt;/a>&lt;/li>
+>Hugo 博客部署到阿里云服务器
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://blog.linsnow.cn/p/modify-hugo/" target="_blank" rel="noopener"
->（3）Stack主题的自定义&lt;/a>&lt;/li>
+>（3）Stack主题的自定义
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/li>
 &lt;li>…&lt;/li>
 &lt;/ol>
 &lt;h2 id="结语">
@@ -3107,8 +3549,7 @@ font-size: 14px;
 }
 }
 &lt;/style>
-&lt;/p></description></item><item><title/><link>https://hua.my.id/posts/%E6%B5%8B%E8%AF%95%E7%9F%AD%E9%93%BE%E6%8E%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/posts/%E6%B5%8B%E8%AF%95%E7%9F%AD%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>#测试短链接&lt;/p>
-&lt;p>😆&lt;/p></description></item><item><title>说说</title><link>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</guid><description>&lt;head>
+&lt;/p></description></item><item><title>说说</title><link>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/%E8%AF%B4%E8%AF%B4/</guid><description>&lt;head>
 &lt;!-- ... -->
 &lt;script src="//cdn.jsdelivr.net/gh/Uyoahz26/daodao@main/dist/qexo-dao.min.js">&lt;/script>
 &lt;!-- ... -->
@@ -3135,35 +3576,4 @@ console.log("qexoDaodao加载完成");
 &lt;div id="qexo-friends">&lt;/div>
 &lt;link rel="stylesheet" href="https://unpkg.com/qexo-friends/friends.css"/>
 &lt;script src="https://cdn.jsdelivr.net/npm/qexo-static@1.6.0/hexo/friends.js">&lt;/script>
-&lt;script>loadQexoFriends("qexo-friends", "https://admin.hitz.eu.org")&lt;/script></description></item><item><title>重装系统遇到的坑：pe下无法使用键盘鼠标</title><link>https://hua.my.id/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91pe%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E9%BC%A0%E6%A0%87/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hua.my.id/posts/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91pe%E4%B8%8B%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E9%94%AE%E7%9B%98%E9%BC%A0%E6%A0%87/</guid><description>&lt;hr>
-&lt;h1 id="技术博文一次不平凡的mastercam-2022安装之旅">
-&lt;a href="#%e6%8a%80%e6%9c%af%e5%8d%9a%e6%96%87%e4%b8%80%e6%ac%a1%e4%b8%8d%e5%b9%b3%e5%87%a1%e7%9a%84mastercam-2022%e5%ae%89%e8%a3%85%e4%b9%8b%e6%97%85" class="header-anchor">#&lt;/a>
-技术博文：一次不平凡的Mastercam 2022安装之旅
-&lt;/h1>&lt;h2 id="引言">
-&lt;a href="#%e5%bc%95%e8%a8%80" class="header-anchor">#&lt;/a>
-引言
-&lt;/h2>&lt;p>在现代制造业中，Mastercam作为一款强大的CAD/CAM软件，对于提升生产效率和精度至关重要。然而，安装过程并非总是一帆风顺。本文将分享一次安装Mastercam 2022时遇到的挑战及其解决方案，希望能为遇到类似问题的同仁们提供参考。&lt;/p>
-&lt;h2 id="启动阶段u盘启动与pe系统">
-&lt;a href="#%e5%90%af%e5%8a%a8%e9%98%b6%e6%ae%b5u%e7%9b%98%e5%90%af%e5%8a%a8%e4%b8%8epe%e7%b3%bb%e7%bb%9f" class="header-anchor">#&lt;/a>
-启动阶段：U盘启动与PE系统
-&lt;/h2>&lt;p>在安装Mastercam 2022的初始阶段，我选择了使用U盘启动进入PE系统。这是一个常见的做法，因为PE系统可以提供一个轻量级的Windows环境，方便进行系统安装和维护。&lt;/p>
-&lt;h2 id="遇到的问题键盘和鼠标失灵">
-&lt;a href="#%e9%81%87%e5%88%b0%e7%9a%84%e9%97%ae%e9%a2%98%e9%94%ae%e7%9b%98%e5%92%8c%e9%bc%a0%e6%a0%87%e5%a4%b1%e7%81%b5" class="header-anchor">#&lt;/a>
-遇到的问题：键盘和鼠标失灵
-&lt;/h2>&lt;p>然而，我遇到了一个棘手的问题：在PE系统中，键盘和鼠标都失去了响应。这无疑给安装过程带来了不小的挑战。&lt;/p>
-&lt;h2 id="解决方案探索bios设置调整">
-&lt;a href="#%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e6%8e%a2%e7%b4%a2bios%e8%ae%be%e7%bd%ae%e8%b0%83%e6%95%b4" class="header-anchor">#&lt;/a>
-解决方案探索：BIOS设置调整
-&lt;/h2>&lt;p>我首先尝试了网上推荐的解决方案，即通过调整BIOS设置来解决这个问题。遗憾的是，我发现新主板并没有提供网上所描述的那些选项，这让我陷入了困境。&lt;/p>
-&lt;h2 id="转机更换pe系统">
-&lt;a href="#%e8%bd%ac%e6%9c%ba%e6%9b%b4%e6%8d%a2pe%e7%b3%bb%e7%bb%9f" class="header-anchor">#&lt;/a>
-转机：更换PE系统
-&lt;/h2>&lt;p>就在我几乎要放弃的时候，一位经验丰富的技术大神给了我一个宝贵的建议：尝试使用另一个版本的PE系统。这听起来是一个简单但有效的解决方案。&lt;/p>
-&lt;h2 id="结果成功启动与安装">
-&lt;a href="#%e7%bb%93%e6%9e%9c%e6%88%90%e5%8a%9f%e5%90%af%e5%8a%a8%e4%b8%8e%e5%ae%89%e8%a3%85" class="header-anchor">#&lt;/a>
-结果：成功启动与安装
-&lt;/h2>&lt;p>按照大神的建议，我更换了PE系统，再次尝试启动。令人惊喜的是，这次键盘和鼠标都能够正常工作了。我顺利地完成了Mastercam 2022的安装。&lt;/p>
-&lt;h2 id="总结">
-&lt;a href="#%e6%80%bb%e7%bb%93" class="header-anchor">#&lt;/a>
-总结
-&lt;/h2>&lt;p>这次安装经历提醒我们，在面对技术问题时，有时候需要的不仅仅是技术知识，更需要的是耐心和开放的心态。更换PE系统这一简单的步骤，解决了一个看似复杂的问题。希望我的经历能够激励你在遇到挑战时，不要轻易放弃，总有解决的办法。&lt;/p></description></item></channel></rss>
+&lt;script>loadQexoFriends("qexo-friends", "https://admin.hitz.eu.org")&lt;/script></description></item></channel></rss>
