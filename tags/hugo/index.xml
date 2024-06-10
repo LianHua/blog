@@ -277,8 +277,20 @@ macOS 风格红绿灯图标
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Hugostack主题美化参考</title><link>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;p>[李慕然的一天]（https://limuran.top）
-&lt;a class="link" href="https://thirdshire.com/" target="_blank" rel="noopener"
+&lt;/div></description></item><item><title>Hugostack主题美化参考</title><link>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</link><pubDate>Sun, 07 Apr 2024 16:31:40 +0800</pubDate><guid>https://hua.my.id/posts/blog/hugostack%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96%E5%8F%82%E8%80%83/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=aaf4e0aa" alt="Featured image of post Hugostack主题美化参考" />&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://limuran.top/" target="_blank" rel="noopener"
+>李慕然的一天
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://thirdshire.com/" target="_blank" rel="noopener"
 >第三夏尔
 &lt;span style="white-space: nowrap;">&lt;svg width=".7em"
 height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
@@ -287,8 +299,30 @@ height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
 fill="currentColor">
 &lt;/svg>&lt;/span>
 &lt;/a>&lt;/p>
-&lt;p>&lt;a class="link" href="[stilig]%28https://stilig.me/posts/enhancing-loveit-one/%29" >stilig
-&lt;/a>&lt;/p></description></item><item><title>hugo搭建博客</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://stilig.me/posts/enhancing-loveit-one/" target="_blank" rel="noopener"
+>stilig
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://lihan3238.github.io/" target="_blank" rel="noopener"
+>李寒的小窝
+&lt;span style="white-space: nowrap;">&lt;svg width=".7em"
+height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+&lt;path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+&lt;path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+fill="currentColor">
+&lt;/svg>&lt;/span>
+&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>hugo搭建博客</title><link>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</link><pubDate>Thu, 04 Apr 2024 08:40:51 +0800</pubDate><guid>https://hua.my.id/posts/%E5%8D%9A%E5%AE%A2/web001/</guid><description>&lt;img src="https://picsum.photos/800/600.webp?random=be3b0964" alt="Featured image of post hugo搭建博客" />&lt;p>&lt;a class="link" href="https://hua.my.id/" >&lt;img src="https://hua.my.id/img/avatar_hud838c83d798983eb5a2f3640a5f7892e_24608_300x0_resize_box_3.png"
 loading="lazy"
 alt="Avatar"
 >
